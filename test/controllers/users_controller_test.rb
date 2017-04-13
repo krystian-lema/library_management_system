@@ -27,6 +27,20 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
   	assert_redirected_to root_path
 	end
 
+	test "unique username" do
+		username = "username"
+
+		#create first user with username
+		assert_difference('User.count', 1, "First user should be created") do
+    	post users_url, params: { user: { username: username, email: 'email', password: 'password', password_confirmation: 'password' } }
+  	end
+
+  	#create second user with the sameusername
+		assert_no_difference('User.count', "User with the same username should not be created") do
+    	post users_url, params: { user: { username: username, email: 'email', password: 'password', password_confirmation: 'password' } }
+  	end
+	end
+
 	test "simple update" do
 		old_username = @user.username
 		old_email = @user.email
@@ -68,6 +82,12 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
 
 		assert_redirected_to root_path
 		assert_not_equal(old_password, @user.reload.password_digest)
+	end
+
+	test "delete user" do
+		assert_difference('User.count', -1, "User should be deleted") do
+			delete user_url(@user)
+		end
 	end
 
 end
