@@ -1,6 +1,6 @@
 <!-- app/views/sessions/new.html.erb -->
 
-<h1>Login</h1>
+<h1>Sign in</h1>
 
 <%= form_tag '/login' do %>
 
@@ -14,9 +14,8 @@
 		<%= password_field_tag(:password) %>
 	</p>
 
-  <%= submit_tag "Submit" %> <br>
+  <%= submit_tag "Sign in" %> <br>
   
- 	<br><h2>You don't have account yet?</h2>
-	<%= link_to 'Signup!', '/signup' %>
+	<br><%= link_to 'I want to create an account', '/signup' %>
 
 <% end %>

@@ -11,6 +11,11 @@ class UserTest < ActiveSupport::TestCase
 		assert u.valid?, "User was not valid"
 	end
 
+	test "check user" do
+		u = users(:one)
+		assert u.valid?
+	end
+
 
 
 end

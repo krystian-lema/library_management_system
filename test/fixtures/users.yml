@@ -4,8 +4,18 @@ one:
   username: NewUser
   email: newuser@email.com
   password_digest: password
+  first_name: New
+  last_name: User
+  address: Nowhere
+  birth_date: 1997-11-09
+  role: student
 
 two:
   username: NewUser2
   email: newuser2@email.com 
   password_digest: 12345678
+  first_name: New
+  last_name: User
+  address: Nowhere
+  birth_date: 1997-11-09
+  role: student

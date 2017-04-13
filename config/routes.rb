@@ -10,6 +10,11 @@ Rails.application.routes.draw do
   # receive the form and create a user in our database using the data given to us by the user.
   get '/signup' => 'users#new'
   post '/users' => 'users#create'
+
+  get '/users/:id/change_password' => 'users#change_password_view'
+  patch '/users/:id/change_password' => 'users#change_password'
+  put '/users/:id/change_password' => 'users#change_password'
+
   resources :users, except: [:new, :create]
 
   root to: 'users#index'

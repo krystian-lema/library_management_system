@@ -1,7 +1,8 @@
 <!-- app/views/users/index.html.erb -->
 
 <h1>Welcome <%= current_user.username %></h1>
-<%= link_to "<button>Edytuj konto</button>".html_safe, edit_user_path(current_user) %> <br>
-<%= link_to "<button>Usuń konto</button>".html_safe, user_path(current_user), 
+<%= link_to "<button>Edit data</button>".html_safe, edit_user_path(current_user) %> <br><br>
+<%= link_to "<button>Change password</button>".html_safe, '/users/' + current_user.id.to_s + '/change_password' %> <br><br>
+<%= link_to "<button>Delete account</button>".html_safe, user_path(current_user), 
 				method: :delete,
 				data: {confirm: "Are you sure?"} %> <br>
