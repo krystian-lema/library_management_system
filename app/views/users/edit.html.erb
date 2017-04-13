@@ -1,8 +1,16 @@
 <!-- app/views/users/edit.html.erb -->
 
-<h1>Edit</h1>
+<h1>User data edit</h1>
 
 <%= form_for @user do |f| %>
+
+	<% if @user.errors.any? %>
+		<ul>
+		<% @user.errors.full_messages.each do |msg| %>
+			<li><%= msg %></li>
+		<% end %>
+		</ul>
+	<% end %>
 
 	<p>
 		<%= f.label :username %> <br>
@@ -14,7 +22,27 @@
 		<%= f.text_field(:email) %>
 	</p>
 
-  <%= f.submit "Submit" %> <br>
+	<p>
+		<%= f.label :first_name %> <br>
+		<%= f.text_field(:first_name) %>
+	</p>
+
+	<p>
+		<%= f.label :last_name %> <br>
+		<%= f.text_field(:last_name) %>
+	</p>
+
+	<p>
+		<%= f.label :address %> <br>
+		<%= f.text_field(:address) %>
+	</p>
+
+	<p>
+		<%= f.label :birth_date %> <br>
+		<%= f.date_field(:birth_date) %>
+	</p>
+
+  <%= f.submit "Save changes" %> <br><br>
   <%= link_to 'Cancel changes', root_path %>
 
 <% end %>

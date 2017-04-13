@@ -1,8 +1,16 @@
 <!-- app/views/users/new.html.erb -->
 
-<h1>Signup!</h1>
+<h1>New account</h1>
 
-<%= form_for :user, url: '/users' do |f| %>
+<%= form_for @user, url: '/users' do |f| %>
+
+	<% if @user.errors.any? %>
+		<ul>
+		<% @user.errors.full_messages.each do |msg| %>
+			<li><%= msg %></li>
+		<% end %>
+		</ul>
+	<% end %>
 
 	<p>
 		<%= f.label :username %> <br>
@@ -15,18 +23,17 @@
 	</p>
 
 	<p>
-		<%= f.label :password %> <br>
+		<%= f.label :password_confirmation %> <br>
 		<%= f.password_field(:password) %>
 	</p>
 
 	<p>
 		<%= f.label :password_confirmation %> <br>
-		<%= f.text_field(:password_confirmation) %>
+		<%= f.password_field(:password_confirmation) %>
 	</p>
 
-	<%= f.submit "Submit" %> <br>
+	<%= f.submit "Create account" %> <br>
 
-	<br><h2>You already have an account?</h2>
-	<%= link_to 'Signin!', '/login' %>
+	<br><%= link_to 'Sign into existing account', '/login' %>
 
 <% end %>
