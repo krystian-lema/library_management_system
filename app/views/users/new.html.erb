@@ -1,0 +1,32 @@
+<!-- app/views/users/new.html.erb -->
+
+<h1>Signup!</h1>
+
+<%= form_for :user, url: '/users' do |f| %>
+
+	<p>
+		<%= f.label :username %> <br>
+		<%= f.text_field(:username) %>
+	</p>
+
+	<p>
+		<%= f.label :email %> <br>
+		<%= f.text_field(:email) %>
+	</p>
+
+	<p>
+		<%= f.label :password %> <br>
+		<%= f.password_field(:password) %>
+	</p>
+
+	<p>
+		<%= f.label :password_confirmation %> <br>
+		<%= f.text_field(:password_confirmation) %>
+	</p>
+
+	<%= f.submit "Submit" %> <br>
+
+	<br><h2>You already have an account?</h2>
+	<%= link_to 'Signin!', '/login' %>
+
+<% end %>
