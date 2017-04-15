@@ -4,14 +4,21 @@ class SessionsController < ApplicationController
   end
 
   def create
-  	user = User.find_by_email(params[:email])
+  	# user = User.find_by_email(params[:email])
+    user = User.find_by(username: params[:username])
   	# If the user exists AND the password entered is correct.
   	if user && user.authenticate(params[:password])
     	# Save the user id inside the browser cookie. This is how we keep the user 
     	# logged in when they navigate around our website.
 			session[:user_id] = user.id
       flash[:success] = "Login complete."
-			redirect_to '/'
+      if is_admin
+        redirect_to '/'
+      elsif is_librarian
+        redirect_to '/'
+      else  
+			  redirect_to '/'
+      end
     else
     # If user's login doesn't work, send them back to the login form.
       flash[:error] = "Wrong login or password."
