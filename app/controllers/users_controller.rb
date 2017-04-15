@@ -10,15 +10,64 @@ class UsersController < ApplicationController
     @user = User.new
   end
 
-  def create
-  	@user = User.new(user_create_params)
-  	if @user.save
+  def new_user(user_params)
+    username = user_params[:first_name] + user_params[:last_name]
+    password = user_params[:last_name].downcase
+    return User.new(
+                      username: username,
+                      email: user_params[:email],
+                      password: password,
+                      first_name: user_params[:first_name],
+                      last_name: user_params[:last_name],
+                      address: user_params[:address],
+                      birth_date: user_params[:birth_date]
+                      )
+  end
+
+  def new_admin
+    @user = User.new
+    render 'users/new_admin'
+  end
+
+  def create_admin
+    new_user = new_user(user_create_params)
+    new_user.role = "administrator"
+    @user = new_user
+    save_new_user('users/new_admin')
+  end
+
+  def new_librarian
+    @user = User.new
+    render 'users/new_librarian'
+  end
+
+  def create_librarian
+    new_user = new_user(user_create_params)
+    new_user.role = "librarian"
+    @user = new_user
+    save_new_user('users/new_librarian')
+  end
+
+  def new_student
+    @user = User.new
+    render 'users/new_student'
+  end
+
+  def create_student
+    new_user = new_user(user_create_params)
+    new_user.role = "student"
+    @user = new_user
+    save_new_user('users/new_student')
+  end
+
+  def save_new_user(on_failed_view)
+    if @user.save
       session[:user_id] = @user.id
       flash[:success] = "User created."
       redirect_to '/'
-  	else
-      render 'new'
-  	end
+    else
+      render on_failed_view
+    end
   end
 
   def show
@@ -65,7 +114,8 @@ private
   end
 
   def user_create_params
-    params.require(:user).permit(:username, :email, :password, :password_confirmation)
+    # params.require(:user).permit(:username, :email, :password, :password_confirmation)
+    params.require(:user).permit(:email, :first_name, :last_name, :address, :birth_date, :role)
   end
 
   def user_update_params

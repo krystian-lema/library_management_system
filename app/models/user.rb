@@ -5,14 +5,13 @@ class User < ApplicationRecord
 	# on create
 	validates :username, presence: true, uniqueness: true
 	validates :email, presence: true
-	validates :password, confirmation: true, length: {minimum: 8}, on: :create
-	validates :password_confirmation, presence: true, on: :create
+	validates :password, presence: true, on: :create
 
-	# on update
-	validates :first_name, presence: true, on: :update
-	validates :last_name, presence: true, on: :update
-	validates :address, presence: true, on: :update
-	validates :birth_date, presence: true, on: :update
+	# on create and update
+	validates :first_name, presence: true, on: [:create, :update]
+	validates :last_name, presence: true, on: [:create, :update]
+	validates :address, presence: true, on: [:create, :update]
+	validates :birth_date, presence: true, on: [:create, :update]
 
 	# on change password
 	validates :password, presence: true, confirmation: true, length: {minimum: 8}, on: :update, if: :validate_password?
@@ -23,5 +22,9 @@ class User < ApplicationRecord
   	validate_password == 'true' || validate_password == true
 	end
 	attr_accessor :validate_password
+
+	def get_role
+		return role
+	end
 
 end
