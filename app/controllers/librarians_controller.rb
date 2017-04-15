@@ -4,6 +4,11 @@ class LibrariansController < ApplicationController
   def index
   end
 
+  def view_all_students
+  	@users = User.all.where(:role => "student")
+  	render 'librarians/users'
+  end
+
 private
 
 	def authorize_librarian

@@ -4,6 +4,11 @@ class AdminsController < ApplicationController
   def index
   end
 
+  def view_all_users
+  	@users = User.all
+  	render 'admins/users'
+  end
+
 private
 
 	def authorize_admin
