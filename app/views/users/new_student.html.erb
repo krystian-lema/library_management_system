@@ -37,6 +37,12 @@
 		<%= f.date_field(:birth_date) %>
 	</p>
 
-	<%= f.submit "Create student" %> <br>
+	<%= f.submit "Create student" %> <br><br>
+	<% if is_admin %>
+		<%= link_to "<button>Back</button>".html_safe, '/users_creator' %> <br><br>
+	<% end %>
+	<% if is_librarian %>
+		<%= link_to "<button>Back</button>".html_safe, root_path %> <br><br>
+	<% end %>
 
 <% end %>

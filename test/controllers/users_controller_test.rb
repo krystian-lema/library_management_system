@@ -3,14 +3,29 @@ require 'users_controller'
 
 class UsersControllerTest < ActionDispatch::IntegrationTest
   
-
 	def setup
 		@user = users(:student)
 	end
 
-	test "login screen" do
+  def login(user)
+    post '/login', :params => { :email => user.username, :password => 'password' }
+    session[:current_user_id] = user.id
+  end
+
+	def assert_logged_in
+    assert session[:current_user_id].present?
+  end
+
+  def assert_not_logged_in
+    assert session[:current_user_id].blank?
+  end
+
+	test "index with authorization" do
+		login(@user)
+		assert_logged_in
+		assert User.find(session[:current_user_id]).present?
 		get '/'
-		assert_redirected_to '/login'
+		assert_redirected_to '/student'
 	end
 
 	test "edit form" do

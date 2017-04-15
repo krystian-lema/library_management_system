@@ -12,13 +12,7 @@ class SessionsController < ApplicationController
     	# logged in when they navigate around our website.
 			session[:user_id] = user.id
       flash[:success] = "Login complete."
-      if is_admin
-        redirect_to '/'
-      elsif is_librarian
-        redirect_to '/'
-      else  
-			  redirect_to '/'
-      end
+      redirect_to root_path
     else
     # If user's login doesn't work, send them back to the login form.
       flash[:error] = "Wrong login or password."

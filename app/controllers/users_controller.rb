@@ -1,9 +1,18 @@
 class UsersController < ApplicationController
-  # before_filter :authorize, except: :index
+  # before_action :authorize, only: :index
+  before_action :authorize
+  before_action :authorize_admin, only: [:new_admin, :create_admin, :new_librarian, :create_librarian]
+  before_action :authorize_admin_or_librarian, only: [:new_student, :create_student]
   before_action :find_user, only: [:show, :edit, :update, :destroy, :change_password_view, :change_password]
 
   def index
-    redirect_to '/login' unless current_user
+    if is_admin
+      redirect_to '/administrator'
+    elsif is_librarian
+      redirect_to '/librarian'
+    else  
+      redirect_to '/student'
+    end
   end
 
   def new
@@ -64,7 +73,7 @@ class UsersController < ApplicationController
     if @user.save
       session[:user_id] = @user.id
       flash[:success] = "User created."
-      redirect_to '/'
+      redirect_to root_path
     else
       render on_failed_view
     end
@@ -114,8 +123,7 @@ private
   end
 
   def user_create_params
-    # params.require(:user).permit(:username, :email, :password, :password_confirmation)
-    params.require(:user).permit(:email, :first_name, :last_name, :address, :birth_date, :role)
+    params.require(:user).permit(:email, :first_name, :last_name, :address, :birth_date)
   end
 
   def user_update_params
@@ -124,6 +132,20 @@ private
 
   def user_change_password_params
     params.require(:user).permit(:password, :password_confirmation)
+  end
+
+  def authorize_admin
+    if !is_admin
+      flash[:error] = "Permission denied."
+      redirect_to root_path
+    end
+  end
+
+  def authorize_admin_or_librarian
+    if !is_admin && !is_librarian
+      flash[:error] = "Permission denied."
+      redirect_to root_path
+    end
   end
 
 end
