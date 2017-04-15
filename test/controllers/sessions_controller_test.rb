@@ -1,6 +1,11 @@
 require 'test_helper'
 
-class SessionsControllerTest < ActionController::TestCase
+class SessionsControllerTest < ActionDispatch::IntegrationTest
+
+  def log_in_as(user, password: 'password')
+    post '/login', params: { session: { username: user.username, password: password } }
+  end
+
   # test "should get new" do
   #   get sessions_new_url
   #   assert_response :success
@@ -19,13 +24,12 @@ class SessionsControllerTest < ActionController::TestCase
   # end
 
   test "student authentication" do
-  	# user = users(:student)
-   #  session[:user_id] = user.id
-   #  get :new
-   #  assert session.nil?
-    # assert_redirected_to '/student'
-  	# post '/login', params: {user_id: user.id }
-  	# assert_redirected_to '/students'
+
+  	user = users(:student)
+    log_in_as(user)
+    get root_path
+    assert_equal user.id, session[:user_id]
+    assert_equal "student", User.find(session[:user_id]).get_role
 
   end
   

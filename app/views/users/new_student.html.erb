@@ -38,11 +38,6 @@
 	</p>
 
 	<%= f.submit "Create student" %> <br><br>
-	<% if is_admin %>
-		<%= link_to "<button>Back</button>".html_safe, '/users_creator' %> <br><br>
-	<% end %>
-	<% if is_librarian %>
-		<%= link_to "<button>Back</button>".html_safe, root_path %> <br><br>
-	<% end %>
+	<%= link_to "<button>Back</button>".html_safe, url_for(:back) %> <br><br>
 
 <% end %>
