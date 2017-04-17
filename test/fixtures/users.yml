@@ -3,7 +3,8 @@
 student:
   username: userStudent
   email: studentuser@email.com
-  password_digest: password
+  # password_digest: password
+  password_digest: "$2a$04$fGE1KxNqi/9flPOp7LcRWu8HjQFJRGSJCfwzh.9ROH3wLTL/sW5h2"
   first_name: User
   last_name: Student
   address: Nowhere
@@ -13,7 +14,8 @@ student:
 librarian:
   username: userLibrarian
   email: newuser2@email.com 
-  password_digest: 12345678
+  # password_digest: password
+  password_digest: "$2a$04$fGE1KxNqi/9flPOp7LcRWu8HjQFJRGSJCfwzh.9ROH3wLTL/sW5h2"
   first_name: User
   last_name: Librarian
   address: Nowhere
@@ -23,7 +25,8 @@ librarian:
 admin:
   username: userAdmin
   email: newuser2@email.com
-  password_digest: 12345678
+  # password_digest: password
+  password_digest: "$2a$04$fGE1KxNqi/9flPOp7LcRWu8HjQFJRGSJCfwzh.9ROH3wLTL/sW5h2"
   first_name: User
   last_name: Admin
   address: Nowhere
