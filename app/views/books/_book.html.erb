@@ -1,0 +1,15 @@
+
+ 
+    <tr>
+      <td><%= book.title %></td>
+      <td><%= book.author %></td>
+      <td><%= book.edition %></td>
+      <td><%= book.publication_date %></td>
+      <td><%= book.ISBN %></td>
+      <td><%= book.signature %></td>
+      <td><%= book.library.name %></td>
+      <td>Any informarmations!</td>
+      <td>
+      	<%= link_to 'Borrow', '/borrow' %>
+      </td>
+    </tr>

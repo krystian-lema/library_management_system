@@ -1,0 +1,33 @@
+<!-- app/views/users/new.html.erb -->
+
+<h1>Edit library</h1>
+
+<%= form_for @library, url: library_path(@library), method: :patch do |f| %>
+<%= hidden_field_tag(:id, @library.id) %>
+
+	<% if @library.errors.any? %>
+		<ul>
+		<% @library.errors.full_messages.each do |msg| %>
+			<li><%= msg %></li>
+		<% end %>
+		</ul>
+	<% end %>
+
+	<p>
+		<%= f.label :name %> <br>
+		<%= f.text_field(:name) %>
+	</p>
+
+	<p>
+		<%= f.label :address %> <br>
+		<%= f.text_field(:address) %>
+	</p>
+
+	<p>
+		<%= f.label :description %> <br>
+		<%= f.text_field(:description) %>
+	</p>
+
+	<%= f.submit "Update library" %> <br>
+
+<% end %>

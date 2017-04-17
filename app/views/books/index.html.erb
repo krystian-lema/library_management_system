@@ -1,0 +1,20 @@
+<h1>Books</h1>
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Author</th>
+    <th>Edition</th>
+    <th>Publication date</th>
+    <th>ISBN</th>
+    <th>Signature</th>
+    <th>library</th>
+    <th>Status</th>
+    <th>Action</th>
+  </tr>
+ 
+  <%= render @books %>
+</table>
+
+<h2>History of borrows</h2>
+
+<br><%= link_to 'Add book', '/addBook' %>

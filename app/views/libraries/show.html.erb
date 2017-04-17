@@ -1,0 +1,29 @@
+<h1>Details of library</h1>
+
+    <p><strong>Name: </strong><%= @library.name %></p>
+    <p><strong>Address: </strong><%= @library.address %></p>
+    <p><strong>Description: </strong><%= @library.description %></p>
+    <p><strong>Action: </strong>
+        <%= link_to 'Edit', 'addLibrary' %>
+        <%= link_to 'Destroy', '/addLibrary' %>
+        <%= link_to 'Details', '/showBooks' %>
+    </p>
+
+<h2>Books of library</h2>
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Author</th>
+    <th>Edition</th>
+    <th>Publication date</th>
+    <th>ISBN</th>
+    <th>Signature</th>
+    <th>library</th>
+    <th>Status</th>
+    <th>Action</th>
+  </tr>
+ 
+  <%= render @library.book %>
+</table>
+
+<br><%= link_to 'Add library', '/addLibrary' %>
