@@ -3,9 +3,9 @@
 one:
   book: one
   start_date: 2017-04-15
-  student: one
+  # student: one
 
 two:
   book: two
   start_date: 2017-04-15
-  student: two
+  # student: two

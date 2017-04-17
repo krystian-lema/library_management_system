@@ -8,8 +8,8 @@ one:
   ISBN: MyString
   signature: MyString
   library: one
-  borrow: one
-  borrow_archive: one
+  # borrow: one
+  # borrow_archive: one
 
 two:
   title: MyString
@@ -19,5 +19,5 @@ two:
   ISBN: MyString
   signature: MyString
   library: two
-  borrow: two
-  borrow_archive: two
+  # borrow: two
+  # borrow_archive: two
