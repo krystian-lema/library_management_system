@@ -1,0 +1,18 @@
+<% @users.each do |user| %>
+
+	<h3>
+		<%= user.username%>,
+		<%= user.email%>,
+		<%= user.first_name%>,
+		<%= user.last_name%>,
+		<%= user.address%>,
+		<%= user.birth_date%>	
+		<%= link_to "<button>Edit</button>".html_safe, edit_user_path(user) %> 
+		<%= link_to "<button>Delete</button>".html_safe, user_path(user),  
+        	method: :delete, 
+        	data: {confirm: "Are you sure?"} %>	
+	</h3>
+	
+<% end %>
+
+<%= link_to "<button>Back</button>".html_safe, '/' %> <br><br>

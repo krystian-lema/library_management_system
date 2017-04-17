@@ -1,3 +1,4 @@
+
 Rails.application.routes.draw do
 
   get 'libraries/new'
@@ -13,14 +14,21 @@ Rails.application.routes.draw do
   post '/login' => 'sessions#create'
   get '/logout' => 'sessions#destroy'
 
-  # These routes will be for signup. The first renders a form in the browse, the second will 
-  # receive the form and create a user in our database using the data given to us by the user.
-  get '/signup' => 'users#new'
-  post '/users' => 'users#create'
+  # These routes will be for creating users.
+  get '/users_creator' => 'users#new'
+  get '/administrators' => 'users#new_admin'
+  get '/librarians' => 'users#new_librarian'
+  get '/students' => 'users#new_student'
+  post '/administrators' => 'users#create_admin'
+  post '/librarians' => 'users#create_librarian'
+  post '/students' => 'users#create_student'
 
+  # These routes will be for changing user passwords.
   get '/users/:id/change_password' => 'users#change_password_view'
   patch '/users/:id/change_password' => 'users#change_password'
   put '/users/:id/change_password' => 'users#change_password'
+  patch '/users/:id/reset_password' => 'users#reset_password'
+  put '/users/:id/reset_password' => 'users#reset_password'
 
   resources :users, except: [:new, :create]
   resources :libraries, except: [:create] do
@@ -48,6 +56,13 @@ Rails.application.routes.draw do
   
 
 
+
+  # These routes will be for different user roles.
+  get '/administrator' => 'admins#index'
+  get '/librarian' => 'librarians#index'
+  get '/student' => 'students#index'
+  get '/administrator/users' => 'admins#view_all_users'
+  get '/librarian/users' => 'librarians#view_all_students'
 
   root to: 'users#index'
 

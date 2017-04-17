@@ -5,8 +5,8 @@
 <%= form_tag '/login' do %>
 
 	<p>
-		<%= label_tag :email %> <br>
-		<%= text_field_tag(:email) %>
+		<%= label_tag :username %> <br>
+		<%= text_field_tag(:username) %>
 	</p>
 
 	<p>
@@ -16,6 +16,4 @@
 
   <%= submit_tag "Sign in" %> <br>
   
-	<br><%= link_to 'I want to create an account', '/signup' %>
-
 <% end %>

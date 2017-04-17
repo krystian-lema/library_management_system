@@ -16,5 +16,32 @@ class ApplicationController < ActionController::Base
   def logout
     redirect_to '/logout'
   end
+
+  def is_admin
+    if current_user && current_user.get_role == "administrator"
+      return true
+    else
+      return false
+    end
+  end
+  helper_method :is_admin
+
+  def is_librarian
+    if current_user && current_user.get_role == "librarian"
+      return true
+    else
+      return false
+    end
+  end
+  helper_method :is_librarian
+
+  def is_student
+    if current_user && current_user.get_role == "student"
+      return true
+    else
+      return false
+    end
+  end
+  helper_method :is_student
   
 end

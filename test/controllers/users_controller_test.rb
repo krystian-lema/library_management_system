@@ -3,14 +3,29 @@ require 'users_controller'
 
 class UsersControllerTest < ActionDispatch::IntegrationTest
   
-
 	def setup
-		@user = users(:one)
+		@user = users(:student)
 	end
 
-	test "login screen" do
+  def login(user)
+    post '/login', :params => { :email => user.username, :password => 'password' }
+    session[:current_user_id] = user.id
+  end
+
+	def assert_logged_in
+    assert session[:current_user_id].present?
+  end
+
+  def assert_not_logged_in
+    assert session[:current_user_id].blank?
+  end
+
+	test "index with authorization" do
+		login(@user)
+		assert_logged_in
+		assert User.find(session[:current_user_id]).present?
 		get '/'
-		assert_redirected_to '/login'
+		assert_redirected_to '/student'
 	end
 
 	test "edit form" do
@@ -18,26 +33,49 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
 		assert_response :success
 	end
 
-  test "create user" do
-  	assert_difference('User.count') do
-    	post users_url, params: { user: { username: 'username', email: 'email', password: 'password', password_confirmation: 'password' } }
+	test "create student" do
+		assert_difference('User.count') do
+    	post '/students', params: { user: { email: 'newstudent@email.com', first_name: 'Jacek', last_name: 'Student', 
+    		address: 'nowhere', birth_date: '1995-09-21' } }
   	end
 
-  	assert User.last.id
+  	assert User.last
   	assert_redirected_to root_path
+  	assert_equal(User.last.get_role, "student")
+	end
+
+	test "create librarian" do
+		assert_difference('User.count') do
+    	post '/librarians', params: { user: { email: 'newlibrarian@email.com', first_name: 'Jacek', last_name: 'Librarian', 
+    		address: 'nowhere', birth_date: '1985-09-11' } }
+  	end
+
+  	assert User.last
+  	assert_redirected_to root_path
+  	assert_equal(User.last.get_role, "librarian")
+	end
+
+	test "create admin" do
+		assert_difference('User.count') do
+    	post '/administrators', params: { user: { email: 'newadmin@email.com', first_name: 'Jacek', last_name: 'Admin', 
+    		address: 'nowhere', birth_date: '1985-01-21' } }
+  	end
+
+  	assert User.last
+  	assert_redirected_to root_path
+  	assert_equal(User.last.get_role, "administrator")
 	end
 
 	test "unique username" do
-		username = "username"
 
-		#create first user with username
-		assert_difference('User.count', 1, "First user should be created") do
-    	post users_url, params: { user: { username: username, email: 'email', password: 'password', password_confirmation: 'password' } }
+		assert_difference('User.count') do
+    	post '/students', params: { user: { email: 'newstudent@email.com', first_name: 'Jacek', last_name: 'Student', 
+    		address: 'nowhere', birth_date: '1995-09-21' } }
   	end
 
-  	#create second user with the sameusername
-		assert_no_difference('User.count', "User with the same username should not be created") do
-    	post users_url, params: { user: { username: username, email: 'email', password: 'password', password_confirmation: 'password' } }
+  	assert_no_difference('User.count', "User with the same username should not be created") do
+    	post '/students', params: { user: { email: 'newstudent@email.com', first_name: 'Jacek', last_name: 'Student', 
+    		address: 'nowhere', birth_date: '1995-09-21' } }
   	end
 	end
 
