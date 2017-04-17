@@ -10,7 +10,53 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170405101504) do
+ActiveRecord::Schema.define(version: 20170415143909) do
+
+  create_table "books", force: :cascade do |t|
+    t.string   "title"
+    t.string   "author"
+    t.string   "edition"
+    t.date     "publication_date"
+    t.string   "ISBN"
+    t.string   "signature"
+    t.integer  "library_id"
+    t.integer  "borrow_id"
+    t.integer  "borrow_archive_id"
+    t.datetime "created_at",        null: false
+    t.datetime "updated_at",        null: false
+    t.index ["borrow_archive_id"], name: "index_books_on_borrow_archive_id"
+    t.index ["borrow_id"], name: "index_books_on_borrow_id"
+    t.index ["library_id"], name: "index_books_on_library_id"
+  end
+
+  create_table "borrow_archives", force: :cascade do |t|
+    t.integer  "book_id"
+    t.date     "start_date"
+    t.date     "end_date"
+    t.integer  "student_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["book_id"], name: "index_borrow_archives_on_book_id"
+    t.index ["student_id"], name: "index_borrow_archives_on_student_id"
+  end
+
+  create_table "borrows", force: :cascade do |t|
+    t.integer  "book_id"
+    t.date     "start_date"
+    t.integer  "student_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["book_id"], name: "index_borrows_on_book_id"
+    t.index ["student_id"], name: "index_borrows_on_student_id"
+  end
+
+  create_table "libraries", force: :cascade do |t|
+    t.string   "name"
+    t.string   "address"
+    t.string   "description"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+  end
 
   create_table "users", force: :cascade do |t|
     t.string   "username"
