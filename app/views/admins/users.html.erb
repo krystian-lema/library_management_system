@@ -6,7 +6,10 @@
 		<%= user.first_name%>,
 		<%= user.last_name%>,
 		<%= user.address%>,
-		<%= user.birth_date%>	
+		<%= user.birth_date%>
+		<% if user.get_role == "student"  && user.student && user.student.id_card%>
+			, <%= user.student.id_card.number%>
+		<% end %>	
 		<%= link_to "<button>Edit</button>".html_safe, edit_user_path(user) %> 
 		<%= link_to "<button>Delete</button>".html_safe, user_path(user),  
         	method: :delete, 
