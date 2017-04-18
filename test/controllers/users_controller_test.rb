@@ -28,33 +28,11 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
 		assert_response :success
 	end
 
-	test "create student as librarian" do
-		login_as_librarian
-		assert_difference('User.count') do
-    	post '/students', params: { user: { email: 'newstudent@email.com', first_name: 'Jacek', last_name: 'Student', 
-    		address: 'nowhere', birth_date: '1995-09-21' } }
-  	end
-  	assert User.last
-  	assert_redirected_to root_path
-  	assert_equal(User.last.get_role, "student")
-	end
-
-	test "create student as admin" do
-		login_as_admin
-		assert_difference('User.count') do
-    	post '/students', params: { user: { email: 'newstudent@email.com', first_name: 'Jacek', last_name: 'Student', 
-    		address: 'nowhere', birth_date: '1995-09-21' } }
-  	end
-  	assert User.last
-  	assert_redirected_to root_path
-  	assert_equal(User.last.get_role, "student")
-	end
-
 	test "can't create student if no librarian or admin" do
 		login_as_student
 		assert_no_difference('User.count') do
     	post '/students', params: { user: { email: 'newstudent@email.com', first_name: 'Jacek', last_name: 'Student', 
-    		address: 'nowhere', birth_date: '1995-09-21' } }
+    		address: 'nowhere', birth_date: '1995-09-21' }, id_card_number: 218453 }
   	end
 	end
 
@@ -112,12 +90,12 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
 		login_as_admin
 		assert_difference('User.count') do
     	post '/students', params: { user: { email: 'newstudent@email.com', first_name: 'Jacek', last_name: 'Student', 
-    		address: 'nowhere', birth_date: '1995-09-21' } }
+    		address: 'nowhere', birth_date: '1995-09-21' }, id_card_number: 218453 }
   	end
 
   	assert_no_difference('User.count', "User with the same username should not be created") do
     	post '/students', params: { user: { email: 'newstudent@email.com', first_name: 'Jacek', last_name: 'Student', 
-    		address: 'nowhere', birth_date: '1995-09-21' } }
+    		address: 'nowhere', birth_date: '1995-09-21' }, id_card_number: 218453 }
   	end
 	end
 
@@ -186,6 +164,14 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
 		assert_no_difference('User.count', "User should not be deleted") do
 			delete user_url(@student)
 		end
+	end
+
+	test "delete user deletes student" do
+		student = @student.student
+		assert_no_difference('User.count', "User should not be deleted") do
+			delete user_url(@student)
+		end
+		assert_not student
 	end
 
 end

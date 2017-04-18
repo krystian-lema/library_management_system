@@ -63,19 +63,37 @@ class UsersController < ApplicationController
 
   def new_student
     @user = User.new
+    @user.student = Student.new
+    @user.student.id_card = IdCard.new
+    @user.create_student = true
     render 'users/new_student'
   end
 
   def create_student
-    new_user = new_user(user_create_params)
-    new_user.role = "student"
-    @user = new_user
-    save_new_user('users/new_student')
+    @user = new_user(student_create_params)
+    @user.role = "student"
+    @user.student = Student.new(is_active: true)
+    @user.student.id_card = IdCard.new(number: student_create_params[:id_card_number])
+
+    if @user.save && @user.student.save && @user.student.id_card.save
+      flash[:success] = "User created."
+      redirect_to root_path
+    else
+      unless @user.nil?
+        unless @user.student.nil?
+          unless @user.student.id_card.nil?
+            @user.student.id_card.destroy
+          end
+          @user.student.destroy
+        end
+        @user.destroy
+      end
+      render 'users/new_student'
+    end
   end
 
   def save_new_user(on_failed_view)
     if @user.save
-      session[:user_id] = @user.id
       flash[:success] = "User created."
       redirect_to root_path
     else
@@ -142,6 +160,11 @@ private
 
   def user_create_params
     params.require(:user).permit(:email, :first_name, :last_name, :address, :birth_date)
+  end
+
+  def student_create_params
+    p = params.require(:user).permit(:email, :first_name, :last_name, :address, :birth_date)
+    p.merge!(params.permit(:id_card_number))
   end
 
   def user_update_params
