@@ -34,15 +34,15 @@ Rails.application.routes.draw do
   resources :libraries, except: [:create] do
     resources :books, except: [:create]
   end
+  
   resources :borrows, except: [:create]
-
   #Libraries
   post '/libraries' => 'libraries#create'
   #get '/addLibrary' => 'libraries#new'
   patch '/updateLibrary/:id' => 'libraries#update'
 
   #Books
-  get '/addBook' => 'books#new'
+  get '/books/new' => 'books#new'
   post '/books' => 'books#create'
   get '/books' => 'books#index'
   get '/books/:id' => 'books#show'
@@ -51,8 +51,10 @@ Rails.application.routes.draw do
   get '/books/edit/:id' => 'books#edit'
 
   #borrows
-  get '/addBorrow' => 'borrows#new'
-  post '/borrows' => 'borrows#create'
+  get 'borrows/:book_id' => 'borrows#create'
+  get 'borrows/' => 'borrows#index'
+  get '/borrows/addBorrow/:id' => 'borrows#addBorrow'
+ 
   
 
 
