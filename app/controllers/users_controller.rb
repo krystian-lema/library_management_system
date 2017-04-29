@@ -95,7 +95,7 @@ class UsersController < ApplicationController
   def save_new_user(on_failed_view)
     if @user.save
       flash[:success] = "User created."
-      redirect_to root_path
+      redirect_to :back
     else
       render on_failed_view
     end
@@ -110,7 +110,11 @@ class UsersController < ApplicationController
   def update
     if @user.update(user_update_params)
       flash[:success] = "Edit success."
-      redirect_to root_path
+      if (correct_user(@user))
+        redirect_to root_path
+      else
+        redirect_to :back
+      end
     else
       flash[:error] = "Edit failed."
       render 'edit'
@@ -123,7 +127,7 @@ class UsersController < ApplicationController
     if correct_user(@user)
       logout
     else
-      redirect_to root_path
+      redirect_to :back
     end
   end
 
