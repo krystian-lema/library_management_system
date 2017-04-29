@@ -1,0 +1,111 @@
+WIDOKI W APLIKACJI:
+	WSZYSCY---------------------------------------------------------------------------------------------------------
+	Logowanie:
+		input: login
+		input: haslo
+		button: zaloguj
+		link_to: zapomniałem hasła
+
+	Navbar:
+		text: 'Rola: Imie Nazwisko'
+		menu: 
+			button: edytuj dane
+			button: zmień hasło
+			button: wyloguj
+
+	STUDENCI--------------------------------------------------------------------------------------------------------
+	Student main:
+		button: Zasoby
+		button: Moje wypożyczenia
+
+	Student: Zasoby
+		->
+		Biblioteki:
+		nazwa(linkt_to ksiazki w bibliotece), adress, opis
+			->
+			Ksiazki w danej bibliotece:
+			tytul, autor, edycja, data publikacji, ISBN, status, sygnatura, (if status == dostepna) button: wypozycz
+
+	Student: Moje wypożyczenia
+		->
+		Wypożyczenia (aktualne i archiwalne datami):
+		nr wypożyczenia, ksiazka(link_to), biblioteka(link_to), od kiedy, do kiedy, pozostaly czas?, status)
+
+	BIBLIOTEKARZE----------------------------------------------------------------------------------------------------
+	Librarian main:
+		button: Zasoby
+		button: Czekające wypożyczenia
+		button: Studenci
+
+	Librarian: Zasoby
+		->
+		button: dodaj nowa biblioteke
+		Biblioteki:
+		Nazwa(linkt_to ksiazki w bibliotece), adress, opis, button: edytuj, button: usun
+			->
+			button: dodaj nowa ksiazke
+			Ksiazki:
+			Tytul, autor, edycja, data publikacji, ISBN, status, sygnatura, button: edytuj, button usun
+
+	Librarian: Czekające wypożyczenia
+		->
+		Wypożyczenia:
+		nr wypożyczenia, student(link_to), ksiazka(link_to), biblioteka(link_to), od kiedy, button: zaakceptuj
+
+	Librarian: Studenci
+		->
+		button: dodaj nowego studenta
+		Studenci:
+		login, email, imie, nazwisko, adres, data ur., nr indeksu, aktywny, wypożyczenia(link_to wypożyczenia danego użytkownika)
+
+	Librarian: Wypożyczenia danego studenta
+		->
+		Wypożyczenia (aktualne i archiwalne datami):
+		nr wypożyczenia, student(link_to), ksiazka(link_to), biblioteka(link_to), od kiedy, (if aktualne) button: zwróć książkę
+
+	ADMINI
+	Admin main:
+		button: Dodaj użytkownika
+		button: Zarządzaj użytkownikami
+
+	Admin: Dodaj użytkownika
+		button: dodaj studenta
+		button: dodaj bibliotekarza
+		button: dodaj admina
+
+	Admin: Zarządzaj użytkownikami
+		->
+		Użytkownicy:
+		login, email, imie, nazwisko, adres, data ur., button: edytuj, button: usun
+
+WIDOKI W KONTROLERACH:
+	Users Controller--------------------------------------------------------------------------------------------------
+		index (logowanie)
+		new_admin (dodaj admina)
+		new_librarian (dodaj bibliotekarza)
+		new_student (dodaj studenta)
+		edit (edycja uzytkownika)
+		change_password_view (zmiana hasla)
+	Student Controller------------------------------------------------------------------------------------------------
+		index (main)
+		resources (Zasoby)
+		resources_libraries
+		resources_books
+		borrows (Moje wypożyczenia)
+
+	Librarian Controller----------------------------------------------------------------------------------------------
+		index (main)
+		resources (Zasoby)
+		resources_libraries
+		resources_books
+		borrows (Czekające wypożyczenia)
+		student_borrows (wypożyczenia danego użytkownika)
+		view_all_students (Studenci)
+
+	Admin Controller--------------------------------------------------------------------------------------------------
+		index
+		view_all_users (Zarządzaj użytkownikami)
+
+
+
+
