@@ -1,0 +1,26 @@
+<h1><%= @book.title %></h1>
+<p><strong>Autor: </strong><%= @book.author %></p>
+<p><strong>Edycja: </strong><%= @book.edition %></p>
+      <p><strong>Data publikacji: </strong><%= @book.publication_date %></p>
+      <p><strong>Data publikacji: </strong><%= @book.ISBN %></p>
+      <p><strong>Sygnatura: </strong><%= @book.signature %></p>
+      <p><strong>Biblioteka: </strong><%= @book.library.name %></p>
+      <p><strong>Status: </strong>Wypożyczona / dostępna (TODO)!</p>
+
+      <%= link_to 'Edit', edit_library_book_path(@book.library, @book.id) %>
+      
+      <%= link_to "Borrow", "/borrows/addBorrow/" + @book.id.to_s, data: { confirm: 'Are you sure?' } %>
+      <h2>Borrows</h2>
+      <!--TODO: move to borrows view --> 
+      <table>
+      <th>Book</th><th>Borrowed by</th><th>Date</th>
+      <% @borrows.each do |bor| %>
+		<tr>
+            <td>TODO</td>
+		<td>TODO</td>
+		<td><%= bor.created_at %></td>
+		</tr>
+		<% end %>
+		</table>
+
+

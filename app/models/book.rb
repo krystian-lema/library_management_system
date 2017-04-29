@@ -1,5 +1,6 @@
 class Book < ApplicationRecord
   belongs_to :library
-  #belongs_to :borrow
+  has_many :borrows
+  #has_one :borrow 
   #belongs_to :borrow_archive
 end
