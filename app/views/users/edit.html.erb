@@ -1,48 +1,52 @@
 <!-- app/views/users/edit.html.erb -->
 
-<h1>User data edit</h1>
-
-<%= form_for @user do |f| %>
+<div class ="container">
 
 	<% if @user.errors.any? %>
-		<ul>
+		<ul class="alert alert-danger alert-dismissable fade in">
+		<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
 		<% @user.errors.full_messages.each do |msg| %>
-			<li><%= msg %></li>
+			<%= msg %><br>
 		<% end %>
 		</ul>
 	<% end %>
 
-	<p>
-		<%= f.label :username %> <br>
-		<%= f.text_field(:username) %>
-	</p>
-
-	<p>
-		<%= f.label :email %> <br>
-		<%= f.text_field(:email) %>
-	</p>
-
-	<p>
-		<%= f.label :first_name %> <br>
-		<%= f.text_field(:first_name) %>
-	</p>
-
-	<p>
-		<%= f.label :last_name %> <br>
-		<%= f.text_field(:last_name) %>
-	</p>
-
-	<p>
-		<%= f.label :address %> <br>
-		<%= f.text_field(:address) %>
-	</p>
-
-	<p>
-		<%= f.label :birth_date %> <br>
-		<%= f.date_field(:birth_date) %>
-	</p>
-
-  <%= f.submit "Save changes" %> <br><br>
-  <%= link_to 'Cancel changes', url_for(:back) %>
-
-<% end %>
+<div class="col-md-4 col-md-offset-4">
+	<div class="panel panel-info">
+	  <div class="panel-heading">Edycja danych</div>
+	  <div class="panel-body">
+	  <div class="col-md-8 col-md-offset-2">
+	  
+		<%= form_for @user do |f| %>
+			<p>
+				<%= f.label :username %> <br>
+				<%= f.text_field(:username, {:class => 'form-control'}) %>
+			</p>
+			<p>
+				<%= f.label :email %> <br>
+				<%= f.text_field(:email, {:class => 'form-control'}) %>
+			</p>
+			<p>
+				<%= f.label :first_name %> <br>
+				<%= f.text_field(:first_name, {:class => 'form-control'}) %>
+			</p>
+			<p>
+				<%= f.label :last_name %> <br>
+				<%= f.text_field(:last_name, {:class => 'form-control'}) %>
+			</p>
+			<p>
+				<%= f.label :address %> <br>
+				<%= f.text_field(:address, {:class => 'form-control'}) %>
+			</p>
+			<p>
+				<%= f.label :birth_date %> <br>
+				<%= f.text_field(:birth_date, {:class => 'form-control'}) %>
+			</p>
+			<%= f.submit "Zapisz zmiany", {:class => 'btn btn-primary'} %>
+		<% end %>
+		
+	  </div>
+	  </div>
+	  </div>
+	</div>
+</div>

@@ -1,43 +1,52 @@
 <!-- app/views/users/new_student.html.erb -->
 
-<h1>New student</h1>
-
-<%= form_for @user, url: '/students' do |f| %>
+<div class ="container">
 
 	<% if @user.errors.any? %>
-		<ul>
+		<ul class="alert alert-danger alert-dismissable fade in">
+		<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
 		<% @user.errors.full_messages.each do |msg| %>
-			<li><%= msg %></li>
+			<%= msg %><br>
 		<% end %>
 		</ul>
 	<% end %>
 
-	<p>
-		<%= f.label :email %> <br>
-		<%= f.text_field(:email) %>
-	</p>
+  <div class="col-md-4 col-md-offset-4">
+	<div class="panel panel-info">
+	  <div class="panel-heading">Nowy student</div>
+	  <div class="panel-body">
+	  <div class="col-md-8 col-md-offset-2">
+	  
+		<%= form_for @user, url: '/students' do |f| %>
+			<p>
+				<%= f.label :email %> <br>
+				<%= f.text_field(:email, {:class => 'form-control'}) %>
+			</p>
+			<p>
+				<%= f.label :first_name %> <br>
+				<%= f.text_field(:first_name, {:class => 'form-control'}) %>
+			</p>
+			<p>
+				<%= f.label :last_name %> <br>
+				<%= f.text_field(:last_name, {:class => 'form-control'}) %>
+			</p>
+			<p>
+				<%= f.label :address %> <br>
+				<%= f.text_field(:address, {:class => 'form-control'}) %>
+			</p>
+			<p>
+				<%= f.label :birth_date %> <br>
+				<%= f.text_field(:birth_date, {:class => 'form-control'}) %>
+			</p>
+			<p>
+				<%= label_tag :id_card_number %> <br>
+				<%= text_field_tag(:id_card_number,'', {:class => 'form-control'}) %>
+			</p>
+			<%= f.submit "Create student", {:class => 'btn btn-primary'} %>
+		<% end %>
 
-	<p>
-		<%= f.label :first_name %> <br>
-		<%= f.text_field(:first_name) %>
-	</p>
-
-	<p>
-		<%= f.label :last_name %> <br>
-		<%= f.text_field(:last_name) %>
-	</p>
-
-	<p>
-		<%= f.label :address %> <br>
-		<%= f.text_field(:address) %>
-	</p>
-
-	<p>
-		<%= f.label :birth_date %> <br>
-		<%= f.date_field(:birth_date) %>
-	</p>
-
-	<%= f.submit "Create student" %> <br><br>
-	<%= link_to "<button>Back</button>".html_safe, url_for(:back) %> <br><br>
-
-<% end %>
+	  </div>
+	  </div>
+	</div>
+  </div>
+</div>

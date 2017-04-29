@@ -1,8 +1,11 @@
 <!-- app/views/users/new.html.erb -->
 
-<h1>New user</h1>
-
-<%= link_to "<button>New student</button>".html_safe, '/students' %> <br><br>
-<%= link_to "<button>New librarian</button>".html_safe, '/librarians' %> <br><br>
-<%= link_to "<button>New administrator</button>".html_safe, '/administrators' %> <br><br>
-<%= link_to "<button>Back</button>".html_safe, '/' %> <br><br>
+<div class ="container">
+  <div class="col-md-10 col-md-offset-1">
+	<ul class="nav nav-pils nav-justified">
+	  <li><%= link_to "Nowy student", '/students', :class => 'btn btn-default' %></li>
+	  <li><%= link_to "Nowy bibliotekarz", '/librarians', :class => 'btn btn-default' %></li>
+	  <li><%= link_to "Nowy administrator", '/administrators', :class => 'btn btn-default' %></li>
+	</ul>
+  </div>
+</div>
