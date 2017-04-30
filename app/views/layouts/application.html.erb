@@ -27,12 +27,12 @@
           </div>
           <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-              <li><%= link_to "Home", root_path %></li>
+              <li><%= link_to "Strona domowa", root_path %></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-              <li><%= link_to "Edit profile", edit_user_path(current_user) %></li>
-              <li><%= link_to "Change password", "/users/" + current_user.id.to_s + "/change_password" %></li>
-              <li><%= link_to "Logout", '/logout' %></li>
+              <li><%= link_to "Edytuj profil", edit_user_path(current_user) %></li>
+              <li><%= link_to "Zmień hasło", "/users/" + current_user.id.to_s + "/change_password" %></li>
+              <li><%= link_to "Wyloguj", '/logout' %></li>
             </ul>
           </div>
         </div>
@@ -49,6 +49,9 @@
     </div>
 
     <div class="container">
+      <% if is_student %>
+        <%= render 'students/navbar' %>
+      <% end %>
       <% if is_admin %>
         <%= render 'admins/navbar' %>
       <% end %>

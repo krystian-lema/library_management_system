@@ -23,26 +23,26 @@
 				<%= f.text_field(:email, {:class => 'form-control'}) %>
 			</p>
 			<p>
-				<%= f.label :first_name %> <br>
+				<%= f.label 'Imię' %> <br>
 				<%= f.text_field(:first_name, {:class => 'form-control'}) %>
 			</p>
 			<p>
-				<%= f.label :last_name %> <br>
+				<%= f.label 'Nazwisko' %> <br>
 				<%= f.text_field(:last_name, {:class => 'form-control'}) %>
 			</p>
 			<p>
-				<%= f.label :address %> <br>
+				<%= f.label 'Adres' %> <br>
 				<%= f.text_field(:address, {:class => 'form-control'}) %>
 			</p>
 			<p>
-				<%= f.label :birth_date %> <br>
+				<%= f.label 'Data urodzenia' %> <br>
 				<%= f.text_field(:birth_date, {:class => 'form-control'}) %>
 			</p>
 			<p>
-				<%= label_tag :id_card_number %> <br>
+				<%= label_tag 'Nr indeksu' %> <br>
 				<%= text_field_tag(:id_card_number,'', {:class => 'form-control'}) %>
 			</p>
-			<%= f.submit "Create student", {:class => 'btn btn-primary'} %>
+			<%= f.submit "Stwórz studenta", {:class => 'btn btn-primary'} %>
 		<% end %>
 
 	  </div>

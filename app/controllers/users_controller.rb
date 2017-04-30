@@ -116,7 +116,7 @@ class UsersController < ApplicationController
         redirect_to :back
       end
     else
-      flash[:error] = "Edit failed."
+      flash[:danger] = "Edit failed."
       render 'edit'
     end
   end
@@ -141,7 +141,7 @@ class UsersController < ApplicationController
       flash[:success] = "Change password success."
       redirect_to root_path
     else
-      flash[:error] = "Change password failed."
+      flash[:danger] = "Change password failed."
       render 'users/change_password'
     end
   end
@@ -180,7 +180,7 @@ private
   end
 
   def permission_denied
-    flash[:error] = "Permission denied."
+    flash[:danger] = "Permission denied."
     redirect_to root_path
   end
 

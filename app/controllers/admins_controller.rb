@@ -13,7 +13,7 @@ private
 
 	def authorize_admin
     if !is_admin
-      flash[:error] = "Permission denied."
+      flash[:danger] = "Permission denied."
       redirect_to root_path
     end
   end
