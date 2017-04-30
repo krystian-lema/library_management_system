@@ -1,21 +1,32 @@
-<% @users.each do |user| %>
+<!-- app/views/admins/users.html.erb -->
 
-	<h3>
-		<%= user.username%>,
-		<%= user.email%>,
-		<%= user.first_name%>,
-		<%= user.last_name%>,
-		<%= user.address%>,
-		<%= user.birth_date%>
-		<% if user.get_role == "student"  && user.student && user.student.id_card%>
-			, <%= user.student.id_card.number%>
-		<% end %>		
-		<%= link_to "<button>Edit</button>".html_safe, edit_user_path(user) %> 
-		<%= link_to "<button>Delete</button>".html_safe, user_path(user),  
-        	method: :delete, 
-        	data: {confirm: "Are you sure?"} %>	
-	</h3>
-	
-<% end %>
+<h1>Użytkownicy:</h1>
+<div class="table-responsive"> 
+  <table class="table table-striped">
 
-<%= link_to "<button>Back</button>".html_safe, '/' %> <br><br>
+    <thead>
+      <tr>
+        <th>Nr indeksu</th>
+        <th>Imię</th>
+        <th>Nazwisko</th>
+        <th>Adres</th>
+        <th>Data ur.</th>
+        <th></th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <% @users.each do |user| %>
+      <tr>
+      	<td><%= user.student.id_card.number %></td>
+      	<td><%= user.first_name %></td>
+      	<td><%= user.last_name %></td>
+      	<td><%= user.address %></td>
+      	<td><%= user.birth_date %></td>
+      	<td><%= link_to "Wypożyczenia użytkownika", '/librarian/student_borrows/' + user.student.id.to_s, :class => 'btn btn-info' %></td>
+      </tr>
+    <% end %>
+    </tbody>
+    
+  </table>
+</div>

@@ -64,6 +64,8 @@ Rails.application.routes.draw do
   get '/librarian' => 'librarians#index'
   get '/student' => 'students#index'
   get '/administrator/users' => 'admins#view_all_users'
+  get '/librarian/borrows' => 'librarians#borrows'
+  get '/librarian/student_borrows/:id' => 'librarians#student_borrows'
   get '/librarian/users' => 'librarians#view_all_students'
   get '/student/borrows' => 'students#borrows'
 
