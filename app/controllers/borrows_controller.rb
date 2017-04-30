@@ -15,10 +15,10 @@ class BorrowsController < ApplicationController
       if @borrow.save
         flash[:success] = "This book is borrow!"   
   	  else
-        flash[:error] = "Error. Contact with administrator."
+        flash[:danger] = "Error. Contact with administrator."
   	  end
     else
-      flash[:error] = "This book is already borrowed!"
+      flash[:danger] = "This book is already borrowed!"
       redirect_to '/borrows' 
     end
   end
@@ -31,11 +31,11 @@ class BorrowsController < ApplicationController
       if @borrow.save
         redirect_to '/libraries'
       else
-        flash[:error] = "Unkown error! Contact with administrator."
+        flash[:danger] = "Unkown error! Contact with administrator."
         redirect_to '/borrows'
       end
     else
-      flash[:error] = "This book is borrow!"
+      flash[:danger] = "This book is borrow!"
       redirect_to '/borrows' 
     end
   end

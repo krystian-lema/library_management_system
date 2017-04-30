@@ -19,27 +19,27 @@
 	  
 		<%= form_for @user do |f| %>
 			<p>
-				<%= f.label :username %> <br>
+				<%= f.label 'Login' %> <br>
 				<%= f.text_field(:username, {:class => 'form-control'}) %>
 			</p>
 			<p>
-				<%= f.label :email %> <br>
+				<%= f.label 'Email' %> <br>
 				<%= f.text_field(:email, {:class => 'form-control'}) %>
 			</p>
 			<p>
-				<%= f.label :first_name %> <br>
+				<%= f.label 'Imię' %> <br>
 				<%= f.text_field(:first_name, {:class => 'form-control'}) %>
 			</p>
 			<p>
-				<%= f.label :last_name %> <br>
+				<%= f.label 'Nazwisko' %> <br>
 				<%= f.text_field(:last_name, {:class => 'form-control'}) %>
 			</p>
 			<p>
-				<%= f.label :address %> <br>
+				<%= f.label 'Adres' %> <br>
 				<%= f.text_field(:address, {:class => 'form-control'}) %>
 			</p>
 			<p>
-				<%= f.label :birth_date %> <br>
+				<%= f.label 'Data urodzenia' %> <br>
 				<%= f.text_field(:birth_date, {:class => 'form-control'}) %>
 			</p>
 			<%= f.submit "Zapisz zmiany", {:class => 'btn btn-primary'} %>

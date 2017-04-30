@@ -65,6 +65,7 @@ Rails.application.routes.draw do
   get '/student' => 'students#index'
   get '/administrator/users' => 'admins#view_all_users'
   get '/librarian/users' => 'librarians#view_all_students'
+  get '/student/borrows' => 'students#borrows'
 
   root to: 'users#index'
 

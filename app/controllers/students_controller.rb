@@ -4,6 +4,10 @@ class StudentsController < ApplicationController
   def index
   end
 
+  def borrows
+  	@borrows = Borrow.where(:student => current_user.student)
+  end
+
 private
 
 	def authorize_student
