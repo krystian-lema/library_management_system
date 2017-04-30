@@ -5,14 +5,14 @@ class StudentsController < ApplicationController
   end
 
   def borrows
-  	@borrows = Borrow.where(:student => current_user.student)
+  	@borrows = Borrow.all.where(:student => current_user.student)
   end
 
 private
 
 	def authorize_student
     if !is_student
-      flash[:error] = "Permission denied."
+      flash[:danger] = "Permission denied."
       redirect_to root_path
     end
   end

@@ -35,4 +35,12 @@ class User < ApplicationRecord
 		return role
 	end
 
+	def get_role_polish_name
+		if role == "librarian"
+			return "Bibliotekarz"
+		else
+			return role.to_s.upcase
+		end
+	end
+
 end
