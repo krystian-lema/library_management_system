@@ -23,21 +23,35 @@ class BorrowsController < ApplicationController
     end
   end
 
-  def addBorrow
+  def add_borrow
     @borrow = Borrow.new
-    @borrow.book_id = params[:id]
-    @borrow.student_id = current_user.id
-    if Borrow.where(:book_id => params[:id]).blank?
+    book = Book.find(params[:borrow][:book_id])
+    student = current_user.student
+    @borrow.book = book
+    @borrow.student = student
+    @borrow.status = false
+    @borrow.start_date = DateTime.now
+    #@borrow.student_id = 2
+    if Borrow.where(:book_id => params[:borrow][:book_id]).blank?
       if @borrow.save
+        flash[:success] = "Gratulacje. Wypożyczyleś wskazaną książkę."
         redirect_to '/libraries'
       else
-        flash[:danger] = "Unkown error! Contact with administrator."
+        flash[:danger] = params[:borrow][:book_id]
         redirect_to '/borrows'
       end
     else
-      flash[:danger] = "This book is borrow!"
+      flash[:danger] = "Książka jest już wypożyczona!"
       redirect_to '/borrows' 
     end
+  end
+
+  def confirm_borrow
+    @borrow = Borrow.new
+    @library = Library.find(params[:library_id])
+    @book = @library.book.find(params[:book_id])
+
+    
   end
 
   #def checkStatus(book_id)

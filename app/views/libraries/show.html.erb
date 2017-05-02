@@ -1,16 +1,15 @@
-<h1>Details of library</h1>
+<h1>Szczególy biblioteki</h1>
 
-    <p><strong>Name: </strong><%= @library.name %></p>
-    <p><strong>Address: </strong><%= @library.address %></p>
-    <p><strong>Description: </strong><%= @library.description %></p>
-    <p><strong>Action: </strong>
-        <%= link_to 'Edit', 'addLibrary' %>
-        <%= link_to 'Destroy', '/addLibrary' %>
-        <%= link_to 'Details', '/showBooks' %>
+    <p><strong>Nazwa: </strong><%= @library.name %></p>
+    <p><strong>Adres: </strong><%= @library.address %></p>
+    <p><strong>Opis: </strong><%= @library.description %></p>
+    <p><strong>Akcje: </strong>
+        <%= link_to 'Edytuj', edit_library_path, :class => 'btn btn-default' %>
+        <%= link_to 'Usuń (nieaktywne)', "#", :class => 'btn btn-default' %>
     </p>
 
-<h2>Books of library</h2>
-<table>
+<h2>Księgozbiór biblioteki</h2>
+<table class="table">
   <tr>
     <th>Title</th>
     <th>Author</th>

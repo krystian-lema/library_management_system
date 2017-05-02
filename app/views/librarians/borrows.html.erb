@@ -23,7 +23,14 @@
       	<td><%= borrow.book.title %></td>
       	<td><%= borrow.book.library.name %></td>
       	<td><%= borrow.start_date %></td>
-        <td><%= link_to "Akceptuj wypożyczenia", :back, :class => 'btn btn-success' %></td>
+        <%= form_for borrow, url: librarian_confirm_borrow_path do |f| %>
+
+          <%= f.hidden_field(:borrow_id, :value => borrow.id) %>
+
+          <td><%= f.submit "Akceptuj", :onclick => "return confirm('Jesteś pewny?')" %></td>
+
+        <% end %>
+        <!--<td><%= link_to "Akceptuj wypożyczenia", :back, :class => 'btn btn-success' %></td> -->
       </tr>
     <% end %>
     </tbody>
