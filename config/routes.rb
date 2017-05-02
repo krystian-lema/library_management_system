@@ -54,7 +54,8 @@ Rails.application.routes.draw do
   get 'borrows/:book_id' => 'borrows#create'
   get 'borrows/' => 'borrows#index'
   get '/borrows/addBorrow/:id' => 'borrows#addBorrow'
- 
+  get '/libraries/:library_id/books/:book_id/confirmBorrow' => 'borrows#confirm_borrow'
+  post '/student/add_borrow/' => 'students#add_borrow'
   
 
 
@@ -68,6 +69,9 @@ Rails.application.routes.draw do
   get '/librarian/student_borrows/:id' => 'librarians#student_borrows'
   get '/librarian/users' => 'librarians#view_all_students'
   get '/student/borrows' => 'students#borrows'
+
+  patch 'librarian/confirm_borrow' => 'librarians#confirm_borrow'
+  post 'librarian/finish_borrow' => 'librarians#finish_borrow'
 
   root to: 'users#index'
 

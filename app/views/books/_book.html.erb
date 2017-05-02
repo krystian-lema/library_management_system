@@ -10,7 +10,13 @@
       <td><%= book.library.name %></td>
       <td>Any informarmations!</td>
       <td>
-      	<%= link_to "Borrow", "/borrows/addBorrow/" + book.id.to_s, data: { confirm: 'Are you sure?' } %>
-        <%= link_to 'Details', library_book_path(book.library, book.id) %>
+      	<%= form_for book, url: student_add_borrow_path, method: :post do |f| %>
+
+          <%= f.hidden_field(:book_id, :value => book.id) %>
+
+        <%= f.submit "Wypożycz", :class => 'btn btn-default' %> <br>
+
+        <% end %>
+        <%= link_to 'Szczególy', library_book_path(book.library, book.id), :class => 'btn btn-default' %>
       </td>
     </tr>
