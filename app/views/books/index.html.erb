@@ -1,0 +1,19 @@
+<h1>Books</h1>
+<table class="table">
+  <tr>
+    <th>Title</th>
+    <th>Author</th>
+    <th>Edition</th>
+    <th>Publication date</th>
+    <th>ISBN</th>
+    <th>Signature</th>
+    <th>library</th>
+    <th>Status</th>
+    <th>Action</th>
+  </tr>
+ 
+  <%= render @books %>
+</table>
+
+
+<br><%= link_to 'Add book', books_new_path %>

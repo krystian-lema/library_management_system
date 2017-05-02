@@ -1,0 +1,32 @@
+<!-- app/views/admins/users.html.erb -->
+
+<h1>Użytkownicy:</h1>
+<div class="table-responsive"> 
+  <table class="table table-striped">
+
+    <thead>
+      <tr>
+        <th>Nr indeksu</th>
+        <th>Imię</th>
+        <th>Nazwisko</th>
+        <th>Adres</th>
+        <th>Data ur.</th>
+        <th></th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <% @users.each do |user| %>
+      <tr>
+      	<td><%= user.student.id_card.number %></td>
+      	<td><%= user.first_name %></td>
+      	<td><%= user.last_name %></td>
+      	<td><%= user.address %></td>
+      	<td><%= user.birth_date %></td>
+      	<td><%= link_to "Wypożyczenia użytkownika", '/librarian/student_borrows/' + user.student.id.to_s, :class => 'btn btn-info' %></td>
+      </tr>
+    <% end %>
+    </tbody>
+    
+  </table>
+</div>

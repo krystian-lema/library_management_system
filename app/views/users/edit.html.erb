@@ -1,0 +1,52 @@
+<!-- app/views/users/edit.html.erb -->
+
+<div class ="container">
+
+	<% if @user.errors.any? %>
+		<ul class="alert alert-danger alert-dismissable fade in">
+		<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+		<% @user.errors.full_messages.each do |msg| %>
+			<%= msg %><br>
+		<% end %>
+		</ul>
+	<% end %>
+
+<div class="col-md-4 col-md-offset-4">
+	<div class="panel panel-info">
+	  <div class="panel-heading">Edycja danych</div>
+	  <div class="panel-body">
+	  <div class="col-md-8 col-md-offset-2">
+	  
+		<%= form_for @user do |f| %>
+			<p>
+				<%= f.label 'Login' %> <br>
+				<%= f.text_field(:username, {:class => 'form-control'}) %>
+			</p>
+			<p>
+				<%= f.label 'Email' %> <br>
+				<%= f.text_field(:email, {:class => 'form-control'}) %>
+			</p>
+			<p>
+				<%= f.label 'Imię' %> <br>
+				<%= f.text_field(:first_name, {:class => 'form-control'}) %>
+			</p>
+			<p>
+				<%= f.label 'Nazwisko' %> <br>
+				<%= f.text_field(:last_name, {:class => 'form-control'}) %>
+			</p>
+			<p>
+				<%= f.label 'Adres' %> <br>
+				<%= f.text_field(:address, {:class => 'form-control'}) %>
+			</p>
+			<p>
+				<%= f.label 'Data urodzenia' %> <br>
+				<%= f.text_field(:birth_date, {:class => 'form-control'}) %>
+			</p>
+			<%= f.submit "Zapisz zmiany", {:class => 'btn btn-primary'} %>
+		<% end %>
+		
+	  </div>
+	  </div>
+	  </div>
+	</div>
+</div>

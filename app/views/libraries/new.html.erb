@@ -1,0 +1,32 @@
+<!-- app/views/users/new.html.erb -->
+
+<h1>New library</h1>
+
+<%= form_for @library, url: '/libraries' do |f| %>
+
+	<% if @library.errors.any? %>
+		<ul>
+		<% @library.errors.full_messages.each do |msg| %>
+			<li><%= msg %></li>
+		<% end %>
+		</ul>
+	<% end %>
+
+	<p>
+		<%= f.label :name %> <br>
+		<%= f.text_field(:name) %>
+	</p>
+
+	<p>
+		<%= f.label :address %> <br>
+		<%= f.text_field(:address) %>
+	</p>
+
+	<p>
+		<%= f.label :description %> <br>
+		<%= f.text_field(:description) %>
+	</p>
+
+	<%= f.submit "Create library" %> <br>
+
+<% end %>

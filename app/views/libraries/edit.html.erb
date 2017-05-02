@@ -1,0 +1,38 @@
+<!-- app/views/users/new.html.erb -->
+
+<div class="col-md-4 col-md-offset-4">
+	<div class="panel panel-info">
+		<div class="panel-heading">Edycja danych</div>
+		<div class="panel-body">
+		<%= form_for @library, url: library_path(@library), method: :patch, :html => {:class => 'form-group'} do |f| %>
+		<%= hidden_field_tag(:id, @library.id) %>
+
+			<% if @library.errors.any? %>
+				<ul>
+				<% @library.errors.full_messages.each do |msg| %>
+					<li><%= msg %></li>
+				<% end %>
+				</ul>
+			<% end %>
+
+			<p>
+				<%= f.label "Nazwa" %> <br>
+				<%= f.text_field(:name, class: "form-control")  %>
+			</p>
+
+			<p>
+				<%= f.label "Adres" %> <br>
+				<%= f.text_field(:address, class: "form-control") %>
+			</p>
+
+			<p>
+				<%= f.label "Opis" %> <br>
+				<%= f.text_field(:description, class: "form-control") %>
+			</p>
+
+			<%= f.submit "Aktualizuj informacje", :class => "btn btn-primary" %> <br>
+
+		<% end %>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,52 @@
+<!-- app/views/users/new.html.erb -->
+
+<h1>New book</h1>
+
+<%= form_for @book, url: '/books' do |f| %>
+
+	<% if @book.errors.any? %>
+		<ul>
+		<% @book.errors.full_messages.each do |msg| %>
+			<li><%= msg %></li>
+		<% end %>
+		</ul>
+	<% end %>
+
+	<p>
+		<%= f.label :title %> <br>
+		<%= f.text_field(:title) %>
+	</p>
+
+	<p>
+		<%= f.label :authot %> <br>
+		<%= f.text_field(:author) %>
+	</p>
+
+	<p>
+		<%= f.label :edition %> <br>
+		<%= f.text_field(:edition) %>
+	</p>
+
+	<p>
+		<%= f.label :publication_date %> <br>
+		<%= f.text_field(:publication_date) %>
+	</p>
+
+	<p>
+		<%= f.label :ISBN %> <br>
+		<%= f.text_field(:ISBN) %>
+	</p>
+
+	<p>
+		<%= f.label :signature %> <br>
+		<%= f.text_field(:signature) %>
+	</p>
+
+	<p>
+		<%= f.label :library %> <br>
+		<%= f.select :library_id, options_for_select(Library.all.map{|s|[s.name, s.id]}) %>
+	</p>
+
+	<%= f.submit "Create library" %> <br>
+
+<% end %>
