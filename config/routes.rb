@@ -50,6 +50,8 @@ Rails.application.routes.draw do
   get '/books/update/:id' => 'books#update'
   get '/books/edit/:id' => 'books#edit'
 
+  get '/libraries/:library_id/books/:book_id/delete' => 'books#delete_book'
+
   #borrows
   get 'borrows/:book_id' => 'borrows#create'
   get 'borrows/' => 'borrows#index'
@@ -67,6 +69,7 @@ Rails.application.routes.draw do
   get '/administrator/users' => 'admins#view_all_users'
   get '/librarian/borrows' => 'librarians#borrows'
   get '/librarian/student_borrows/:id' => 'librarians#student_borrows'
+  get '/librarian/student_archive_borrows/:id' => 'librarians#student_archive_borrows'
   get '/librarian/users' => 'librarians#view_all_students'
   get '/student/borrows' => 'students#borrows'
 

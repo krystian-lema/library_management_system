@@ -11,6 +11,7 @@ class BooksController < ApplicationController
   	#@book = @library.books.find(params[:book_id])
 
   	@book = Book.new(book_create_params)
+    @book.status = true
   	if @book.save
       redirect_to '/books'
   	else
@@ -28,6 +29,7 @@ class BooksController < ApplicationController
   	 
   	 #@library = Library.find(params[:library_id])
   	 #@book = Book.find(params[:id])
+
   	 @book = Book.find(params[:id])
 
 	 
@@ -43,11 +45,19 @@ class BooksController < ApplicationController
 		@book = @library.book.find(params[:id])
 
 		@borrows = @book.borrows
-	end
-
-	def destroy
 
 	end
+
+  def delete_book
+    @book = Book.find(params[:book_id])
+    if @book.update(:status => false)
+      flash[:success] = "Książka zostala usunięta."
+      redirect_to(:back)
+    else
+      flash[:danger] = "Nie udalo się usunąć książki. Skontaktuj się z administratorem."
+      rediret_to(:back)
+    end
+  end
 
 	private 
   	def book_create_params
