@@ -1,8 +1,12 @@
 <!-- app/views/users/new.html.erb -->
 
-<h1>New book</h1>
 
-<%= form_for @book, url: '/books' do |f| %>
+<div class="col-md-4 col-md-offset-4">
+	<div class="panel panel-info">
+		<div class="panel-heading">Nowa książka</div>
+		<div class="panel-body">
+
+<%= form_for @book, url: '/books', :html => {:class => 'form-group'} do |f| %>
 
 	<% if @book.errors.any? %>
 		<ul>
@@ -13,40 +17,40 @@
 	<% end %>
 
 	<p>
-		<%= f.label :title %> <br>
-		<%= f.text_field(:title) %>
+		<%= f.label "Tytul" %> <br>
+		<%= f.text_field(:title, class: "form-control") %>
 	</p>
 
 	<p>
-		<%= f.label :authot %> <br>
-		<%= f.text_field(:author) %>
+		<%= f.label "Autor" %> <br>
+		<%= f.text_field(:author, class: "form-control") %>
 	</p>
 
 	<p>
-		<%= f.label :edition %> <br>
-		<%= f.text_field(:edition) %>
+		<%= f.label "Edycja" %> <br>
+		<%= f.text_field(:edition, class: "form-control") %>
 	</p>
 
 	<p>
-		<%= f.label :publication_date %> <br>
-		<%= f.text_field(:publication_date) %>
+		<%= f.label "Data publikacji" %> <br>
+		<%= f.text_field(:publication_date, class: "form-control") %>
 	</p>
 
 	<p>
-		<%= f.label :ISBN %> <br>
-		<%= f.text_field(:ISBN) %>
+		<%= f.label "ISBN" %> <br>
+		<%= f.text_field(:ISBN, class: "form-control") %>
 	</p>
 
 	<p>
-		<%= f.label :signature %> <br>
-		<%= f.text_field(:signature) %>
+		<%= f.label "Sygnatura" %> <br>
+		<%= f.text_field(:signature, class: "form-control") %>
 	</p>
 
 	<p>
-		<%= f.label :library %> <br>
-		<%= f.select :library_id, options_for_select(Library.all.map{|s|[s.name, s.id]}) %>
+		<%= f.label "Biblioteka" %> <br>
+		<%= f.select(:library_id, options_for_select(Library.all.map{|s|[s.name, s.id]}), {}, {:class => 'form-control'}) %>
 	</p>
 
-	<%= f.submit "Create library" %> <br>
+	<%= f.submit "Dodaj książkę", :class => "btn btn-primary" %> <br>
 
 <% end %>

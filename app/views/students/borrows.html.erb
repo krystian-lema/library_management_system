@@ -22,10 +22,17 @@
       	<td><%= borrow.id %></td>
       	<td><%= borrow.book.title %></td>
       	<td><%= borrow.book.library.name %></td>
-      	<td><%= borrow.start_date %></td>
-      	<td><%= borrow.start_date %></td>
-      	<td> - </td>
+        <% if borrow.status == 0 %>
+      	<td>-</td>
+      	<td>-</td>
+        <td>Gotowa do odbioru</td>
+        <% else %>
+        <td><%= borrow.start_date %></td>
+        <td><%= borrow.start_date + borrow.max_borrow_time.months %></td>
+      	<td>Odebrana</td>
+        <% end %>
       </tr>
+      
     <% end %>
     </tbody>
     

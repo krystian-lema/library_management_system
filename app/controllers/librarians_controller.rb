@@ -5,16 +5,7 @@ class LibrariansController < ApplicationController
   end
 
   def borrows
-    # trzeba dorobic status w wypozyczeniach i po wypozyczeniu przez studenta ustawic status oczekujace
-    # nastepnie filtrowac tutaj wszystkie wypozyczenia ktore czekaja na akceptacje
     @borrows = Borrow.all.where(:status => 0)
-
-    # temp
-    #@borrows = Borrow.all
-  end
-
-  def waiting_borrows
-    @borrows = Borrow.all
   end
 
   def confirm_borrow
@@ -49,6 +40,7 @@ class LibrariansController < ApplicationController
   def student_borrows
     @user = User.find(Student.find(params[:id]).user.id)
     @borrows = Borrow.all.where(:student => Student.find(params[:id]))
+    @borrows_archive = BorrowArchive.all.where(:student => Student.find(params[:id]))
   end
 
   def view_all_students
