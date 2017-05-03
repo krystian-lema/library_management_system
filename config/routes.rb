@@ -22,6 +22,7 @@ Rails.application.routes.draw do
   post '/administrators' => 'users#create_admin'
   post '/librarians' => 'users#create_librarian'
   post '/students' => 'users#create_student'
+  post '/users' => 'json_users#import_users'
 
   # These routes will be for changing user passwords.
   get '/users/:id/change_password' => 'users#change_password_view'
