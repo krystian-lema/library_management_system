@@ -1,0 +1,26 @@
+{ "users": 
+	[ 
+		{	"email": "test@email.com",
+			"first_name": "Testowy",
+			"last_name": "Admin",
+			"address": "Nijaka 22, Wrocław",
+			"birth_date": "1995-01-01",
+			"role": "administrator"
+		},
+		{	"email": "test@email.com",
+			"first_name": "Testowy",
+			"last_name": "Bibliotekarz",
+			"address": "Nijaka 22, Wrocław",
+			"birth_date": "1995-01-01",
+			"role": "librarian"
+		},
+		{	"email": "test@email.com",
+			"first_name": "Testowy",
+			"last_name": "Student",
+			"address": "Nijaka 22, Wrocław",
+			"birth_date": "1995-01-01",
+			"role": "student",
+			"id_card": 218231
+		}
+	]
+}
