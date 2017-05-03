@@ -1,4 +1,6 @@
 class BooksController < ApplicationController
+  before_action :authorize
+  before_action :check_manage_permission, only: [:new, :edit, :update, :delete_book]
 	def index
 		@books = Book.all
 	end
@@ -7,9 +9,6 @@ class BooksController < ApplicationController
 		@book = Book.new
 	end
   def create
-  	#@library = Library.find(@book.library_id)
-  	#@book = @library.books.find(params[:book_id])
-
   	@book = Book.new(book_create_params)
     @book.status = true
   	if @book.save
@@ -63,4 +62,10 @@ class BooksController < ApplicationController
   	def book_create_params
   		params.require(:book).permit(:title, :author, :edition, :publication_date, :ISBN, :signature, :library_id)
   	end
+
+    def check_manage_permission
+      if !is_admin && !is_librarian
+        permission_denied
+      end
+    end
 end

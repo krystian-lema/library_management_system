@@ -11,6 +11,7 @@
         <th>Książka</th>
         <th>Biblioteka</th>
         <th>Początek wypożyczenia</th>
+        <th>Termin zwrotu</th>
         <th>Akcja</th>
         <th></th>
       </tr>
@@ -24,6 +25,7 @@
       	<td><%= borrow.book.title %></td>
       	<td><%= borrow.book.library.name %></td>
       	<td><%= borrow.start_date %></td>
+        <td><%= borrow.start_date + borrow.max_borrow_time.months%></td>
         <td>
         <% if borrow.status == 0 %>
             <%= form_for borrow, url: librarian_confirm_borrow_path do |f| %>
@@ -44,4 +46,31 @@
     </tbody>
     
   </table>
+  <h1>Archiwalne wypożyczenia</h1>
+  <div class="table-responsive"> 
+  <table class="table table-striped">
+     <thead>
+      <tr>
+        <th>Nr wypożyczenia</th>
+        <th>Student</th>
+        <th>Książka</th>
+        <th>Biblioteka</th>
+        <th>Początek wypożyczenia</th>
+        <th>Koniec wypożyczenia</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <%  @borrows_archive.each do |borrow| %>
+      <tr>
+        <td><%= borrow.id %></td>
+        <td><%= borrow.student.user.first_name + " " + borrow.student.user.last_name %></td>
+        <td><%= borrow.book.title %></td>
+        <td><%= borrow.book.library.name %></td>
+        <td><%= borrow.start_date %></td>
+        <td><%= borrow.end_date %></td>
+      </tr>
+    <% end %>
+    </tbody>
+ 
 </div>

@@ -1,4 +1,6 @@
 class LibrariesController < ApplicationController
+  before_action :authorize
+  before_action :check_manage_permission, only: [:new, :edit, :update]
 	def index
 		@libraries = Library.all
 	end
@@ -17,6 +19,10 @@ class LibrariesController < ApplicationController
 
   def show
   	@library = Library.find(params[:id])
+
+    @books = @library.book(:conditions => { :status => false })
+
+    @library_books = Book.where(library_id: params[:id], status: true)
   end
 
   def edit
@@ -33,11 +39,19 @@ class LibrariesController < ApplicationController
 	  end
 	end
 
+
   def destroy
   end
 
   private 
+
   	def library_create_params
   		params.require(:library).permit(:name, :address, :description)
   	end
+
+    def check_manage_permission
+      if !is_admin && !is_librarian
+        permission_denied
+      end
+    end
 end

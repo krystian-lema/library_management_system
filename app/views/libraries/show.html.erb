@@ -5,22 +5,17 @@
     <p><strong>Opis: </strong><%= @library.description %></p>
     <p><strong>Akcje: </strong>
         <%= link_to 'Edytuj', edit_library_path, :class => 'btn btn-default' %>
+        <%= link_to 'Dodaj książkę', books_new_path, :class => 'btn btn-default' %>
         <%= link_to 'Usuń (nieaktywne)', "#", :class => 'btn btn-default' %>
+
     </p>
 
 <h2>Księgozbiór biblioteki</h2>
 <table class="table">
-  <tr>
-    <th>Title</th>
-    <th>Author</th>
-    <th>Edition</th>
-    <th>Publication date</th>
-    <th>ISBN</th>
-    <th>Signature</th>
-    <th>library</th>
-    <th>Status</th>
-    <th>Action</th>
-  </tr>
+
+    <%= render 'books/book_row_header' %>
  
-  <%= render @library.book %>
+    <% @library_books.each do |book| %>
+    <%= render book %>
+    <% end %>
 </table>

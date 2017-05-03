@@ -1,0 +1,22 @@
+<tr>
+      	<td><%= borrow.id %></td>
+        <td><%= borrow.student.user.first_name + " " + borrow.student.user.last_name %></td>
+      	<td><%= borrow.book.title %></td>
+      	<td><%= borrow.book.library.name %></td>
+      	<td><%= borrow.start_date %></td>
+        <td>
+        <% if borrow.status == 0 %>
+            <%= form_for borrow, url: librarian_confirm_borrow_path do |f| %>
+
+            <%= f.hidden_field(:borrow_id, :value => borrow.id) %>
+            <%= f.submit "Akceptuj", :onclick => "return confirm('Jesteś pewny?')" %>
+            <% end %>
+        <% else %>
+             <%= form_for borrow, url: librarian_finish_borrow_path, method: :post do |f| %>
+
+            <%= f.hidden_field(:borrow_id, :value => borrow.id) %>
+            <%= f.submit "Zwróć", :onclick => "return confirm('Jesteś pewny?')" %>
+            <% end %>
+        <% end %>
+        </td>
+      </tr>

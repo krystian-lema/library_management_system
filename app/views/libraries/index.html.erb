@@ -14,12 +14,15 @@
       <td><%= lib.address %></td>
       <td><%= lib.description %></td>
       <td>
-        <%= link_to 'Edytuj', edit_library_path(lib), :class => 'btn btn-default' %>
         <%= link_to 'Przeglądaj zasoby', lib, :class => 'btn btn-default' %>
-        <%= link_to 'Usuń', lib, method: :delete, data: { confirm: 'Are you sure?' }, :class => 'btn btn-danger' %>
+        <% if current_user.role == "administrator" || current_user.role == "librarian" %>
+          <%= link_to 'Edytuj', edit_library_path(lib), :class => 'btn btn-default' %>
+          <%= link_to 'Usuń', lib, method: :delete, data: { confirm: 'Are you sure?' }, :class => 'btn btn-danger' %>
+        <% end %>
       </td>
     </tr>
   <% end %>
 </table>
-
-<br><%= link_to 'Add library', new_library_path, :class => 'btn btn-default' %>
+  <% if current_user.role == "administrator" || current_user.role == "librarian" %>
+  <%= link_to 'Dodaj bibliotekę', new_library_path, :class => 'btn btn-default' %>
+<% end %>
