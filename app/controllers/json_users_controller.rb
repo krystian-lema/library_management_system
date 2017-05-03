@@ -19,7 +19,7 @@ class JsonUsersController < ApplicationController
 	    format.json { 
 	    	render json: {import_info_hashes: import_info_hashes}
 	    }
-	end
+    end
 
 
 	end

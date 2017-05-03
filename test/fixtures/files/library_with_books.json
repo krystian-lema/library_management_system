@@ -1,0 +1,27 @@
+{
+	"library":
+	{
+		"name": "Biblioteka Główna",
+		"address": "Swobodna 39, Wrocław",
+		"description": "Biblioteka główna w której znajduje się najwięcej książek. Założona w roku 1950."	
+	},
+	"books":
+	[
+		{
+			"title": "Przygody misia Gogo",
+			"author": "Praca zbiorowa",
+			"edition": "Marzec 2017",
+			"publication_date": "2017-03-01",
+			"ISBN": "978-92-95055-02-5",
+			"signature": "1"
+		},
+		{
+			"title": "Przygody misia Togo",
+			"author": "Praca zbiorowa",
+			"edition": "Maj 2017",
+			"publication_date": "2017-05-01",
+			"ISBN": "978-92-95055-02-6",
+			"signature": "2"
+		}
+	]
+}

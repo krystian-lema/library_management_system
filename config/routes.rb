@@ -41,6 +41,7 @@ Rails.application.routes.draw do
   post '/libraries' => 'libraries#create'
   #get '/addLibrary' => 'libraries#new'
   patch '/updateLibrary/:id' => 'libraries#update'
+  post '/library_with_books' => 'json_books#import_library_with_books'
 
   #Books
   get '/books/new' => 'books#new'
