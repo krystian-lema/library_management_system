@@ -28,8 +28,9 @@ Rails.application.routes.draw do
   get '/users/:id/change_password' => 'users#change_password_view'
   patch '/users/:id/change_password' => 'users#change_password'
   put '/users/:id/change_password' => 'users#change_password'
-  patch '/users/:id/reset_password' => 'users#reset_password'
-  put '/users/:id/reset_password' => 'users#reset_password'
+  get '/reset_password' => 'users#reset_password_view'
+  post '/reset_password' => 'users#reset_password'
+  # put '/reset_password' => 'users#reset_password'
 
   resources :users, except: [:new, :create]
   resources :libraries, except: [:create] do

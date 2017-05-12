@@ -52,5 +52,15 @@ class ApplicationController < ActionController::Base
   def management_role
 
   end
+
+  def random_password(length)
+    signs = (0..9).to_a + ("a".."z").to_a + ("A".."Z").to_a
+    password = ""
+    length.times do
+        password += signs[rand(signs.length)].to_s
+    end
+    return password
+  end
+  helper_method :random_password
   
 end

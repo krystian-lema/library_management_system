@@ -43,7 +43,6 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
     		address: 'nowhere', birth_date: '1985-09-11' } }
   	end
   	assert User.last
-  	assert_redirected_to root_path
   	assert_equal(User.last.get_role, "librarian")
 	end
 
@@ -68,7 +67,6 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
     		address: 'nowhere', birth_date: '1985-01-21' } }
   	end
   	assert User.last
-  	assert_redirected_to root_path
   	assert_equal(User.last.get_role, "administrator")
 	end
 
@@ -158,6 +156,8 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
 		assert_difference('User.count', -1, "User should be deleted") do
 			delete user_url(@student)
 		end
+
+		assert_equal "Użytkownik został usunięty.", flash[:success]
 	end
 
 	test "can't delete user if not authorized" do
@@ -172,6 +172,17 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
 			delete user_url(@student)
 		end
 		assert_not student
+	end
+
+	test "reset password to new one" do
+		post '/reset_password', params: { username: @student.username }
+		assert_redirected_to root_path
+		assert_equal "Nowe hasło zostało wysłane na: " +  @student.email, flash[:success]
+	end
+
+	test "should not change password for bad uername" do
+		post '/reset_password', params: { username: 'badusername' }
+		assert_equal "Nie ma użytkownika z podanym loginem.", flash[:danger]
 	end
 
 end

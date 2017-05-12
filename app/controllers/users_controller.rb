@@ -1,13 +1,11 @@
 class UsersController < ApplicationController
-  # before_action :authorize, only: :index
-  before_action :authorize
+  before_action :authorize, except: [:reset_password_view, :reset_password]
   before_action :authorize_admin, only: [:new_admin, :create_admin, :new_librarian, :create_librarian]
   before_action :authorize_admin_or_librarian, only: [:new_student, :create_student]
-  before_action :find_user, only: [:show, :edit, :update, :destroy, :change_password_view, :change_password, :reset_password]
+  before_action :find_user, only: [:show, :edit, :update, :destroy, :change_password_view, :change_password]
   before_action :check_edit_permission, only: [:edit, :update]
   before_action :check_destroy_permission, only: :destroy
   before_action :check_change_password_permission, only: [:change_password_view, :change_password]
-  before_action :check_reset_password_permission, only: :reset_password
 
   def index
     if is_admin
@@ -76,7 +74,7 @@ class UsersController < ApplicationController
     @user.student.id_card = IdCard.new(number: student_create_params[:id_card_number])
 
     if @user.save && @user.student.save && @user.student.id_card.save
-      flash[:success] = "User created."
+      flash[:success] = "Użytkownik został stworzony pomyślnie."
       redirect_to root_path
     else
       unless @user.nil?
@@ -94,9 +92,10 @@ class UsersController < ApplicationController
 
   def save_new_user(on_failed_view)
     if @user.save
-      flash[:success] = "User created."
+      flash[:success] = "Użytkownik został stworzony pomyślnie."
       redirect_to :back
     else
+      flash[:danger] = "Błąd w tworzeniu użytkownika!"
       render on_failed_view
     end
   end
@@ -109,21 +108,21 @@ class UsersController < ApplicationController
 
   def update
     if @user.update(user_update_params)
-      flash[:success] = "Edit success."
+      flash[:success] = "Zapisano zmiany."
       if (correct_user(@user))
         redirect_to root_path
       else
         redirect_to :back
       end
     else
-      flash[:danger] = "Edit failed."
+      flash[:danger] = "Błąd w edycji!"
       render 'edit'
     end
   end
 
   def destroy
     @user.destroy
-    flash[:success] = "User deleted."
+    flash[:success] = "Użytkownik został usunięty."
     if correct_user(@user)
       logout
     else
@@ -138,17 +137,38 @@ class UsersController < ApplicationController
   def change_password
     @user.validate_password = true
     if @user.update(user_change_password_params)
-      flash[:success] = "Change password success."
+      flash[:success] = "Hasło zostało zmienione."
       redirect_to root_path
     else
-      flash[:danger] = "Change password failed."
+      flash[:danger] = "Błąd w zmianie hasła."
       render 'users/change_password'
     end
   end
 
+  def reset_password_view
+    render 'users/reset_password'
+  end
+
   def reset_password
-    new_password = @user.first_name + @user.last_name
-    change_password(password: new_password, password_confirmation: new_password)
+    login = params[:username]
+    new_password = random_password(10)
+    if User.where(:username => login).blank?
+      flash[:danger] = "Nie ma użytkownika z podanym loginem."
+      render 'users/reset_password'
+    else
+      @user = User.find_by_username(login)
+      email = @user.email
+      @user.validate_password = true
+      if @user.update(password: new_password, password_confirmation: new_password)
+        # send email with new password
+        UserMailer.reset_password_email(login, email, new_password).deliver_now
+        flash[:success] = "Nowe hasło zostało wysłane na: " + email.to_s
+        redirect_to root_path
+      else
+        flash[:danger] = "Błąd w zmianie hasła."
+        render 'users/reset_password'
+      end
+    end
   end
 
 private

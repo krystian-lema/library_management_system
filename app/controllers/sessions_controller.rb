@@ -12,11 +12,11 @@ class SessionsController < ApplicationController
     	# Save the user id inside the browser cookie. This is how we keep the user 
     	# logged in when they navigate around our website.
 			session[:user_id] = user.id
-      flash[:success] = "Login complete."
+      flash[:success] = "Zalogowano."
       redirect_to root_path
     else
     # If user's login doesn't work, send them back to the login form.
-      flash[:danger] = "Wrong login or password."
+      flash[:danger] = "Nieprawidłowy login lub hasło."
       redirect_to '/login'
     end
   end
