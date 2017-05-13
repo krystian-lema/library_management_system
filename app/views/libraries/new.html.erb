@@ -1,38 +1,42 @@
 <!-- app/views/users/new.html.erb -->
-
-<div class="col-md-4 col-md-offset-4">
-	<div class="panel panel-info">
-		<div class="panel-heading">Nowa biblioteka</div>
-		<div class="panel-body">
-
-		<%= form_for @library, url: '/libraries', :html => {:class => 'form-group'} do |f| %>
-
-		<% if @library.errors.any? %>
-			<ul>
+<div class="container">
+	<% if @library.errors.any? %>
+				<ul class="alert alert-danger alert-dismissable fade in">
+				<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
 			<% @library.errors.full_messages.each do |msg| %>
-				<li><%= msg %></li>
+				<%= msg %><br>
 			<% end %>
-			</ul>
-		<% end %>
+				</ul>
+			<% end %>
 
-		<p>
-			<%= f.label :name %> <br>
-			<%= f.text_field(:name, class: "form-control") %>
-		</p>
+	<div class="col-md-4 col-md-offset-4">
+		<div class="panel panel-info">
+			<div class="panel-heading">Nowa biblioteka</div>
+			<div class="panel-body">
 
-		<p>
-			<%= f.label :address %> <br>
-			<%= f.text_field(:address, class: "form-control") %>
-		</p>
+			<%= form_for @library, url: '/libraries', :html => {:class => 'form-group'} do |f| %>
 
-		<p>
-			<%= f.label :description %> <br>
-			<%= f.text_field(:description, class: "form-control") %>
-		</p>
+			
 
-		<%= f.submit "Utwórz bibliotekę", :class => "btn btn-primary" %> <br>
+			<p>
+				<%= f.label :name %> <br>
+				<%= f.text_field(:name, class: "form-control") %>
+			</p>
 
-		<% end %>
+			<p>
+				<%= f.label :address %> <br>
+				<%= f.text_field(:address, class: "form-control") %>
+			</p>
+
+			<p>
+				<%= f.label :description %> <br>
+				<%= f.text_field(:description, class: "form-control") %>
+			</p>
+
+			<%= f.submit "Utwórz bibliotekę", :class => "btn btn-primary" %> <br>
+
+			<% end %>
+			</div>
 		</div>
 	</div>
 </div>
