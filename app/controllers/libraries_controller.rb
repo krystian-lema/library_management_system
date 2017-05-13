@@ -11,8 +11,10 @@ class LibrariesController < ApplicationController
   def create
   	@library = Library.new(library_create_params)
   	if @library.save
+      flash[:success] = "Utworzono bibliotekę."
       redirect_to '/libraries'
   	else
+      flash[:danger] = "Błąd podczas tworzenia biblioteki!"
       render 'new'
   	end
   end
@@ -33,8 +35,10 @@ class LibrariesController < ApplicationController
 	  @library = Library.find(params[:id])
 	 
 	  if @library.update(library_create_params)
+      flash[:success] = "Zaktualizowano informacje o bibliotece."
 	    redirect_to @library
 	  else
+      flash[:success] = "Błąd podczas aktualizacji informacji o bibliotece."
 	    render 'edit'
 	  end
 	end

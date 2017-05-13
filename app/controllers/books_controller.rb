@@ -12,8 +12,10 @@ class BooksController < ApplicationController
   	@book = Book.new(book_create_params)
     @book.status = true
   	if @book.save
+      flash[:success] = "Dodano książkę."
       redirect_to '/books'
   	else
+      flash[:danger] = "Błąd podczas dodawania książki. "
       render 'new'
   	end
   end
@@ -21,28 +23,21 @@ class BooksController < ApplicationController
   def edit
   	@library = Library.find(params[:library_id])
   	@book = @library.book.find(params[:id])
-  	#@book = Book.find(params[:id])
   end
 
   def update
-  	 
-  	 #@library = Library.find(params[:library_id])
-  	 #@book = Book.find(params[:id])
-
   	 @book = Book.find(params[:id])
-
-	 
 	  if @book.update(book_create_params)
-	    #redirect_to library_book_path(params[:id])
+	    flash[:success] = "Zaktualizowano informacje o książce."
 	    redirect_to library_book_path(@book.library_id, @book.id)
 	  else
+      flash[:danger] = "Błąd podczas aktualizacji informacji o książce. "
 	    render 'edit'
 	  end
   end
 	def show
 		@library = Library.find(params[:library_id])
 		@book = @library.book.find(params[:id])
-
 		@borrows = @book.borrows
 
 	end
