@@ -6,7 +6,7 @@
     <p><strong>Akcje: </strong>
         <%= link_to 'Edytuj', edit_library_path, :class => 'btn btn-default' %>
         <%= link_to 'Dodaj książkę', books_new_path, :class => 'btn btn-default' %>
-        <%= link_to 'Usuń (nieaktywne)', "#", :class => 'btn btn-default' %>
+        <%= link_to 'Usuń', '/libraries/'+ @library.id.to_s + '/destroy_form', :class => 'btn btn-danger' %>
 
     </p>
 

@@ -43,8 +43,28 @@ class LibrariesController < ApplicationController
 	  end
 	end
 
-
+  def destroy_form
+    if Library.all.count > 1
+      render 'libraries/destroy_form'
+    else
+      flash[:danger] = "Nie można usunąć biblioteki, podczas gdy w systemie nie ma więcej bibliotek."
+      redirect_to libraries_path
+    end
+    
+  end
   def destroy
+    @books = Book.where(library_id: library_destroy_params[:id])
+    if @books.update_all(library_id: library_destroy_params[:new_id])
+      @library = Library.find(library_destroy_params[:id])
+      if @library.destroy
+        flash[:success] = "Usunięto bibliotekę. Książki zostały przeniesione do wskazanej biblioteki."
+      else
+        flash[:danger] = "Błąd podczas usuwania biblioteki. Ksiązki zostały przeniesione do wskazanej biblioteki"
+      end
+    else
+      flash[:danger] = "Błąd podczas przenoszenia książek. Biblioteka nie została usunięta."
+    end
+
   end
 
   private 
@@ -52,6 +72,10 @@ class LibrariesController < ApplicationController
   	def library_create_params
   		params.require(:library).permit(:name, :address, :description)
   	end
+
+    def library_destroy_params
+    params.require(:library).permit(:id, :new_id)
+    end
 
     def check_manage_permission
       if !is_admin && !is_librarian
