@@ -1,4 +1,9 @@
-<h1>Szczególy biblioteki</h1>
+<div class="row">
+  <div class="col-md-4">
+  <h1>Szczegóły biblioteki</h1>
+  </div>
+  
+</div>
 
     <p><strong>Nazwa: </strong><%= @library.name %></p>
     <p><strong>Adres: </strong><%= @library.address %></p>
@@ -6,16 +11,34 @@
     <p><strong>Akcje: </strong>
         <%= link_to 'Edytuj', edit_library_path, :class => 'btn btn-default' %>
         <%= link_to 'Dodaj książkę', books_new_path, :class => 'btn btn-default' %>
-        <%= link_to 'Usuń (nieaktywne)', "#", :class => 'btn btn-default' %>
+        <%= link_to 'Usuń', '/libraries/'+ @library.id.to_s + '/destroy_form', :class => 'btn btn-danger' %>
 
     </p>
 
-<h2>Księgozbiór biblioteki</h2>
-<table class="table">
+<div class="row">
+    <div class="col-md-4">
+    <h2>Księgozbiór biblioteki</h2>
+    </div>
+    <div class="col-md-offset-4 col-md-4">
+    <%= form_tag(library_path, :method => "get", id: "search-form", :class => "form-group search-form") do %>
+    <div class="input-group">
+      <%= text_field_tag :search, params[:search], :class => "form-control", placeholder: "Wpisz tytuł szukanej książki" %>
+        <span class="input-group-btn">
+        <%= submit_tag "Szukaj", :class => 'btn btn-primary' %>
+        </span>
+      <% end %>
+    </div>
+  </div>
+  <% if @library_books.present? %>
+    <table class="table">
 
     <%= render 'books/book_row_header' %>
  
     <% @library_books.each do |book| %>
     <%= render book %>
     <% end %>
-</table>
+    </table>
+
+  <% else %>
+    <h4 class="bg-info custom-info">Brak użytkowników.</h4>
+  <% end %>

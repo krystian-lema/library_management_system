@@ -1,32 +1,51 @@
 <!-- app/views/admins/users.html.erb -->
 
-<h1>Użytkownicy:</h1>
+<div class="row">
+  <div class="col-md-4">
+  <h1>Użytkownicy</h1>
+  </div>
+  <div class="col-md-offset-4 col-md-4">
+    <%= form_tag(librarian_users_path, :method => "get", id: "search-form", :class => "form-group search-form") do %>
+    <div class="input-group">
+      <%= text_field_tag :search, params[:search], :class => "form-control", placeholder: "Wpisz nazwisko studenta" %>
+        <span class="input-group-btn">
+        <%= submit_tag "Szukaj", :class => 'btn btn-primary' %>
+        </span>
+      <% end %>
+    </div>
+  </div>
+</div>
 <div class="table-responsive"> 
-  <table class="table table-striped">
+  <% if @users.present? %>
+    <table class="table table-striped">
 
-    <thead>
-      <tr>
-        <th>Nr indeksu</th>
-        <th>Imię</th>
-        <th>Nazwisko</th>
-        <th>Adres</th>
-        <th>Data ur.</th>
-        <th></th>
-      </tr>
-    </thead>
+      <thead>
+        <tr>
+          <th>Nr indeksu</th>
+          <th>Imię</th>
+          <th>Nazwisko</th>
+          <th>Adres</th>
+          <th>Data ur.</th>
+          <th></th>
+        </tr>
+      </thead>
 
-    <tbody>
-      <% @users.each do |user| %>
-      <tr>
-      	<td><%= user.student.id_card.number %></td>
-      	<td><%= user.first_name %></td>
-      	<td><%= user.last_name %></td>
-      	<td><%= user.address %></td>
-      	<td><%= user.birth_date %></td>
-      	<td><%= link_to "Wypożyczenia użytkownika", '/librarian/student_borrows/' + user.student.id.to_s, :class => 'btn btn-info' %></td>
-      </tr>
-    <% end %>
-    </tbody>
-    
-  </table>
+      <tbody>
+        <% @users.each do |user| %>
+        <tr>
+        	<td><%= user.student.id_card.number %></td>
+        	<td><%= user.first_name %></td>
+        	<td><%= user.last_name %></td>
+        	<td><%= user.address %></td>
+        	<td><%= user.birth_date %></td>
+        	<td><%= link_to "Wypożyczenia użytkownika", '/librarian/student_borrows/' + user.student.id.to_s, :class => 'btn btn-info' %></td>
+        </tr>
+      <% end %>
+      </tbody>
+      
+    </table>
+  <% else %>
+    <h4 class="bg-info custom-info">Brak użytkowników.</h4>
+  <% end %>
+
 </div>

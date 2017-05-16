@@ -44,7 +44,12 @@ class LibrariansController < ApplicationController
   end
 
   def view_all_students
-  	@users = User.all.where(:role => "student")
+  	
+  if params[:search]
+    @users = User.search(params[:search]).where(:role => "student").order("created_at DESC")
+  else
+    @users = User.where(:role => "student").all.order('created_at DESC')
+  end
   	render 'librarians/users'
   end
 

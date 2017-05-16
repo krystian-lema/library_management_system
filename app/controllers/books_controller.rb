@@ -2,7 +2,12 @@ class BooksController < ApplicationController
   before_action :authorize
   before_action :check_manage_permission, only: [:new, :edit, :update, :delete_book]
 	def index
-		@books = Book.all
+		@books = Book.where(:status => true).all
+    if params[:search]
+    @books = Book.search(params[:search]).order("created_at DESC")
+  else
+    @books = Book.where(:status => true).all.order('created_at DESC')
+  end
 	end
 
 	def new
@@ -13,7 +18,7 @@ class BooksController < ApplicationController
     @book.status = true
   	if @book.save
       flash[:success] = "Dodano książkę."
-      redirect_to '/books'
+      redirect_to '/libraries/' + @book.library_id.to_s
   	else
       flash[:danger] = "Błąd podczas dodawania książki. "
       render 'new'

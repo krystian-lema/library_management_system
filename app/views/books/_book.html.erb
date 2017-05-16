@@ -12,12 +12,15 @@
       Wypożyczona </br>
       <%= book.end_borrow_date %>
       <% else %>
-       Dostępna
+       
        <%= form_for book, url: student_add_borrow_path, method: :post do |f| %>
-
+       <% if current_user.role == "administrator" || current_user.role == "librarian" %>
+          Dostępna
+       <% end %>
           <%= f.hidden_field(:book_id, :value => book.id) %>
-
+        <% if current_user.role == "student" %>
         <%= f.submit "Wypożycz", :class => 'btn btn-default' %> <br>
+        <% end %>
 
         <% end %>
 

@@ -60,6 +60,7 @@ Rails.application.routes.draw do
   get 'borrows/' => 'borrows#index'
   get '/borrows/addBorrow/:id' => 'borrows#addBorrow'
   get '/libraries/:library_id/books/:book_id/confirmBorrow' => 'borrows#confirm_borrow'
+  get '/libraries/:library_id/destroy_form' => 'libraries#destroy_form'
   post '/student/add_borrow/' => 'students#add_borrow'
   
 

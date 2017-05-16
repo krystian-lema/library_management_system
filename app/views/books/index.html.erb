@@ -1,19 +1,24 @@
-<h1>Books</h1>
+<div class="row">
+  <div class="col-md-4">
+  <h1>Książki</h1>
+  </div>
+  <div class="col-md-offset-4 col-md-4">
+    <%= form_tag(books_path, :method => "get", id: "search-form", :class => "form-group search-form") do %>
+    <div class="input-group">
+      <%= text_field_tag :search, params[:search], :class => "form-control", placeholder: "Wpisz tytuł szukanej książki" %>
+        <span class="input-group-btn">
+        <%= submit_tag "Szukaj", :class => 'btn btn-primary' %>
+        </span>
+      <% end %>
+    </div>
+  </div>
+</div>
+<% if @books.present? %>
 <table class="table">
-  <tr>
-    <th>Title</th>
-    <th>Author</th>
-    <th>Edition</th>
-    <th>Publication date</th>
-    <th>ISBN</th>
-    <th>Signature</th>
-    <th>library</th>
-    <th>Status</th>
-    <th>Action</th>
-  </tr>
+<%= render 'books/book_row_header' %>
  
   <%= render @books %>
 </table>
-
-
-<br><%= link_to 'Add book', books_new_path %>
+<% else %>
+<h4 class="bg-info custom-info">Brak książek</h4>
+<% end %>
