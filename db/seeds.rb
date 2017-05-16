@@ -9,3 +9,5 @@ User.create(username: 'lemur013', password: 'lemurek11',  email: 'krystian.lema@
 	first_name: 'Krystian', last_name: 'Lema', address: '-', birth_date: 1995-03-23, role: 'administrator' )
 User.create(username: 'barmic', password: 'trollvbn',  email: 'barmic12@gmail.com', 
 	first_name: 'Bartek', last_name: 'Michalak', address: '-', birth_date: 1995-02-15, role: 'administrator' )
+User.create(username: 'student', password: 'trollvbn',  email: 'barmic12@gmail.com', 
+	first_name: 'student', last_name: 'pwr', address: '-', birth_date: 1995-02-15, role: 'student' )

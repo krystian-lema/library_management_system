@@ -24,7 +24,13 @@ class LibrariesController < ApplicationController
 
     @books = @library.book(:conditions => { :status => false })
 
-    @library_books = Book.where(library_id: params[:id], status: true)
+    #@library_books = Book.where(library_id: params[:id], status: true)
+
+  if params[:search]
+    @library_books = Book.search(params[:search]).where(library_id: params[:id], :status => true).order("created_at DESC")
+  else
+    @library_books = Book.where(library_id: params[:id], :status => true).all.order('created_at DESC')
+  end
   end
 
   def edit

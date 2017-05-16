@@ -3,6 +3,11 @@ class BooksController < ApplicationController
   before_action :check_manage_permission, only: [:new, :edit, :update, :delete_book]
 	def index
 		@books = Book.where(:status => true).all
+    if params[:search]
+    @books = Book.search(params[:search]).order("created_at DESC")
+  else
+    @books = Book.where(:status => true).all.order('created_at DESC')
+  end
 	end
 
 	def new

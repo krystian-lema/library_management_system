@@ -18,4 +18,9 @@ class Book < ApplicationRecord
 	def end_borrow_date
 		return borrow.start_date
 	end
+
+  def self.search(search)
+    where("title LIKE ?", "%#{search}%")
+    #where("author LIKE ?", "%#{search}%")
+  end
 end
