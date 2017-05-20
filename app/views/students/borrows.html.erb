@@ -1,6 +1,6 @@
 <!-- app/views/students/borrows.html.erb -->
 
-<h1>Wypożyczenia:</h1>
+<h1>Aktualne wypożyczenia:</h1>
 <div class="table-responsive"> 
   <table class="table table-striped">
 
@@ -38,3 +38,39 @@
     
   </table>
 </div>
+
+<h1>Archiwalne wypożyczenia:</h1>
+<div class="table-responsive"> 
+  <table class="table table-striped">
+
+    <thead>
+      <tr>
+        <th>Nr wypożyczenia</th>
+        <th>Książka</th>
+        <th>Biblioteka</th>
+        <th>Początek wypożyczenia</th>
+        <th>Koniec wypożyczenia</th>
+        <!-- <th>Status</th> -->
+        <th></th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <% @archive_borrows.each do |borrow| %>
+      <tr>
+        <td><%= borrow.id %></td>
+        <td><%= borrow.book.title %></td>
+        <td><%= borrow.book.library.name %></td>
+        <td><%= borrow.start_date %></td>
+        <td><%= borrow.end_date %></td>
+        <!-- <td>Oddana</td> -->
+      </tr>
+      
+    <% end %>
+    </tbody>
+    
+  </table>
+</div>
+
+
+

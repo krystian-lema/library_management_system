@@ -12,7 +12,8 @@ pl:
               blank: "Hasło jest wymagane."
               confirmation: "Potwierdzenie hasła jest wymagane."
             password_confirmation:
-              blank: "Potwierdzenie hasła jest wymagane."
+              blank: "Potwierdzenie hasła nie może być puste."
+              confirmation: "Hasła różnią się od siebie."
             username:
               blank: "Login jest wymagany."
               uniqueness: "Taki użytkownik już istnieje."
