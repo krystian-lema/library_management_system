@@ -29,7 +29,7 @@
       <td><%= lib.description %></td>
       <td>
         <%= link_to 'Przeglądaj zasoby', lib, :class => 'btn btn-default' %>
-        <% if current_user.role == "administrator" || current_user.role == "librarian" %>
+        <% if is_admin || is_librarian %>
           <%= link_to 'Edytuj', edit_library_path(lib), :class => 'btn btn-default' %>
           <%= link_to 'Usuń', '/libraries/'+ lib.id.to_s + '/destroy_form', :class => 'btn btn-danger' %>
         <% end %>
@@ -37,6 +37,6 @@
     </tr>
   <% end %>
 </table>
-  <% if current_user.role == "administrator" || current_user.role == "librarian" %>
+  <% if is_admin || is_librarian %>
   <%= link_to 'Dodaj bibliotekę', new_library_path, :class => 'btn btn-default' %>
 <% end %>

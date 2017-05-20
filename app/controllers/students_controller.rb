@@ -5,7 +5,8 @@ class StudentsController < ApplicationController
   end
 
   def borrows
-  	@borrows = Borrow.all.where(:student => current_user.student)
+    @borrows = Borrow.all.where(:student => current_user.student)
+    @archive_borrows = BorrowArchive.all.where(:student => current_user.student)
   end
 
   def add_borrow

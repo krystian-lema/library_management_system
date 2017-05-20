@@ -7,7 +7,7 @@
     <th>Sygnatura</th>
     <th>Biblioteka</th>
     <th>Zarządzaj</th>
-    <% if current_user.role == "administrator" || current_user.role == "librarian" %>
+    <% if is_admin || is_librarian %>
     <th>Akcje</th>
     <% end %>
   </tr>

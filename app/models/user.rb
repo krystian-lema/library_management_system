@@ -17,7 +17,7 @@ class User < ApplicationRecord
 	validates :id_card_number, presence: true, on: :create, if: :create_student?
 
 	# on change password
-	validates :password, presence: true, confirmation: true,
+	validates :password, presence: true,
 		length: {minimum: 8, message: "Hasło musi mieć co najmniej 8 znaków."}, on: :update, if: :validate_password?
 	validates :password_confirmation, presence: true, on: :update, if: :validate_password?
 

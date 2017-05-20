@@ -8,12 +8,14 @@
     <p><strong>Nazwa: </strong><%= @library.name %></p>
     <p><strong>Adres: </strong><%= @library.address %></p>
     <p><strong>Opis: </strong><%= @library.description %></p>
+    <% if is_admin || is_librarian %>
     <p><strong>Akcje: </strong>
         <%= link_to 'Edytuj', edit_library_path, :class => 'btn btn-default' %>
         <%= link_to 'Dodaj książkę', books_new_path, :class => 'btn btn-default' %>
         <%= link_to 'Usuń', '/libraries/'+ @library.id.to_s + '/destroy_form', :class => 'btn btn-danger' %>
 
     </p>
+    <% end %>
 
 <div class="row">
     <div class="col-md-4">
@@ -40,5 +42,5 @@
     </table>
 
   <% else %>
-    <h4 class="bg-info custom-info">Brak użytkowników.</h4>
+    <h4 class="bg-info custom-info">Brak książek.</h4>
   <% end %>
