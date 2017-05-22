@@ -1,0 +1,501 @@
+email,first_name,last_name,address,birth_date,role,id_card
+jacek_stępniak@email.com,Jacek,Stępniak,"ul. Widok 39/17, Prochowice",1994-01-02,student,220100
+lilianna_majcherczyk@email.com,Lilianna,Majcherczyk,"ul. Gruszkowa 49/10, Kąty Wrocławskie",1992-06-09,student,220101
+andrzej_chudzicki@email.com,Andrzej,Chudzicki,"ul. Generała Wiktora Thomme 10/10, Wrocław",1993-07-03,student,220102
+maciej_kamieniecki@email.com,Maciej,Kamieniecki,"ul. Kwiatowa 8/4, Wrocław",1993-07-24,student,220103
+teresa_koczorowski@email.com,Teresa,Koczorowski,"ul. Gruszkowa 51/1, Prochowice",1993-12-27,student,220104
+marcjanna_matysiak@email.com,Marcjanna,Matysiak,"ul. Widok 10/9, Wrocław",1990-08-28,student,220105
+bożena_styczeń@email.com,Bożena,Styczeń,"ul. Rudników 29/10, Wrocław",1994-08-14,student,220106
+wojciech_niziołek@email.com,Wojciech,Niziołek,"ul. Truskawkowa 25/9, Bystrzyca Kłodzka",1990-03-14,student,220107
+maria_kwietniewski@email.com,Maria,Kwietniewski,"ul. Gruszkowa 42/10, Świdnica",1992-12-17,student,220108
+marcin_sankowski@email.com,Marcin,Sankowski,"ul. Generała Wiktora Thomme 53/4, Świdnica",1994-01-14,student,220109
+dorota_kuliś@email.com,Dorota,Kuliś,"ul. Śliwkowa 19/1, Wrocław",1995-08-01,student,220110
+piotr_starzec@email.com,Piotr,Starzec,"ul. Wąska 52/8, Lwówek Śląski",1992-09-04,student,220111
+krystyna_bułka@email.com,Krystyna,Bułka,"ul. Szydłowska 15/17, Milicz",1991-07-15,student,220112
+natan_gierszewski@email.com,Natan,Gierszewski,"ul. Szydłowska 9/1, Wrocław",1994-01-22,student,220113
+antoni_górka@email.com,Antoni,Górka,"ul. Widok 20/8, Lubomierz",1993-01-14,student,220114
+franciszek_wróbel@email.com,Franciszek,Wróbel,"ul. Generała Tadeusza Kutrzeby 26/13, Wrocław",1992-07-03,student,220115
+antonina_biel@email.com,Antonina,Biel,"ul. Wodzisławska 10/19, Wrocław",1995-08-10,student,220116
+lucyna_leśniewicz@email.com,Lucyna,Leśniewicz,"ul. Letnia 60/5, Wrocław",1994-08-13,student,220117
+zuzanna_rudzki@email.com,Zuzanna,Rudzki,"ul. Wrocławska 35/13, Wrocław",1993-08-15,student,220118
+marika_krakowiak@email.com,Marika,Krakowiak,"ul. Gruszkowa 52/11, Gryfów Śląski",1991-11-04,student,220119
+aleksander_dominiczak@email.com,Aleksander,Dominiczak,"ul. Czereśniowa 56/2, Wrocław",1991-11-03,student,220120
+katarzyna_zaworski@email.com,Katarzyna,Zaworski,"ul. Rudników 44/20, Milicz",1993-08-07,student,220121
+joanna_miłek@email.com,Joanna,Miłek,"ul. Letnia 43/13, Wrocław",1990-06-04,student,220122
+zuzanna_langa@email.com,Zuzanna,Langa,"ul. Śliwkowa 17/14, Wrocław",1995-10-26,student,220123
+ariana_glinka@email.com,Ariana,Glinka,"ul. Wodzisławska 28/15, Polkowice",1990-02-25,student,220124
+anna_mosakowski@email.com,Anna,Mosakowski,"ul. Rutkowskiego 6/7, Wałbrzych",1990-07-16,student,220125
+zofia_pabich@email.com,Zofia,Pabich,"ul. Kwiatowa 59/13, Wrocław",1993-01-25,student,220126
+lucyna_barylski@email.com,Lucyna,Barylski,"ul. Generała Wiktora Thomme 54/18, Wrocław",1992-10-26,student,220127
+krystyna_królicki@email.com,Krystyna,Królicki,"ul. Widok 34/13, Wrocław",1990-04-25,student,220128
+petronella_cieszyński@email.com,Petronella,Cieszyński,"ul. Kwiatowa 49/9, Wrocław",1993-01-13,student,220129
+piotr_kobiela@email.com,Piotr,Kobiela,"ul. Czereśniowa 32/4, Wałbrzych",1995-05-01,student,220130
+teresa_jasek@email.com,Teresa,Jasek,"ul. Kwiatowa 7/7, Wrocław",1995-04-15,student,220131
+bożena_ząbek@email.com,Bożena,Ząbek,"ul. Wąska 34/6, Gryfów Śląski",1993-07-20,student,220132
+wincenty_węgrzynowski@email.com,Wincenty,Węgrzynowski,"ul. Gronowa 27/9, Wrocław",1995-04-25,student,220133
+stanisław_słaby@email.com,Stanisław,Słaby,"ul. Gruszkowa 58/4, Strzegom",1991-12-28,student,220134
+nikola_smoczyński@email.com,Nikola,Smoczyński,"ul. Wrocławska 27/14, Wrocław",1993-12-19,student,220135
+zbigniew_główka@email.com,Zbigniew,Główka,"ul. Truskawkowa 59/12, Trzebnica",1991-04-18,student,220136
+jadwiga_kokoszka@email.com,Jadwiga,Kokoszka,"ul. Truskawkowa 52/5, Polkowice",1992-02-07,student,220137
+pamela_dratwa@email.com,Pamela,Dratwa,"ul. Szydłowska 25/2, Prochowice",1994-01-06,student,220138
+joanna_kaczkowski@email.com,Joanna,Kaczkowski,"ul. Generała Wiktora Thomme 26/3, Lwówek Śląski",1993-04-03,student,220139
+hanna_iwaszkiewicz@email.com,Hanna,Iwaszkiewicz,"ul. Słowicza 48/8, Wrocław",1995-02-15,student,220140
+jozue_sakowicz@email.com,Jozue,Sakowicz,"ul. Kwiatowa 47/20, Wrocław",1993-12-21,student,220141
+wiliam_krasicki@email.com,Wiliam,Krasicki,"ul. Generała Wiktora Thomme 29/17, Wrocław",1992-07-26,student,220142
+dominika_richter@email.com,Dominika,Richter,"ul. Gruszkowa 56/15, Wrocław",1993-05-06,student,220143
+anna_pawelec@email.com,Anna,Pawelec,"ul. Rutkowskiego 44/19, Wrocław",1990-07-04,student,220144
+bożena_kulikowski@email.com,Bożena,Kulikowski,"ul. Kubusia Puchatka 34/3, Prochowice",1993-12-28,student,220145
+wiliam_wojtowicz@email.com,Wiliam,Wojtowicz,"ul. Szydłowska 52/10, Wrocław",1994-01-19,student,220146
+maria_stokowski@email.com,Maria,Stokowski,"ul. Generała Tadeusza Kutrzeby 12/18, Brzeg Dolny",1993-02-28,student,220147
+arkadiusz_drężek@email.com,Arkadiusz,Drężek,"ul. Kwiatowa 11/17, Trzebnica",1991-02-01,student,220148
+dominika_łyczko@email.com,Dominika,Łyczko,"ul. Wrocławska 43/5, Bystrzyca Kłodzka",1991-11-18,student,220149
+kamila_golański@email.com,Kamila,Golański,"ul. Wrocławska 51/7, Świdnica",1992-07-07,student,220150
+dorota_dolatowski@email.com,Dorota,Dolatowski,"ul. Porzeczkowa 17/15, Wrocław",1994-08-20,student,220151
+marzena_kotarba@email.com,Marzena,Kotarba,"ul. Generała Wiktora Thomme 48/3, Wrocław",1992-01-23,student,220152
+jan_kiraga@email.com,Jan,Kiraga,"ul. Porzeczkowa 32/12, Wrocław",1991-03-12,student,220153
+anna_bogusławski@email.com,Anna,Bogusławski,"ul. Wrocławska 4/17, Wrocław",1995-08-08,student,220154
+paweł_klimczuk@email.com,Paweł,Klimczuk,"ul. Kwiatowa 10/14, Wrocław",1995-05-03,student,220155
+marcjanna_zaniewski@email.com,Marcjanna,Zaniewski,"ul. Generała Wiktora Thomme 59/9, Bystrzyca Kłodzka",1992-10-07,student,220156
+stanisław_gdaniec@email.com,Stanisław,Gdaniec,"ul. Porzeczkowa 44/10, Wrocław",1995-06-23,student,220157
+aleksander_ciok@email.com,Aleksander,Ciok,"ul. Truskawkowa 18/5, Wrocław",1991-10-02,student,220158
+dominika_kania@email.com,Dominika,Kania,"ul. Szydłowska 18/20, Wrocław",1990-03-21,student,220159
+krzysztof_wichrowski@email.com,Krzysztof,Wichrowski,"ul. Tylna 4/15, Polkowice",1990-11-10,student,220160
+arkadiusz_ślęzak@email.com,Arkadiusz,Ślęzak,"ul. Czereśniowa 59/5, Kąty Wrocławskie",1991-10-25,student,220161
+stanisław_szymczuk@email.com,Stanisław,Szymczuk,"ul. Generała Tadeusza Kutrzeby 30/14, Strzegom",1991-04-12,student,220162
+julia_jeleń@email.com,Julia,Jeleń,"ul. Słowicza 35/17, Stronie Śląskie",1990-07-12,student,220163
+gracjan_ignasiak@email.com,Gracjan,Ignasiak,"ul. Śliwkowa 36/17, Wrocław",1994-10-22,student,220164
+arleta_szypuła@email.com,Arleta,Szypuła,"ul. Kubusia Puchatka 11/6, Trzebnica",1993-03-19,student,220165
+krystyna_kida@email.com,Krystyna,Kida,"ul. Śliwkowa 34/1, Gryfów Śląski",1995-11-15,student,220166
+marcin_pajor@email.com,Marcin,Pajor,"ul. Generała Tadeusza Kutrzeby 48/2, Wrocław",1992-10-28,student,220167
+irena_rymarczyk@email.com,Irena,Rymarczyk,"ul. Generała Tadeusza Kutrzeby 49/1, Wałbrzych",1994-11-18,student,220168
+wioleta_napierała@email.com,Wioleta,Napierała,"ul. Czereśniowa 14/16, Wrocław",1993-03-06,student,220169
+teresa_kamieński@email.com,Teresa,Kamieński,"ul. Śliwkowa 36/19, Wrocław",1991-11-27,student,220170
+pamela_święcicki@email.com,Pamela,Święcicki,"ul. Kwiatowa 43/18, Wrocław",1994-09-21,student,220171
+szymon_waś@email.com,Szymon,Waś,"ul. Truskawkowa 48/6, Wrocław",1994-06-01,student,220172
+jagoda_maciejowski@email.com,Jagoda,Maciejowski,"ul. Rutkowskiego 10/15, Trzebnica",1990-02-14,student,220173
+marcin_suszyński@email.com,Marcin,Suszyński,"ul. Letnia 14/7, Wrocław",1992-03-06,student,220174
+szymon_pęcak@email.com,Szymon,Pęcak,"ul. Truskawkowa 29/19, Wrocław",1993-04-28,student,220175
+antoni_osak@email.com,Antoni,Osak,"ul. Wrocławska 25/12, Strzegom",1990-09-11,student,220176
+aleksander_krzyżowski@email.com,Aleksander,Krzyżowski,"ul. Czereśniowa 56/6, Wrocław",1990-06-12,student,220177
+aneta_jaguś@email.com,Aneta,Jaguś,"ul. Wrocławska 18/15, Gryfów Śląski",1990-03-10,student,220178
+marcin_rabenda@email.com,Marcin,Rabenda,"ul. Tylna 55/6, Wrocław",1994-09-09,student,220179
+petronella_szostek@email.com,Petronella,Szostek,"ul. Śliwkowa 60/15, Wrocław",1991-09-05,student,220180
+joanna_bucki@email.com,Joanna,Bucki,"ul. Kwiatowa 11/15, Trzebnica",1992-07-19,student,220181
+krystyna_antonik@email.com,Krystyna,Antonik,"ul. Gronowa 12/4, Milicz",1993-07-23,student,220182
+józef_kusyk@email.com,Józef,Kusyk,"ul. Kubusia Puchatka 49/11, Wrocław",1991-04-23,student,220183
+lucyna_gadomski@email.com,Lucyna,Gadomski,"ul. Generała Wiktora Thomme 5/17, Wrocław",1990-09-15,student,220184
+piotr_paszkowski@email.com,Piotr,Paszkowski,"ul. Widok 1/20, Wrocław",1994-09-04,student,220185
+anna_czyżowski@email.com,Anna,Czyżowski,"ul. Truskawkowa 24/18, Wrocław",1995-04-24,student,220186
+magdalena_gil@email.com,Magdalena,Gil,"ul. Gronowa 6/15, Wrocław",1995-07-09,student,220187
+albin_natkaniec@email.com,Albin,Natkaniec,"ul. Letnia 10/1, Wrocław",1992-12-05,student,220188
+hanna_wąsowski@email.com,Hanna,Wąsowski,"ul. Porzeczkowa 53/14, Wrocław",1992-08-15,student,220189
+jagoda_szolc@email.com,Jagoda,Szolc,"ul. Rutkowskiego 51/6, Brzeg Dolny",1990-06-26,student,220190
+sylwia_siemieniuk@email.com,Sylwia,Siemieniuk,"ul. Wąska 49/12, Wrocław",1991-09-11,student,220191
+jadwiga_kalicki@email.com,Jadwiga,Kalicki,"ul. Truskawkowa 13/6, Wrocław",1992-01-01,student,220192
+arkadiusz_dyl@email.com,Arkadiusz,Dyl,"ul. Gronowa 52/17, Wrocław",1995-12-06,student,220193
+jadwiga_simiński@email.com,Jadwiga,Simiński,"ul. Gronowa 47/12, Lwówek Śląski",1995-12-19,student,220194
+maksymilian_rudowski@email.com,Maksymilian,Rudowski,"ul. Porzeczkowa 58/18, Lądek-Zdrój",1991-08-19,student,220195
+julia_świtoń@email.com,Julia,Świtoń,"ul. Śliwkowa 24/19, Wrocław",1992-12-10,student,220196
+nikola_sobociński@email.com,Nikola,Sobociński,"ul. Rudników 32/18, Wrocław",1994-03-17,student,220197
+bogumiła_kubiczek@email.com,Bogumiła,Kubiczek,"ul. Szydłowska 45/5, Kąty Wrocławskie",1992-04-21,student,220198
+petronella_bauer@email.com,Petronella,Bauer,"ul. Generała Wiktora Thomme 60/15, Wrocław",1993-09-18,student,220199
+maksymilian_szcześniak@email.com,Maksymilian,Szcześniak,"ul. Widok 44/5, Wrocław",1994-08-02,student,220200
+krzysztof_orzeł@email.com,Krzysztof,Orzeł,"ul. Rutkowskiego 23/3, Wrocław",1990-09-15,student,220201
+hanna_zoń@email.com,Hanna,Zoń,"ul. Śliwkowa 57/15, Wrocław",1991-09-28,student,220202
+bożena_łucki@email.com,Bożena,Łucki,"ul. Rutkowskiego 20/3, Brzeg Dolny",1993-05-12,student,220203
+martyna_zdybel@email.com,Martyna,Zdybel,"ul. Wrocławska 27/9, Milicz",1992-04-14,student,220204
+dominika_cichowski@email.com,Dominika,Cichowski,"ul. Kubusia Puchatka 36/14, Kąty Wrocławskie",1993-12-23,student,220205
+stanisław_kapusta@email.com,Stanisław,Kapusta,"ul. Kwiatowa 46/12, Stronie Śląskie",1993-01-27,student,220206
+aleksander_wojas@email.com,Aleksander,Wojas,"ul. Rutkowskiego 14/6, Wrocław",1994-07-04,student,220207
+gracjan_wawrzyniak@email.com,Gracjan,Wawrzyniak,"ul. Widok 36/9, Wrocław",1993-04-09,student,220208
+jacek_patyk@email.com,Jacek,Patyk,"ul. Rudników 40/1, Wrocław",1992-10-08,student,220209
+wojciech_kubiak@email.com,Wojciech,Kubiak,"ul. Słowicza 40/8, Polkowice",1993-08-10,student,220210
+albin_kucza@email.com,Albin,Kucza,"ul. Kubusia Puchatka 14/12, Wrocław",1995-11-09,student,220211
+marcjanna_szreder@email.com,Marcjanna,Szreder,"ul. Widok 29/13, Stronie Śląskie",1992-07-22,student,220212
+szymon_struzik@email.com,Szymon,Struzik,"ul. Generała Tadeusza Kutrzeby 4/8, Polkowice",1994-01-20,student,220213
+zofia_marciszewski@email.com,Zofia,Marciszewski,"ul. Letnia 4/3, Brzeg Dolny",1992-05-14,student,220214
+mirella_majerski@email.com,Mirella,Majerski,"ul. Porzeczkowa 10/3, Milicz",1993-03-21,student,220215
+krystyna_więcławski@email.com,Krystyna,Więcławski,"ul. Czereśniowa 11/7, Wrocław",1995-06-17,student,220216
+dorota_łukaszek@email.com,Dorota,Łukaszek,"ul. Kubusia Puchatka 38/8, Wrocław",1990-10-10,student,220217
+joanna_wołowski@email.com,Joanna,Wołowski,"ul. Śliwkowa 26/15, Wrocław",1991-10-27,student,220218
+pamela_pikulski@email.com,Pamela,Pikulski,"ul. Szydłowska 53/12, Prochowice",1991-08-21,student,220219
+krzysztof_korneluk@email.com,Krzysztof,Korneluk,"ul. Gruszkowa 8/12, Bystrzyca Kłodzka",1991-06-24,student,220220
+arkadiusz_pakulski@email.com,Arkadiusz,Pakulski,"ul. Rutkowskiego 2/1, Brzeg Dolny",1995-07-27,student,220221
+maksymilian_andrzejak@email.com,Maksymilian,Andrzejak,"ul. Letnia 27/13, Wrocław",1994-08-23,student,220222
+teresa_dudka@email.com,Teresa,Dudka,"ul. Wrocławska 21/9, Kąty Wrocławskie",1992-06-20,student,220223
+marika_bala@email.com,Marika,Bala,"ul. Gronowa 15/13, Bystrzyca Kłodzka",1991-11-03,student,220224
+wojciech_sobiech@email.com,Wojciech,Sobiech,"ul. Generała Tadeusza Kutrzeby 45/19, Wałbrzych",1992-12-09,student,220225
+lilianna_lazar@email.com,Lilianna,Lazar,"ul. Wrocławska 7/18, Wrocław",1993-06-23,student,220226
+teresa_sternik@email.com,Teresa,Sternik,"ul. Wrocławska 27/5, Wrocław",1995-01-14,student,220227
+wiliam_drelich@email.com,Wiliam,Drelich,"ul. Rutkowskiego 25/14, Gryfów Śląski",1990-03-18,student,220228
+krystyna_iskra@email.com,Krystyna,Iskra,"ul. Widok 42/14, Lwówek Śląski",1992-11-08,student,220229
+jacek_suder@email.com,Jacek,Suder,"ul. Śliwkowa 52/7, Polkowice",1992-06-06,student,220230
+wincenty_zamojski@email.com,Wincenty,Zamojski,"ul. Tylna 34/5, Stronie Śląskie",1992-05-17,student,220231
+lucyna_możdżeń@email.com,Lucyna,Możdżeń,"ul. Wrocławska 54/20, Bystrzyca Kłodzka",1992-06-25,student,220232
+lucyna_deka@email.com,Lucyna,Deka,"ul. Czereśniowa 52/6, Trzebnica",1992-04-23,student,220233
+antonina_piekarczyk@email.com,Antonina,Piekarczyk,"ul. Letnia 1/15, Lądek-Zdrój",1991-02-19,student,220234
+odetta_kamecki@email.com,Odetta,Kamecki,"ul. Generała Tadeusza Kutrzeby 30/2, Polkowice",1992-12-02,student,220235
+andrzej_chabowski@email.com,Andrzej,Chabowski,"ul. Generała Wiktora Thomme 10/7, Brzeg Dolny",1993-03-01,student,220236
+teresa_bargieł@email.com,Teresa,Bargieł,"ul. Szydłowska 13/6, Bystrzyca Kłodzka",1990-10-02,student,220237
+jacek_buczak@email.com,Jacek,Buczak,"ul. Tylna 1/7, Lubomierz",1990-08-08,student,220238
+petronella_szałkowski@email.com,Petronella,Szałkowski,"ul. Gruszkowa 30/10, Wrocław",1991-10-11,student,220239
+petronella_kobylański@email.com,Petronella,Kobylański,"ul. Generała Wiktora Thomme 22/19, Polkowice",1993-04-25,student,220240
+marika_matuszak@email.com,Marika,Matuszak,"ul. Tylna 35/12, Trzebnica",1995-03-23,student,220241
+bożena_talarczyk@email.com,Bożena,Talarczyk,"ul. Gronowa 17/13, Trzebnica",1994-03-09,student,220242
+anna_grochocki@email.com,Anna,Grochocki,"ul. Kwiatowa 16/7, Brzeg Dolny",1991-09-24,student,220243
+andrzej_kachel@email.com,Andrzej,Kachel,"ul. Wąska 9/3, Milicz",1990-12-08,student,220244
+albin_makuch@email.com,Albin,Makuch,"ul. Wrocławska 24/9, Wałbrzych",1995-06-19,student,220245
+stanisław_kądziela@email.com,Stanisław,Kądziela,"ul. Rudników 35/15, Gryfów Śląski",1993-05-08,student,220246
+jan_bakalarz@email.com,Jan,Bakalarz,"ul. Generała Tadeusza Kutrzeby 4/5, Brzeg Dolny",1992-02-16,student,220247
+maria_olewiński@email.com,Maria,Olewiński,"ul. Widok 56/3, Stronie Śląskie",1991-09-15,student,220248
+franciszek_stepaniuk@email.com,Franciszek,Stepaniuk,"ul. Generała Wiktora Thomme 39/13, Lwówek Śląski",1990-06-02,student,220249
+marcin_kobus@email.com,Marcin,Kobus,"ul. Szydłowska 11/11, Wrocław",1995-10-19,student,220250
+lilianna_woźnicki@email.com,Lilianna,Woźnicki,"ul. Generała Tadeusza Kutrzeby 14/8, Wrocław",1990-07-10,student,220251
+nikola_żyłka@email.com,Nikola,Żyłka,"ul. Śliwkowa 42/15, Wrocław",1995-08-27,student,220252
+gracjan_latocha@email.com,Gracjan,Latocha,"ul. Rudników 41/10, Gryfów Śląski",1992-10-01,student,220253
+sylwia_sajdak@email.com,Sylwia,Sajdak,"ul. Słowicza 22/7, Stronie Śląskie",1991-11-08,student,220254
+józef_smuga@email.com,Józef,Smuga,"ul. Gronowa 10/1, Wrocław",1992-02-23,student,220255
+nikola_szurgot@email.com,Nikola,Szurgot,"ul. Rudników 9/9, Wrocław",1995-01-20,student,220256
+lucyna_janda@email.com,Lucyna,Janda,"ul. Truskawkowa 34/1, Wrocław",1991-02-20,student,220257
+maksymilian_rykowski@email.com,Maksymilian,Rykowski,"ul. Gruszkowa 51/2, Wrocław",1990-06-16,student,220258
+helena_gwóźdź@email.com,Helena,Gwóźdź,"ul. Tylna 51/18, Wrocław",1991-04-21,student,220259
+paweł_zarzecki@email.com,Paweł,Zarzecki,"ul. Porzeczkowa 52/6, Stronie Śląskie",1991-10-22,student,220260
+katarzyna_targoński@email.com,Katarzyna,Targoński,"ul. Szydłowska 45/4, Milicz",1994-02-04,student,220261
+stanisław_kondracki@email.com,Stanisław,Kondracki,"ul. Kubusia Puchatka 20/9, Kąty Wrocławskie",1993-09-11,student,220262
+lucyna_koncewicz@email.com,Lucyna,Koncewicz,"ul. Rudników 16/3, Świdnica",1993-10-25,student,220263
+bernadetta_frączkowski@email.com,Bernadetta,Frączkowski,"ul. Porzeczkowa 56/14, Milicz",1990-07-20,student,220264
+lilianna_płóciennik@email.com,Lilianna,Płóciennik,"ul. Gronowa 14/14, Trzebnica",1993-12-15,student,220265
+adrianna_słowik@email.com,Adrianna,Słowik,"ul. Truskawkowa 36/14, Kąty Wrocławskie",1990-01-11,student,220266
+maksymilian_wojtecki@email.com,Maksymilian,Wojtecki,"ul. Szydłowska 57/6, Wrocław",1993-06-04,student,220267
+zofia_troszczyński@email.com,Zofia,Troszczyński,"ul. Kubusia Puchatka 24/15, Świdnica",1995-12-08,student,220268
+helena_rozbicki@email.com,Helena,Rozbicki,"ul. Gronowa 39/14, Wrocław",1994-05-18,student,220269
+andrzej_figarski@email.com,Andrzej,Figarski,"ul. Widok 25/14, Wrocław",1994-12-02,student,220270
+wioleta_baliński@email.com,Wioleta,Baliński,"ul. Kwiatowa 25/16, Trzebnica",1995-06-21,student,220271
+izabela_dawidowicz@email.com,Izabela,Dawidowicz,"ul. Tylna 38/20, Wrocław",1991-02-09,student,220272
+antonina_rakowski@email.com,Antonina,Rakowski,"ul. Generała Tadeusza Kutrzeby 15/7, Wrocław",1995-03-28,student,220273
+natan_pilarczyk@email.com,Natan,Pilarczyk,"ul. Rutkowskiego 41/2, Wrocław",1992-12-25,student,220274
+zbigniew_pomykała@email.com,Zbigniew,Pomykała,"ul. Wodzisławska 43/2, Bystrzyca Kłodzka",1994-04-01,student,220275
+leon_otto@email.com,Leon,Otto,"ul. Porzeczkowa 46/5, Wrocław",1993-12-20,student,220276
+antonina_czerniak@email.com,Antonina,Czerniak,"ul. Letnia 22/11, Milicz",1995-07-28,student,220277
+natan_wojdak@email.com,Natan,Wojdak,"ul. Rutkowskiego 38/12, Wrocław",1994-01-16,student,220278
+adrianna_frej@email.com,Adrianna,Frej,"ul. Kwiatowa 30/2, Trzebnica",1993-08-02,student,220279
+ariana_hinz@email.com,Ariana,Hinz,"ul. Porzeczkowa 57/12, Prochowice",1994-02-09,student,220280
+marcjanna_obara@email.com,Marcjanna,Obara,"ul. Rudników 21/3, Wrocław",1995-10-17,student,220281
+helena_kędzia@email.com,Helena,Kędzia,"ul. Kubusia Puchatka 11/18, Milicz",1991-05-18,student,220282
+zofia_sierzputowski@email.com,Zofia,Sierzputowski,"ul. Rudników 51/11, Wałbrzych",1995-06-16,student,220283
+odetta_ogrodowczyk@email.com,Odetta,Ogrodowczyk,"ul. Wodzisławska 17/1, Stronie Śląskie",1995-06-08,student,220284
+marcjanna_kłusek@email.com,Marcjanna,Kłusek,"ul. Śliwkowa 7/19, Wrocław",1992-08-21,student,220285
+szymon_dynowski@email.com,Szymon,Dynowski,"ul. Gronowa 43/17, Prochowice",1990-07-11,student,220286
+nikola_spałek@email.com,Nikola,Spałek,"ul. Kubusia Puchatka 42/6, Wrocław",1992-06-06,student,220287
+natan_lachowicz@email.com,Natan,Lachowicz,"ul. Rutkowskiego 4/20, Brzeg Dolny",1990-10-19,student,220288
+jacek_halicki@email.com,Jacek,Halicki,"ul. Słowicza 55/17, Kąty Wrocławskie",1990-08-18,student,220289
+marzena_łebek@email.com,Marzena,Łebek,"ul. Rutkowskiego 30/15, Milicz",1994-06-13,student,220290
+katarzyna_wilkowski@email.com,Katarzyna,Wilkowski,"ul. Generała Wiktora Thomme 24/5, Bystrzyca Kłodzka",1993-02-04,student,220291
+aneta_nawrocki@email.com,Aneta,Nawrocki,"ul. Truskawkowa 3/16, Wrocław",1991-01-21,student,220292
+hanna_sznajder@email.com,Hanna,Sznajder,"ul. Słowicza 57/2, Wrocław",1994-06-16,student,220293
+albin_olszówka@email.com,Albin,Olszówka,"ul. Rutkowskiego 21/19, Wrocław",1995-03-11,student,220294
+wioleta_świątczak@email.com,Wioleta,Świątczak,"ul. Szydłowska 50/10, Bystrzyca Kłodzka",1990-04-03,student,220295
+odetta_adach@email.com,Odetta,Adach,"ul. Gronowa 48/11, Polkowice",1995-09-24,student,220296
+lilianna_chomicki@email.com,Lilianna,Chomicki,"ul. Kubusia Puchatka 48/15, Stronie Śląskie",1992-12-25,student,220297
+pamela_markowicz@email.com,Pamela,Markowicz,"ul. Widok 36/17, Lwówek Śląski",1995-11-03,student,220298
+julian_jaźwiński@email.com,Julian,Jaźwiński,"ul. Rutkowskiego 36/14, Wrocław",1992-07-03,student,220299
+franciszek_brzoskowski@email.com,Franciszek,Brzoskowski,"ul. Porzeczkowa 7/8, Ząbkowice Śląskie",1994-03-26,student,220300
+antoni_iwaniuk@email.com,Antoni,Iwaniuk,"ul. Wodzisławska 14/15, Strzegom",1994-12-25,student,220301
+sylwia_opolski@email.com,Sylwia,Opolski,"ul. Kubusia Puchatka 59/20, Wrocław",1991-03-21,student,220302
+sławomir_jędrychowski@email.com,Sławomir,Jędrychowski,"ul. Rutkowskiego 34/19, Wrocław",1991-05-10,student,220303
+leon_misiura@email.com,Leon,Misiura,"ul. Tylna 23/3, Wrocław",1991-05-13,student,220304
+żaneta_cios@email.com,Żaneta,Cios,"ul. Tylna 37/3, Lwówek Śląski",1991-10-17,student,220305
+zbigniew_fabiański@email.com,Zbigniew,Fabiański,"ul. Czereśniowa 47/10, Wrocław",1992-10-13,student,220306
+antonina_sitek@email.com,Antonina,Sitek,"ul. Kubusia Puchatka 24/6, Wrocław",1991-04-10,student,220307
+lilianna_buczek@email.com,Lilianna,Buczek,"ul. Kubusia Puchatka 17/20, Wrocław",1992-10-14,student,220308
+teresa_goliński@email.com,Teresa,Goliński,"ul. Wąska 16/20, Bystrzyca Kłodzka",1990-08-11,student,220309
+aneta_śmietana@email.com,Aneta,Śmietana,"ul. Szydłowska 16/18, Bystrzyca Kłodzka",1992-04-21,student,220310
+bożena_trojanowski@email.com,Bożena,Trojanowski,"ul. Słowicza 57/18, Wałbrzych",1995-05-12,student,220311
+irena_kuleta@email.com,Irena,Kuleta,"ul. Tylna 9/13, Brzeg Dolny",1994-04-08,student,220312
+izabela_majchrzyk@email.com,Izabela,Majchrzyk,"ul. Słowicza 24/5, Stronie Śląskie",1995-10-16,student,220313
+antonina_sucharski@email.com,Antonina,Sucharski,"ul. Gruszkowa 60/14, Strzegom",1992-06-04,student,220314
+izabela_chmura@email.com,Izabela,Chmura,"ul. Generała Tadeusza Kutrzeby 34/11, Stronie Śląskie",1991-01-25,student,220315
+pamela_kwapiński@email.com,Pamela,Kwapiński,"ul. Letnia 11/17, Lądek-Zdrój",1993-11-17,student,220316
+maksymilian_garus@email.com,Maksymilian,Garus,"ul. Słowicza 10/18, Lwówek Śląski",1991-05-26,student,220317
+aneta_sobek@email.com,Aneta,Sobek,"ul. Rudników 10/6, Wrocław",1994-03-12,student,220318
+franciszek_dudek@email.com,Franciszek,Dudek,"ul. Czereśniowa 51/20, Milicz",1993-11-20,student,220319
+martyna_łagodziński@email.com,Martyna,Łagodziński,"ul. Wodzisławska 24/14, Wrocław",1995-05-21,student,220320
+wiliam_stefanowicz@email.com,Wiliam,Stefanowicz,"ul. Gronowa 21/18, Lądek-Zdrój",1991-08-24,student,220321
+piotr_galus@email.com,Piotr,Galus,"ul. Gruszkowa 34/11, Strzegom",1994-04-27,student,220322
+józef_świstak@email.com,Józef,Świstak,"ul. Wąska 54/3, Ząbkowice Śląskie",1991-11-26,student,220323
+paweł_niedziałkowski@email.com,Paweł,Niedziałkowski,"ul. Tylna 52/2, Wrocław",1991-10-14,student,220324
+bogumiła_bartecki@email.com,Bogumiła,Bartecki,"ul. Truskawkowa 31/9, Prochowice",1994-05-10,student,220325
+jacek_plewa@email.com,Jacek,Plewa,"ul. Czereśniowa 56/3, Lubomierz",1993-04-20,student,220326
+anna_antoniak@email.com,Anna,Antoniak,"ul. Tylna 58/19, Wrocław",1991-09-16,student,220327
+krystyna_prus@email.com,Krystyna,Prus,"ul. Rudników 5/20, Wrocław",1992-01-23,student,220328
+krystyna_gębicki@email.com,Krystyna,Gębicki,"ul. Rudników 48/4, Lubomierz",1993-05-15,student,220329
+wojciech_słomiński@email.com,Wojciech,Słomiński,"ul. Szydłowska 11/1, Wrocław",1992-04-19,student,220330
+jagna_pałubicki@email.com,Jagna,Pałubicki,"ul. Truskawkowa 26/9, Świdnica",1995-04-19,student,220331
+petronella_kanclerz@email.com,Petronella,Kanclerz,"ul. Śliwkowa 46/13, Brzeg Dolny",1992-11-24,student,220332
+adrianna_karczewski@email.com,Adrianna,Karczewski,"ul. Kwiatowa 32/20, Bystrzyca Kłodzka",1993-02-13,student,220333
+maria_siwik@email.com,Maria,Siwik,"ul. Rutkowskiego 29/17, Wrocław",1990-06-23,student,220334
+agnieszka_pomorski@email.com,Agnieszka,Pomorski,"ul. Wodzisławska 44/6, Wrocław",1994-11-01,student,220335
+maksymilian_kaszubowski@email.com,Maksymilian,Kaszubowski,"ul. Wodzisławska 8/10, Wrocław",1992-10-09,student,220336
+gracjan_zgoda@email.com,Gracjan,Zgoda,"ul. Gruszkowa 55/9, Kąty Wrocławskie",1991-10-04,student,220337
+antoni_strzałka@email.com,Antoni,Strzałka,"ul. Kubusia Puchatka 27/15, Gryfów Śląski",1991-02-27,student,220338
+maria_niedzwiecki@email.com,Maria,Niedzwiecki,"ul. Tylna 55/1, Wrocław",1991-05-24,student,220339
+jozue_kosmowski@email.com,Jozue,Kosmowski,"ul. Generała Tadeusza Kutrzeby 58/20, Wrocław",1991-02-02,student,220340
+bożena_bal@email.com,Bożena,Bal,"ul. Kubusia Puchatka 54/7, Wrocław",1995-07-26,student,220341
+jadwiga_szczech@email.com,Jadwiga,Szczech,"ul. Generała Wiktora Thomme 13/10, Wrocław",1991-07-17,student,220342
+krzysztof_jarzębowski@email.com,Krzysztof,Jarzębowski,"ul. Szydłowska 8/7, Wrocław",1992-01-18,student,220343
+zbigniew_jaskulski@email.com,Zbigniew,Jaskulski,"ul. Wodzisławska 34/18, Lwówek Śląski",1994-06-26,student,220344
+adrianna_litwin@email.com,Adrianna,Litwin,"ul. Tylna 39/18, Świdnica",1993-10-19,student,220345
+stanisław_bartosik@email.com,Stanisław,Bartosik,"ul. Letnia 60/13, Prochowice",1990-11-04,student,220346
+maciej_kot@email.com,Maciej,Kot,"ul. Rudników 2/7, Wrocław",1994-07-08,student,220347
+krystyna_matuszczak@email.com,Krystyna,Matuszczak,"ul. Wrocławska 59/17, Lwówek Śląski",1995-12-22,student,220348
+kamila_hibner@email.com,Kamila,Hibner,"ul. Porzeczkowa 18/2, Wałbrzych",1995-02-28,student,220349
+helena_prusak@email.com,Helena,Prusak,"ul. Rutkowskiego 49/13, Stronie Śląskie",1992-03-16,student,220350
+magdalena_gruca@email.com,Magdalena,Gruca,"ul. Śliwkowa 19/20, Wrocław",1991-08-08,student,220351
+jozue_wacławek@email.com,Jozue,Wacławek,"ul. Porzeczkowa 45/2, Strzegom",1990-11-17,student,220352
+anna_sudoł@email.com,Anna,Sudoł,"ul. Porzeczkowa 49/9, Gryfów Śląski",1995-07-04,student,220353
+jan_laskowski@email.com,Jan,Laskowski,"ul. Truskawkowa 36/6, Wrocław",1994-06-02,student,220354
+wiliam_duliński@email.com,Wiliam,Duliński,"ul. Słowicza 1/18, Milicz",1991-04-22,student,220355
+arkadiusz_świętochowski@email.com,Arkadiusz,Świętochowski,"ul. Porzeczkowa 34/3, Wrocław",1992-10-15,student,220356
+gracjan_sowiński@email.com,Gracjan,Sowiński,"ul. Wąska 27/10, Milicz",1995-10-12,student,220357
+marcin_błasiak@email.com,Marcin,Błasiak,"ul. Widok 2/10, Strzegom",1994-06-15,student,220358
+antonina_szymczak@email.com,Antonina,Szymczak,"ul. Generała Wiktora Thomme 34/2, Ząbkowice Śląskie",1992-07-15,student,220359
+bożena_wojtal@email.com,Bożena,Wojtal,"ul. Czereśniowa 19/7, Trzebnica",1992-02-23,student,220360
+dorota_sidorczuk@email.com,Dorota,Sidorczuk,"ul. Truskawkowa 38/15, Wrocław",1994-02-25,student,220361
+aneta_zwierzchowski@email.com,Aneta,Zwierzchowski,"ul. Słowicza 12/5, Wrocław",1992-07-21,student,220362
+jozue_muras@email.com,Jozue,Muras,"ul. Wąska 38/14, Bystrzyca Kłodzka",1992-03-19,student,220363
+franciszek_kucharek@email.com,Franciszek,Kucharek,"ul. Porzeczkowa 17/14, Świdnica",1994-04-08,student,220364
+petronella_anioł@email.com,Petronella,Anioł,"ul. Gronowa 3/2, Wrocław",1993-10-24,student,220365
+odetta_koziński@email.com,Odetta,Koziński,"ul. Kwiatowa 9/12, Lądek-Zdrój",1990-03-28,student,220366
+jozue_lorek@email.com,Jozue,Lorek,"ul. Słowicza 58/15, Wrocław",1992-10-17,student,220367
+jacek_ochmański@email.com,Jacek,Ochmański,"ul. Letnia 42/7, Wrocław",1995-09-06,student,220368
+pamela_nitecki@email.com,Pamela,Nitecki,"ul. Rudników 48/17, Wrocław",1995-07-14,student,220369
+arleta_wójcikowski@email.com,Arleta,Wójcikowski,"ul. Generała Tadeusza Kutrzeby 1/6, Gryfów Śląski",1991-01-03,student,220370
+teresa_oracz@email.com,Teresa,Oracz,"ul. Kwiatowa 37/13, Wrocław",1990-04-17,student,220371
+petronella_sztuka@email.com,Petronella,Sztuka,"ul. Widok 51/3, Prochowice",1991-11-04,student,220372
+jozue_dygas@email.com,Jozue,Dygas,"ul. Słowicza 2/14, Wrocław",1992-03-10,student,220373
+nikola_kieliszek@email.com,Nikola,Kieliszek,"ul. Wrocławska 48/19, Wrocław",1993-05-01,student,220374
+sławomir_koziołek@email.com,Sławomir,Koziołek,"ul. Wąska 46/13, Wrocław",1992-03-18,student,220375
+aleksander_nowaczek@email.com,Aleksander,Nowaczek,"ul. Śliwkowa 27/15, Bystrzyca Kłodzka",1995-10-10,student,220376
+lilianna_ożga@email.com,Lilianna,Ożga,"ul. Gruszkowa 57/4, Wrocław",1990-06-02,student,220377
+stanisław_galewski@email.com,Stanisław,Galewski,"ul. Wodzisławska 24/10, Wrocław",1990-08-22,student,220378
+joanna_kapela@email.com,Joanna,Kapela,"ul. Tylna 20/19, Wrocław",1993-11-02,student,220379
+kamila_głodek@email.com,Kamila,Głodek,"ul. Rutkowskiego 19/14, Wrocław",1990-06-07,student,220380
+aleksander_kotas@email.com,Aleksander,Kotas,"ul. Szydłowska 60/10, Wrocław",1992-02-04,student,220381
+bożena_szewc@email.com,Bożena,Szewc,"ul. Gruszkowa 25/7, Wrocław",1991-06-03,student,220382
+dorota_dróżdż@email.com,Dorota,Dróżdż,"ul. Słowicza 18/1, Bystrzyca Kłodzka",1990-01-13,student,220383
+zuzanna_stelmach@email.com,Zuzanna,Stelmach,"ul. Generała Wiktora Thomme 24/12, Strzegom",1993-08-17,student,220384
+krystyna_mrowiec@email.com,Krystyna,Mrowiec,"ul. Letnia 29/12, Lubomierz",1992-05-15,student,220385
+maria_fąfara@email.com,Maria,Fąfara,"ul. Widok 34/7, Wrocław",1995-02-25,student,220386
+odetta_wiśniewski@email.com,Odetta,Wiśniewski,"ul. Generała Tadeusza Kutrzeby 50/16, Kąty Wrocławskie",1990-04-27,student,220387
+krystyna_latawiec@email.com,Krystyna,Latawiec,"ul. Gronowa 49/8, Ząbkowice Śląskie",1995-05-14,student,220388
+teresa_brandys@email.com,Teresa,Brandys,"ul. Wąska 44/2, Trzebnica",1992-02-23,student,220389
+krzysztof_skierski@email.com,Krzysztof,Skierski,"ul. Gruszkowa 7/13, Wrocław",1991-08-01,student,220390
+adrianna_kondrat@email.com,Adrianna,Kondrat,"ul. Gruszkowa 13/15, Trzebnica",1993-09-22,student,220391
+franciszek_firlej@email.com,Franciszek,Firlej,"ul. Śliwkowa 43/9, Lądek-Zdrój",1993-02-17,student,220392
+bogumiła_reszka@email.com,Bogumiła,Reszka,"ul. Wąska 29/20, Wrocław",1992-10-03,student,220393
+paweł_kwiek@email.com,Paweł,Kwiek,"ul. Porzeczkowa 45/1, Wrocław",1990-02-26,student,220394
+jacek_stępiński@email.com,Jacek,Stępiński,"ul. Szydłowska 58/1, Wrocław",1994-09-23,student,220395
+martyna_bomba@email.com,Martyna,Bomba,"ul. Truskawkowa 28/12, Wrocław",1991-10-14,student,220396
+jadwiga_ogórek@email.com,Jadwiga,Ogórek,"ul. Kwiatowa 10/8, Wrocław",1990-04-04,student,220397
+lucyna_skonieczna@email.com,Lucyna,Skonieczna,"ul. Gronowa 20/18, Polkowice",1994-09-04,student,220398
+jan_szewczuk@email.com,Jan,Szewczuk,"ul. Letnia 53/6, Lądek-Zdrój",1993-10-06,student,220399
+andrzej_durlik@email.com,Andrzej,Durlik,"ul. Rudników 12/14, Wrocław",1991-04-22,student,220400
+bernadetta_nocoń@email.com,Bernadetta,Nocoń,"ul. Widok 39/17, Brzeg Dolny",1994-09-15,student,220401
+magdalena_stolarczyk@email.com,Magdalena,Stolarczyk,"ul. Szydłowska 25/9, Gryfów Śląski",1991-11-15,student,220402
+dorota_kasperkiewicz@email.com,Dorota,Kasperkiewicz,"ul. Śliwkowa 49/14, Wrocław",1993-06-16,student,220403
+sylwia_bratek@email.com,Sylwia,Bratek,"ul. Rudników 17/16, Milicz",1993-01-21,student,220404
+izabela_kawecki@email.com,Izabela,Kawecki,"ul. Rudników 14/19, Wrocław",1990-07-21,student,220405
+martyna_zdeb@email.com,Martyna,Zdeb,"ul. Gruszkowa 5/3, Wrocław",1991-03-04,student,220406
+lucyna_ciupiński@email.com,Lucyna,Ciupiński,"ul. Porzeczkowa 43/9, Ząbkowice Śląskie",1993-08-08,student,220407
+józef_ociepa@email.com,Józef,Ociepa,"ul. Rudników 28/20, Wrocław",1995-07-16,student,220408
+bogumiła_kozak@email.com,Bogumiła,Kozak,"ul. Gronowa 28/15, Lądek-Zdrój",1992-10-22,student,220409
+lucyna_przybyszewski@email.com,Lucyna,Przybyszewski,"ul. Letnia 27/8, Wrocław",1995-08-01,student,220410
+adrianna_paczyński@email.com,Adrianna,Paczyński,"ul. Porzeczkowa 4/4, Wrocław",1994-01-25,student,220411
+stanisław_gazda@email.com,Stanisław,Gazda,"ul. Generała Tadeusza Kutrzeby 46/18, Wrocław",1994-07-16,student,220412
+wincenty_oliwa@email.com,Wincenty,Oliwa,"ul. Czereśniowa 22/11, Wrocław",1993-10-23,student,220413
+marcjanna_kula@email.com,Marcjanna,Kula,"ul. Czereśniowa 43/12, Wrocław",1992-10-19,student,220414
+wincenty_skupiński@email.com,Wincenty,Skupiński,"ul. Tylna 29/11, Wałbrzych",1995-01-14,student,220415
+wioleta_soja@email.com,Wioleta,Soja,"ul. Rudników 53/3, Wrocław",1993-03-14,student,220416
+szymon_kudyba@email.com,Szymon,Kudyba,"ul. Śliwkowa 39/13, Wrocław",1995-03-19,student,220417
+marcjanna_potępa@email.com,Marcjanna,Potępa,"ul. Kubusia Puchatka 20/4, Gryfów Śląski",1995-10-25,student,220418
+agnieszka_nowotarski@email.com,Agnieszka,Nowotarski,"ul. Gronowa 45/4, Wrocław",1994-03-16,student,220419
+wojciech_żmudziński@email.com,Wojciech,Żmudziński,"ul. Czereśniowa 57/9, Prochowice",1995-12-04,student,220420
+dominika_korczyk@email.com,Dominika,Korczyk,"ul. Widok 44/4, Wrocław",1994-06-21,student,220421
+bożena_dulewicz@email.com,Bożena,Dulewicz,"ul. Kwiatowa 53/5, Wrocław",1992-06-03,student,220422
+bernadetta_matulewicz@email.com,Bernadetta,Matulewicz,"ul. Szydłowska 54/17, Trzebnica",1994-04-11,student,220423
+martyna_borowski@email.com,Martyna,Borowski,"ul. Gronowa 7/5, Wrocław",1993-02-18,student,220424
+aleksander_świeboda@email.com,Aleksander,Świeboda,"ul. Letnia 3/19, Ząbkowice Śląskie",1992-01-09,student,220425
+joanna_bieńko@email.com,Joanna,Bieńko,"ul. Słowicza 6/20, Wrocław",1994-09-23,student,220426
+kamila_mokrzycki@email.com,Kamila,Mokrzycki,"ul. Truskawkowa 27/9, Wrocław",1995-02-28,student,220427
+petronella_polit@email.com,Petronella,Polit,"ul. Wąska 31/2, Lubomierz",1992-12-09,student,220428
+arleta_gorczyca@email.com,Arleta,Gorczyca,"ul. Kubusia Puchatka 23/17, Wrocław",1993-12-27,student,220429
+hanna_grześ@email.com,Hanna,Grześ,"ul. Widok 38/9, Świdnica",1991-08-04,student,220430
+lucyna_demczuk@email.com,Lucyna,Demczuk,"ul. Gruszkowa 13/1, Wrocław",1991-03-22,student,220431
+jacek_zawisza@email.com,Jacek,Zawisza,"ul. Gruszkowa 18/8, Milicz",1992-09-11,student,220432
+paweł_młynek@email.com,Paweł,Młynek,"ul. Śliwkowa 19/17, Wrocław",1993-04-26,student,220433
+nikola_stach@email.com,Nikola,Stach,"ul. Rutkowskiego 15/7, Wrocław",1994-06-20,student,220434
+kamila_sawicz@email.com,Kamila,Sawicz,"ul. Generała Wiktora Thomme 15/1, Milicz",1993-11-15,student,220435
+jan_ślusarski@email.com,Jan,Ślusarski,"ul. Generała Wiktora Thomme 58/3, Wrocław",1993-04-06,student,220436
+adrianna_czok@email.com,Adrianna,Czok,"ul. Generała Tadeusza Kutrzeby 49/16, Lądek-Zdrój",1994-01-07,student,220437
+irena_kaczor@email.com,Irena,Kaczor,"ul. Śliwkowa 6/15, Wrocław",1993-05-17,student,220438
+odetta_wójtowicz@email.com,Odetta,Wójtowicz,"ul. Wąska 22/10, Wrocław",1991-05-24,student,220439
+aneta_kruczkowski@email.com,Aneta,Kruczkowski,"ul. Śliwkowa 25/11, Wrocław",1990-09-07,student,220440
+jacek_kozakiewicz@email.com,Jacek,Kozakiewicz,"ul. Tylna 2/17, Wrocław",1992-12-12,student,220441
+martyna_jarecki@email.com,Martyna,Jarecki,"ul. Tylna 58/8, Świdnica",1991-10-21,student,220442
+mirella_faliński@email.com,Mirella,Faliński,"ul. Rudników 40/12, Brzeg Dolny",1991-06-07,student,220443
+ariana_zwierz@email.com,Ariana,Zwierz,"ul. Rutkowskiego 9/20, Stronie Śląskie",1991-09-10,student,220444
+izabela_oleś@email.com,Izabela,Oleś,"ul. Czereśniowa 55/12, Trzebnica",1992-06-06,student,220445
+kamila_budka@email.com,Kamila,Budka,"ul. Słowicza 11/19, Prochowice",1991-09-27,student,220446
+nikola_gruba@email.com,Nikola,Gruba,"ul. Wrocławska 7/1, Wrocław",1993-11-15,student,220447
+jadwiga_pawlus@email.com,Jadwiga,Pawlus,"ul. Rudników 49/10, Stronie Śląskie",1993-11-14,student,220448
+andrzej_gawryś@email.com,Andrzej,Gawryś,"ul. Generała Tadeusza Kutrzeby 7/19, Wrocław",1993-07-06,student,220449
+andrzej_białkowski@email.com,Andrzej,Białkowski,"ul. Szydłowska 37/13, Polkowice",1991-11-26,student,220450
+lilianna_dobija@email.com,Lilianna,Dobija,"ul. Porzeczkowa 29/3, Wrocław",1994-05-10,student,220451
+maciej_jedynak@email.com,Maciej,Jedynak,"ul. Gruszkowa 32/4, Strzegom",1990-01-17,student,220452
+józef_młodzianowski@email.com,Józef,Młodzianowski,"ul. Wrocławska 51/12, Lubomierz",1994-08-09,student,220453
+bernadetta_sitarz@email.com,Bernadetta,Sitarz,"ul. Porzeczkowa 10/9, Wrocław",1992-10-06,student,220454
+wincenty_pogorzelski@email.com,Wincenty,Pogorzelski,"ul. Letnia 3/7, Wrocław",1994-06-21,student,220455
+zbigniew_branicki@email.com,Zbigniew,Branicki,"ul. Porzeczkowa 10/13, Wrocław",1994-02-10,student,220456
+wioleta_kaczmarczyk@email.com,Wioleta,Kaczmarczyk,"ul. Śliwkowa 42/17, Lwówek Śląski",1991-12-20,student,220457
+marcjanna_kura@email.com,Marcjanna,Kura,"ul. Widok 52/9, Stronie Śląskie",1992-10-26,student,220458
+wioleta_andrzejewski@email.com,Wioleta,Andrzejewski,"ul. Generała Tadeusza Kutrzeby 14/7, Gryfów Śląski",1995-10-18,student,220459
+aneta_żukowski@email.com,Aneta,Żukowski,"ul. Słowicza 57/5, Lądek-Zdrój",1994-03-11,student,220460
+pamela_piskorek@email.com,Pamela,Piskorek,"ul. Gruszkowa 46/19, Wrocław",1992-10-23,student,220461
+dominika_bitner@email.com,Dominika,Bitner,"ul. Letnia 7/6, Bystrzyca Kłodzka",1992-01-05,student,220462
+izabela_myśliński@email.com,Izabela,Myśliński,"ul. Gronowa 36/14, Milicz",1995-09-28,student,220463
+helena_sieniawski@email.com,Helena,Sieniawski,"ul. Kubusia Puchatka 41/4, Wrocław",1992-09-26,student,220464
+stanisław_czapski@email.com,Stanisław,Czapski,"ul. Wrocławska 52/6, Strzegom",1991-03-14,student,220465
+aleksander_lendzion@email.com,Aleksander,Lendzion,"ul. Truskawkowa 16/18, Wrocław",1990-06-16,student,220466
+zbigniew_gonera@email.com,Zbigniew,Gonera,"ul. Tylna 43/12, Strzegom",1991-01-08,student,220467
+katarzyna_grala@email.com,Katarzyna,Grala,"ul. Gronowa 60/17, Wrocław",1991-07-16,student,220468
+julian_kraszewski@email.com,Julian,Kraszewski,"ul. Kubusia Puchatka 15/3, Wrocław",1993-09-06,student,220469
+irena_głowacz@email.com,Irena,Głowacz,"ul. Gronowa 35/6, Ząbkowice Śląskie",1991-04-26,student,220470
+marzena_kulawiak@email.com,Marzena,Kulawiak,"ul. Rutkowskiego 14/17, Wrocław",1994-12-19,student,220471
+dorota_adamowski@email.com,Dorota,Adamowski,"ul. Widok 52/8, Bystrzyca Kłodzka",1995-11-24,student,220472
+helena_grochal@email.com,Helena,Grochal,"ul. Słowicza 50/3, Gryfów Śląski",1990-05-09,student,220473
+zofia_radomski@email.com,Zofia,Radomski,"ul. Porzeczkowa 9/7, Wrocław",1990-11-17,student,220474
+franciszek_wicik@email.com,Franciszek,Wicik,"ul. Tylna 48/16, Wrocław",1992-07-20,student,220475
+pamela_sierant@email.com,Pamela,Sierant,"ul. Tylna 56/20, Kąty Wrocławskie",1990-01-09,student,220476
+aneta_tokarczyk@email.com,Aneta,Tokarczyk,"ul. Gronowa 44/15, Milicz",1991-03-07,student,220477
+katarzyna_dominiak@email.com,Katarzyna,Dominiak,"ul. Generała Tadeusza Kutrzeby 56/1, Milicz",1990-08-14,student,220478
+dorota_abram@email.com,Dorota,Abram,"ul. Kubusia Puchatka 28/5, Wrocław",1994-05-03,student,220479
+odetta_brych@email.com,Odetta,Brych,"ul. Porzeczkowa 9/4, Milicz",1991-12-17,student,220480
+andrzej_kropidłowski@email.com,Andrzej,Kropidłowski,"ul. Widok 34/7, Stronie Śląskie",1992-11-17,student,220481
+teresa_jagoda@email.com,Teresa,Jagoda,"ul. Czereśniowa 55/9, Wrocław",1993-10-23,student,220482
+magdalena_brzeziński@email.com,Magdalena,Brzeziński,"ul. Generała Tadeusza Kutrzeby 29/14, Wrocław",1993-07-11,student,220483
+szymon_łempicki@email.com,Szymon,Łempicki,"ul. Rutkowskiego 3/19, Kąty Wrocławskie",1993-10-22,student,220484
+maksymilian_jurak@email.com,Maksymilian,Jurak,"ul. Kwiatowa 27/1, Stronie Śląskie",1992-05-01,student,220485
+magdalena_szewczak@email.com,Magdalena,Szewczak,"ul. Wodzisławska 17/10, Wrocław",1995-12-16,student,220486
+jan_cudak@email.com,Jan,Cudak,"ul. Rutkowskiego 43/12, Stronie Śląskie",1995-05-24,student,220487
+jadwiga_wieteski@email.com,Jadwiga,Wieteski,"ul. Gronowa 42/10, Wrocław",1994-11-26,student,220488
+józef_klocek@email.com,Józef,Klocek,"ul. Szydłowska 44/12, Wrocław",1993-01-12,student,220489
+mirella_kotwica@email.com,Mirella,Kotwica,"ul. Kubusia Puchatka 18/4, Bystrzyca Kłodzka",1992-03-04,student,220490
+antonina_gapiński@email.com,Antonina,Gapiński,"ul. Czereśniowa 47/5, Wrocław",1992-12-14,student,220491
+magdalena_bochen@email.com,Magdalena,Bochen,"ul. Wąska 38/7, Wrocław",1993-09-05,student,220492
+sławomir_bałazy@email.com,Sławomir,Bałazy,"ul. Śliwkowa 44/5, Milicz",1991-04-18,student,220493
+zofia_gajdziński@email.com,Zofia,Gajdziński,"ul. Gruszkowa 56/4, Wałbrzych",1990-09-01,student,220494
+arleta_wirkus@email.com,Arleta,Wirkus,"ul. Letnia 39/1, Wrocław",1992-12-10,student,220495
+szymon_woszczyk@email.com,Szymon,Woszczyk,"ul. Rudników 48/5, Wrocław",1991-07-16,student,220496
+sylwia_talar@email.com,Sylwia,Talar,"ul. Generała Wiktora Thomme 49/9, Wrocław",1995-08-14,student,220497
+aneta_polewski@email.com,Aneta,Polewski,"ul. Wodzisławska 7/19, Prochowice",1992-02-20,student,220498
+jagna_mielniczuk@email.com,Jagna,Mielniczuk,"ul. Gronowa 10/16, Wrocław",1994-04-08,student,220499
+anna_babiński@email.com,Anna,Babiński,"ul. Wodzisławska 18/14, Wrocław",1995-08-27,student,220500
+paweł_spychalski@email.com,Paweł,Spychalski,"ul. Letnia 36/18, Wrocław",1994-09-14,student,220501
+wincenty_siekierski@email.com,Wincenty,Siekierski,"ul. Gruszkowa 45/5, Brzeg Dolny",1991-02-16,student,220502
+julia_kośla@email.com,Julia,Kośla,"ul. Truskawkowa 47/4, Ząbkowice Śląskie",1992-03-01,student,220503
+hanna_białek@email.com,Hanna,Białek,"ul. Porzeczkowa 22/20, Brzeg Dolny",1995-05-17,student,220504
+mirella_cieślewicz@email.com,Mirella,Cieślewicz,"ul. Widok 27/8, Lubomierz",1990-02-17,student,220505
+wincenty_chlebowski@email.com,Wincenty,Chlebowski,"ul. Słowicza 32/20, Wrocław",1993-06-23,student,220506
+wiliam_wyrzykowski@email.com,Wiliam,Wyrzykowski,"ul. Kubusia Puchatka 16/2, Bystrzyca Kłodzka",1995-09-07,student,220507
+andrzej_pawlina@email.com,Andrzej,Pawlina,"ul. Generała Tadeusza Kutrzeby 60/1, Bystrzyca Kłodzka",1992-01-23,student,220508
+zbigniew_kosiorek@email.com,Zbigniew,Kosiorek,"ul. Widok 46/14, Wrocław",1994-10-22,student,220509
+paweł_prusiński@email.com,Paweł,Prusiński,"ul. Rutkowskiego 49/11, Wrocław",1993-03-17,student,220510
+szymon_bucholc@email.com,Szymon,Bucholc,"ul. Wrocławska 34/4, Trzebnica",1993-11-20,student,220511
+kamila_błaszkiewicz@email.com,Kamila,Błaszkiewicz,"ul. Śliwkowa 23/13, Lwówek Śląski",1995-07-28,student,220512
+jozue_kajzer@email.com,Jozue,Kajzer,"ul. Kubusia Puchatka 25/16, Prochowice",1993-02-11,student,220513
+maria_ochocki@email.com,Maria,Ochocki,"ul. Słowicza 58/5, Wrocław",1995-02-02,student,220514
+albin_bednarski@email.com,Albin,Bednarski,"ul. Letnia 25/15, Wrocław",1992-01-11,student,220515
+hanna_schulz@email.com,Hanna,Schulz,"ul. Generała Tadeusza Kutrzeby 2/19, Trzebnica",1992-01-27,student,220516
+jozue_cisowski@email.com,Jozue,Cisowski,"ul. Słowicza 60/9, Polkowice",1992-08-20,student,220517
+lilianna_ciosek@email.com,Lilianna,Ciosek,"ul. Rutkowskiego 23/4, Strzegom",1992-07-12,student,220518
+marcin_malesa@email.com,Marcin,Malesa,"ul. Generała Wiktora Thomme 6/14, Polkowice",1991-12-26,student,220519
+bożena_kościelna@email.com,Bożena,Kościelna,"ul. Słowicza 29/9, Kąty Wrocławskie",1995-11-25,student,220520
+julia_skura@email.com,Julia,Skura,"ul. Kubusia Puchatka 60/1, Lubomierz",1995-06-06,student,220521
+katarzyna_klimczak@email.com,Katarzyna,Klimczak,"ul. Gruszkowa 2/5, Milicz",1993-11-01,student,220522
+izabela_kawczyński@email.com,Izabela,Kawczyński,"ul. Wodzisławska 12/2, Lubomierz",1995-02-17,student,220523
+krzysztof_maliszewski@email.com,Krzysztof,Maliszewski,"ul. Wrocławska 10/10, Trzebnica",1990-08-21,student,220524
+adrianna_borysewicz@email.com,Adrianna,Borysewicz,"ul. Rutkowskiego 59/19, Wrocław",1991-10-13,student,220525
+arkadiusz_opala@email.com,Arkadiusz,Opala,"ul. Porzeczkowa 3/19, Strzegom",1992-04-03,student,220526
+marika_trębacz@email.com,Marika,Trębacz,"ul. Wąska 15/15, Trzebnica",1995-03-13,student,220527
+maria_sadurski@email.com,Maria,Sadurski,"ul. Gronowa 54/14, Wrocław",1994-09-01,student,220528
+lilianna_bałdyga@email.com,Lilianna,Bałdyga,"ul. Porzeczkowa 28/19, Wrocław",1993-01-11,student,220529
+arleta_malanowski@email.com,Arleta,Malanowski,"ul. Wrocławska 13/19, Kąty Wrocławskie",1994-07-25,student,220530
+leon_makulski@email.com,Leon,Makulski,"ul. Czereśniowa 46/14, Brzeg Dolny",1993-05-09,student,220531
+arleta_orzoł@email.com,Arleta,Orzoł,"ul. Generała Tadeusza Kutrzeby 19/19, Kąty Wrocławskie",1995-08-19,student,220532
+helena_skarbek@email.com,Helena,Skarbek,"ul. Generała Tadeusza Kutrzeby 19/15, Bystrzyca Kłodzka",1994-04-01,student,220533
+franciszek_cieluch@email.com,Franciszek,Cieluch,"ul. Rutkowskiego 26/9, Strzegom",1993-07-20,student,220534
+antoni_formella@email.com,Antoni,Formella,"ul. Słowicza 36/10, Brzeg Dolny",1990-04-12,student,220535
+hanna_kalus@email.com,Hanna,Kalus,"ul. Rutkowskiego 38/11, Wrocław",1990-06-07,student,220536
+lucyna_prokopowicz@email.com,Lucyna,Prokopowicz,"ul. Generała Wiktora Thomme 56/9, Wrocław",1990-12-19,student,220537
+ariana_włodek@email.com,Ariana,Włodek,"ul. Gronowa 16/5, Wrocław",1995-09-16,student,220538
+bożena_kalisz@email.com,Bożena,Kalisz,"ul. Rutkowskiego 55/2, Wrocław",1995-12-18,student,220539
+jagoda_wika@email.com,Jagoda,Wika,"ul. Truskawkowa 31/3, Strzegom",1992-10-10,student,220540
+wioleta_sumara@email.com,Wioleta,Sumara,"ul. Generała Tadeusza Kutrzeby 30/1, Wrocław",1992-04-24,student,220541
+zuzanna_buczkowski@email.com,Zuzanna,Buczkowski,"ul. Truskawkowa 55/6, Milicz",1991-09-28,student,220542
+leon_wąchała@email.com,Leon,Wąchała,"ul. Wąska 1/13, Wrocław",1992-11-02,student,220543
+aleksander_cackowski@email.com,Aleksander,Cackowski,"ul. Generała Tadeusza Kutrzeby 17/7, Wałbrzych",1993-07-01,student,220544
+marzena_kotowicz@email.com,Marzena,Kotowicz,"ul. Czereśniowa 45/8, Wrocław",1995-03-05,student,220545
+maciej_polanowski@email.com,Maciej,Polanowski,"ul. Letnia 13/15, Wrocław",1994-03-27,student,220546
+joanna_grudziński@email.com,Joanna,Grudziński,"ul. Gruszkowa 7/7, Wrocław",1993-12-27,student,220547
+anna_brodziak@email.com,Anna,Brodziak,"ul. Kubusia Puchatka 18/19, Wrocław",1995-03-28,student,220548
+lucyna_bartosiewicz@email.com,Lucyna,Bartosiewicz,"ul. Rutkowskiego 29/12, Wrocław",1995-01-26,student,220549
+wiliam_marks@email.com,Wiliam,Marks,"ul. Rutkowskiego 18/8, Wrocław",1994-01-28,student,220550
+żaneta_kabała@email.com,Żaneta,Kabała,"ul. Czereśniowa 16/7, Prochowice",1991-05-27,student,220551
+wojciech_głowa@email.com,Wojciech,Głowa,"ul. Porzeczkowa 6/17, Wrocław",1993-04-15,student,220552
+maria_bigus@email.com,Maria,Bigus,"ul. Kubusia Puchatka 39/16, Wrocław",1990-09-19,student,220553
+bogumiła_mierzejewski@email.com,Bogumiła,Mierzejewski,"ul. Kubusia Puchatka 52/11, Lwówek Śląski",1992-04-28,student,220554
+stanisław_pawelczyk@email.com,Stanisław,Pawelczyk,"ul. Czereśniowa 55/10, Świdnica",1990-05-07,student,220555
+kamila_stępkowski@email.com,Kamila,Stępkowski,"ul. Kwiatowa 25/17, Wrocław",1995-03-08,student,220556
+marcin_mrozek@email.com,Marcin,Mrozek,"ul. Truskawkowa 40/14, Kąty Wrocławskie",1990-09-14,student,220557
+bogumiła_brodzik@email.com,Bogumiła,Brodzik,"ul. Generała Tadeusza Kutrzeby 19/12, Trzebnica",1995-06-28,student,220558
+jadwiga_pietrzak@email.com,Jadwiga,Pietrzak,"ul. Czereśniowa 3/7, Świdnica",1992-10-23,student,220559
+magdalena_zębala@email.com,Magdalena,Zębala,"ul. Śliwkowa 15/16, Wrocław",1990-06-28,student,220560
+lucyna_grobelna@email.com,Lucyna,Grobelna,"ul. Letnia 33/17, Trzebnica",1992-04-20,student,220561
+szymon_świdziński@email.com,Szymon,Świdziński,"ul. Rudników 2/13, Polkowice",1995-10-10,student,220562
+marika_martyna@email.com,Marika,Martyna,"ul. Szydłowska 28/20, Lwówek Śląski",1990-05-14,student,220563
+stanisław_kulak@email.com,Stanisław,Kulak,"ul. Rudników 51/10, Bystrzyca Kłodzka",1991-04-28,student,220564
+jan_łukomski@email.com,Jan,Łukomski,"ul. Wodzisławska 21/7, Wrocław",1991-03-23,student,220565
+sławomir_gawor@email.com,Sławomir,Gawor,"ul. Wrocławska 25/19, Wrocław",1990-07-17,student,220566
+marzena_duraj@email.com,Marzena,Duraj,"ul. Gruszkowa 45/18, Stronie Śląskie",1993-04-23,student,220567
+jan_kalinowski@email.com,Jan,Kalinowski,"ul. Rutkowskiego 11/19, Wrocław",1990-05-15,student,220568
+hanna_gut@email.com,Hanna,Gut,"ul. Generała Wiktora Thomme 17/16, Wrocław",1995-07-05,student,220569
+magdalena_kostecki@email.com,Magdalena,Kostecki,"ul. Słowicza 37/13, Wrocław",1990-07-04,student,220570
+marzena_tomiak@email.com,Marzena,Tomiak,"ul. Truskawkowa 58/17, Polkowice",1995-06-11,student,220571
+marika_kozera@email.com,Marika,Kozera,"ul. Generała Tadeusza Kutrzeby 16/13, Prochowice",1995-09-14,student,220572
+bożena_aksamit@email.com,Bożena,Aksamit,"ul. Rudników 43/15, Bystrzyca Kłodzka",1993-01-12,student,220573
+helena_świerc@email.com,Helena,Świerc,"ul. Gronowa 12/20, Wrocław",1992-04-06,student,220574
+odetta_legutko@email.com,Odetta,Legutko,"ul. Generała Tadeusza Kutrzeby 17/16, Świdnica",1995-12-28,student,220575
+arleta_pełka@email.com,Arleta,Pełka,"ul. Wąska 44/10, Stronie Śląskie",1992-02-04,student,220576
+julia_włodkowski@email.com,Julia,Włodkowski,"ul. Wrocławska 39/7, Prochowice",1994-07-12,student,220577
+jagoda_łaszkiewicz@email.com,Jagoda,Łaszkiewicz,"ul. Rutkowskiego 42/20, Wrocław",1991-11-18,student,220578
+marika_pruś@email.com,Marika,Pruś,"ul. Wrocławska 32/17, Wrocław",1995-03-07,student,220579
+marcjanna_kordek@email.com,Marcjanna,Kordek,"ul. Rutkowskiego 26/7, Kąty Wrocławskie",1994-06-06,student,220580
+zbigniew_derkacz@email.com,Zbigniew,Derkacz,"ul. Wąska 4/14, Wrocław",1994-06-06,student,220581
+zuzanna_blicharz@email.com,Zuzanna,Blicharz,"ul. Letnia 27/19, Bystrzyca Kłodzka",1990-03-01,student,220582
+marcjanna_kaźmierczak@email.com,Marcjanna,Kaźmierczak,"ul. Generała Wiktora Thomme 8/15, Wrocław",1995-12-01,student,220583
+martyna_basta@email.com,Martyna,Basta,"ul. Tylna 12/6, Wrocław",1991-05-26,student,220584
+paweł_łowicki@email.com,Paweł,Łowicki,"ul. Wodzisławska 13/19, Lądek-Zdrój",1990-08-16,student,220585
+wincenty_marynowski@email.com,Wincenty,Marynowski,"ul. Widok 60/8, Polkowice",1991-09-27,student,220586
+wioleta_gwiżdż@email.com,Wioleta,Gwiżdż,"ul. Letnia 34/10, Lwówek Śląski",1990-03-20,student,220587
+marcin_prusik@email.com,Marcin,Prusik,"ul. Generała Tadeusza Kutrzeby 23/13, Stronie Śląskie",1991-08-09,student,220588
+zofia_kuchta@email.com,Zofia,Kuchta,"ul. Słowicza 58/13, Lubomierz",1992-08-13,student,220589
+leon_kuźniak@email.com,Leon,Kuźniak,"ul. Truskawkowa 46/9, Wrocław",1994-06-01,student,220590
+bogumiła_dyduch@email.com,Bogumiła,Dyduch,"ul. Wodzisławska 23/13, Ząbkowice Śląskie",1994-04-10,student,220591
+jagoda_trojak@email.com,Jagoda,Trojak,"ul. Tylna 36/19, Wrocław",1992-03-21,student,220592
+wincenty_komar@email.com,Wincenty,Komar,"ul. Wąska 3/20, Bystrzyca Kłodzka",1990-09-07,student,220593
+arleta_ryszka@email.com,Arleta,Ryszka,"ul. Gronowa 27/4, Wrocław",1992-04-02,student,220594
+lucyna_szczepanowski@email.com,Lucyna,Szczepanowski,"ul. Szydłowska 36/18, Kąty Wrocławskie",1994-08-14,student,220595
+żaneta_markowski@email.com,Żaneta,Markowski,"ul. Śliwkowa 15/11, Lubomierz",1993-05-22,student,220596
+żaneta_prusaczyk@email.com,Żaneta,Prusaczyk,"ul. Porzeczkowa 19/16, Lwówek Śląski",1994-12-19,student,220597
+kamila_mierzwa@email.com,Kamila,Mierzwa,"ul. Śliwkowa 4/14, Gryfów Śląski",1990-10-04,student,220598
+zbigniew_wereszczyński@email.com,Zbigniew,Wereszczyński,"ul. Kwiatowa 20/16, Strzegom",1991-01-10,student,220599

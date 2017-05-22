@@ -1,0 +1,2 @@
+email,first_name,last_name,address,birth_date,role
+test_admin@email.com,Test,Admin,"ul. Kwiatowa 7/16, Wrocław",1991-05-12,administrator

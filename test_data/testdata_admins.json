@@ -1,0 +1,10 @@
+[
+ {
+   "email": "test_admin@email.com",
+   "first_name": "Test",
+   "last_name": "Admin",
+   "address": "ul. Kwiatowa 7/16, Wrocław",
+   "birth_date": "1991-05-12",
+   "role": "administrator"
+ }
+]
