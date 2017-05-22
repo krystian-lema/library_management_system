@@ -49,9 +49,9 @@ class JsonBooksController < ApplicationController
   										publication_date: book_data['publication_date'],
   										ISBN: book_data['ISBN'],
   										signature: book_data['signature'],
-  										library_id: library_id
+  										library_id: library_id,
+                      status: true
   										)
-
   	if @book.save
       return {success: true, book: @book}
     else
