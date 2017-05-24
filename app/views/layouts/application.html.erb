@@ -4,11 +4,63 @@
     <title>LibraryManagementSystem</title>
     <%= csrf_meta_tags %>
 
+    <%= stylesheet_link_tag 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' %>
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
-    <%= yield %>
+
+  	<% if current_user %>
+
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+              <%= current_user.get_role_polish_name.capitalize %>: <%= current_user.first_name %> <%= current_user.last_name %></a>
+          </div>
+          <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li><%= link_to "Strona domowa", root_path %></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+              <li><%= link_to "Edytuj profil", edit_user_path(current_user) %></li>
+              <li><%= link_to "Zmień hasło", "/users/" + current_user.id.to_s + "/change_password" %></li>
+              <li><%= link_to "Wyloguj", '/logout' %></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <% end %>
+
+    <div class="container">
+      <% flash.each do |key, value| %>
+        <div class="alert alert-<%= key %> alert-dismissable fade in"><%= value %>
+          <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        </div>
+      <% end %>
+    </div>
+
+    <div class="container">
+      <% if is_student %>
+        <%= render 'students/navbar' %>
+      <% end %>
+      <% if is_librarian %>
+        <%= render 'librarians/navbar' %>
+      <% end %>
+      <% if is_admin %>
+        <%= render 'admins/navbar' %>
+      <% end %>
+      <%= yield %>
+    </div>
+
+
   </body>
 </html>

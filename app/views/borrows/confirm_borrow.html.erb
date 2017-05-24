@@ -1,0 +1,16 @@
+<h1>Potwierdzenie wypożyczenia</h1>
+
+<table class="table">
+
+
+<%= render @library.book %>
+
+</table>
+
+<%= form_for @borrow, url: borrows_add_path do |f| %>
+
+		<%= f.hidden_field(:book_id, :value => @book.id) %>
+
+	<%= f.submit "Potwierdź wypożyczenie" %> <br>
+
+<% end %>

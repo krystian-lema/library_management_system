@@ -1,0 +1,4502 @@
+[
+ {
+   "email": "jacek_stępniak@email.com",
+   "first_name": "Jacek",
+   "last_name": "Stępniak",
+   "address": "ul. Widok 39/17, Prochowice",
+   "birth_date": "1994-01-02",
+   "role": "student",
+   "id_card": "220100"
+ },
+ {
+   "email": "lilianna_majcherczyk@email.com",
+   "first_name": "Lilianna",
+   "last_name": "Majcherczyk",
+   "address": "ul. Gruszkowa 49/10, Kąty Wrocławskie",
+   "birth_date": "1992-06-09",
+   "role": "student",
+   "id_card": "220101"
+ },
+ {
+   "email": "andrzej_chudzicki@email.com",
+   "first_name": "Andrzej",
+   "last_name": "Chudzicki",
+   "address": "ul. Generała Wiktora Thomme 10/10, Wrocław",
+   "birth_date": "1993-07-03",
+   "role": "student",
+   "id_card": "220102"
+ },
+ {
+   "email": "maciej_kamieniecki@email.com",
+   "first_name": "Maciej",
+   "last_name": "Kamieniecki",
+   "address": "ul. Kwiatowa 8/4, Wrocław",
+   "birth_date": "1993-07-24",
+   "role": "student",
+   "id_card": "220103"
+ },
+ {
+   "email": "teresa_koczorowski@email.com",
+   "first_name": "Teresa",
+   "last_name": "Koczorowski",
+   "address": "ul. Gruszkowa 51/1, Prochowice",
+   "birth_date": "1993-12-27",
+   "role": "student",
+   "id_card": "220104"
+ },
+ {
+   "email": "marcjanna_matysiak@email.com",
+   "first_name": "Marcjanna",
+   "last_name": "Matysiak",
+   "address": "ul. Widok 10/9, Wrocław",
+   "birth_date": "1990-08-28",
+   "role": "student",
+   "id_card": "220105"
+ },
+ {
+   "email": "bożena_styczeń@email.com",
+   "first_name": "Bożena",
+   "last_name": "Styczeń",
+   "address": "ul. Rudników 29/10, Wrocław",
+   "birth_date": "1994-08-14",
+   "role": "student",
+   "id_card": "220106"
+ },
+ {
+   "email": "wojciech_niziołek@email.com",
+   "first_name": "Wojciech",
+   "last_name": "Niziołek",
+   "address": "ul. Truskawkowa 25/9, Bystrzyca Kłodzka",
+   "birth_date": "1990-03-14",
+   "role": "student",
+   "id_card": "220107"
+ },
+ {
+   "email": "maria_kwietniewski@email.com",
+   "first_name": "Maria",
+   "last_name": "Kwietniewski",
+   "address": "ul. Gruszkowa 42/10, Świdnica",
+   "birth_date": "1992-12-17",
+   "role": "student",
+   "id_card": "220108"
+ },
+ {
+   "email": "marcin_sankowski@email.com",
+   "first_name": "Marcin",
+   "last_name": "Sankowski",
+   "address": "ul. Generała Wiktora Thomme 53/4, Świdnica",
+   "birth_date": "1994-01-14",
+   "role": "student",
+   "id_card": "220109"
+ },
+ {
+   "email": "dorota_kuliś@email.com",
+   "first_name": "Dorota",
+   "last_name": "Kuliś",
+   "address": "ul. Śliwkowa 19/1, Wrocław",
+   "birth_date": "1995-08-01",
+   "role": "student",
+   "id_card": "220110"
+ },
+ {
+   "email": "piotr_starzec@email.com",
+   "first_name": "Piotr",
+   "last_name": "Starzec",
+   "address": "ul. Wąska 52/8, Lwówek Śląski",
+   "birth_date": "1992-09-04",
+   "role": "student",
+   "id_card": "220111"
+ },
+ {
+   "email": "krystyna_bułka@email.com",
+   "first_name": "Krystyna",
+   "last_name": "Bułka",
+   "address": "ul. Szydłowska 15/17, Milicz",
+   "birth_date": "1991-07-15",
+   "role": "student",
+   "id_card": "220112"
+ },
+ {
+   "email": "natan_gierszewski@email.com",
+   "first_name": "Natan",
+   "last_name": "Gierszewski",
+   "address": "ul. Szydłowska 9/1, Wrocław",
+   "birth_date": "1994-01-22",
+   "role": "student",
+   "id_card": "220113"
+ },
+ {
+   "email": "antoni_górka@email.com",
+   "first_name": "Antoni",
+   "last_name": "Górka",
+   "address": "ul. Widok 20/8, Lubomierz",
+   "birth_date": "1993-01-14",
+   "role": "student",
+   "id_card": "220114"
+ },
+ {
+   "email": "franciszek_wróbel@email.com",
+   "first_name": "Franciszek",
+   "last_name": "Wróbel",
+   "address": "ul. Generała Tadeusza Kutrzeby 26/13, Wrocław",
+   "birth_date": "1992-07-03",
+   "role": "student",
+   "id_card": "220115"
+ },
+ {
+   "email": "antonina_biel@email.com",
+   "first_name": "Antonina",
+   "last_name": "Biel",
+   "address": "ul. Wodzisławska 10/19, Wrocław",
+   "birth_date": "1995-08-10",
+   "role": "student",
+   "id_card": "220116"
+ },
+ {
+   "email": "lucyna_leśniewicz@email.com",
+   "first_name": "Lucyna",
+   "last_name": "Leśniewicz",
+   "address": "ul. Letnia 60/5, Wrocław",
+   "birth_date": "1994-08-13",
+   "role": "student",
+   "id_card": "220117"
+ },
+ {
+   "email": "zuzanna_rudzki@email.com",
+   "first_name": "Zuzanna",
+   "last_name": "Rudzki",
+   "address": "ul. Wrocławska 35/13, Wrocław",
+   "birth_date": "1993-08-15",
+   "role": "student",
+   "id_card": "220118"
+ },
+ {
+   "email": "marika_krakowiak@email.com",
+   "first_name": "Marika",
+   "last_name": "Krakowiak",
+   "address": "ul. Gruszkowa 52/11, Gryfów Śląski",
+   "birth_date": "1991-11-04",
+   "role": "student",
+   "id_card": "220119"
+ },
+ {
+   "email": "aleksander_dominiczak@email.com",
+   "first_name": "Aleksander",
+   "last_name": "Dominiczak",
+   "address": "ul. Czereśniowa 56/2, Wrocław",
+   "birth_date": "1991-11-03",
+   "role": "student",
+   "id_card": "220120"
+ },
+ {
+   "email": "katarzyna_zaworski@email.com",
+   "first_name": "Katarzyna",
+   "last_name": "Zaworski",
+   "address": "ul. Rudników 44/20, Milicz",
+   "birth_date": "1993-08-07",
+   "role": "student",
+   "id_card": "220121"
+ },
+ {
+   "email": "joanna_miłek@email.com",
+   "first_name": "Joanna",
+   "last_name": "Miłek",
+   "address": "ul. Letnia 43/13, Wrocław",
+   "birth_date": "1990-06-04",
+   "role": "student",
+   "id_card": "220122"
+ },
+ {
+   "email": "zuzanna_langa@email.com",
+   "first_name": "Zuzanna",
+   "last_name": "Langa",
+   "address": "ul. Śliwkowa 17/14, Wrocław",
+   "birth_date": "1995-10-26",
+   "role": "student",
+   "id_card": "220123"
+ },
+ {
+   "email": "ariana_glinka@email.com",
+   "first_name": "Ariana",
+   "last_name": "Glinka",
+   "address": "ul. Wodzisławska 28/15, Polkowice",
+   "birth_date": "1990-02-25",
+   "role": "student",
+   "id_card": "220124"
+ },
+ {
+   "email": "anna_mosakowski@email.com",
+   "first_name": "Anna",
+   "last_name": "Mosakowski",
+   "address": "ul. Rutkowskiego 6/7, Wałbrzych",
+   "birth_date": "1990-07-16",
+   "role": "student",
+   "id_card": "220125"
+ },
+ {
+   "email": "zofia_pabich@email.com",
+   "first_name": "Zofia",
+   "last_name": "Pabich",
+   "address": "ul. Kwiatowa 59/13, Wrocław",
+   "birth_date": "1993-01-25",
+   "role": "student",
+   "id_card": "220126"
+ },
+ {
+   "email": "lucyna_barylski@email.com",
+   "first_name": "Lucyna",
+   "last_name": "Barylski",
+   "address": "ul. Generała Wiktora Thomme 54/18, Wrocław",
+   "birth_date": "1992-10-26",
+   "role": "student",
+   "id_card": "220127"
+ },
+ {
+   "email": "krystyna_królicki@email.com",
+   "first_name": "Krystyna",
+   "last_name": "Królicki",
+   "address": "ul. Widok 34/13, Wrocław",
+   "birth_date": "1990-04-25",
+   "role": "student",
+   "id_card": "220128"
+ },
+ {
+   "email": "petronella_cieszyński@email.com",
+   "first_name": "Petronella",
+   "last_name": "Cieszyński",
+   "address": "ul. Kwiatowa 49/9, Wrocław",
+   "birth_date": "1993-01-13",
+   "role": "student",
+   "id_card": "220129"
+ },
+ {
+   "email": "piotr_kobiela@email.com",
+   "first_name": "Piotr",
+   "last_name": "Kobiela",
+   "address": "ul. Czereśniowa 32/4, Wałbrzych",
+   "birth_date": "1995-05-01",
+   "role": "student",
+   "id_card": "220130"
+ },
+ {
+   "email": "teresa_jasek@email.com",
+   "first_name": "Teresa",
+   "last_name": "Jasek",
+   "address": "ul. Kwiatowa 7/7, Wrocław",
+   "birth_date": "1995-04-15",
+   "role": "student",
+   "id_card": "220131"
+ },
+ {
+   "email": "bożena_ząbek@email.com",
+   "first_name": "Bożena",
+   "last_name": "Ząbek",
+   "address": "ul. Wąska 34/6, Gryfów Śląski",
+   "birth_date": "1993-07-20",
+   "role": "student",
+   "id_card": "220132"
+ },
+ {
+   "email": "wincenty_węgrzynowski@email.com",
+   "first_name": "Wincenty",
+   "last_name": "Węgrzynowski",
+   "address": "ul. Gronowa 27/9, Wrocław",
+   "birth_date": "1995-04-25",
+   "role": "student",
+   "id_card": "220133"
+ },
+ {
+   "email": "stanisław_słaby@email.com",
+   "first_name": "Stanisław",
+   "last_name": "Słaby",
+   "address": "ul. Gruszkowa 58/4, Strzegom",
+   "birth_date": "1991-12-28",
+   "role": "student",
+   "id_card": "220134"
+ },
+ {
+   "email": "nikola_smoczyński@email.com",
+   "first_name": "Nikola",
+   "last_name": "Smoczyński",
+   "address": "ul. Wrocławska 27/14, Wrocław",
+   "birth_date": "1993-12-19",
+   "role": "student",
+   "id_card": "220135"
+ },
+ {
+   "email": "zbigniew_główka@email.com",
+   "first_name": "Zbigniew",
+   "last_name": "Główka",
+   "address": "ul. Truskawkowa 59/12, Trzebnica",
+   "birth_date": "1991-04-18",
+   "role": "student",
+   "id_card": "220136"
+ },
+ {
+   "email": "jadwiga_kokoszka@email.com",
+   "first_name": "Jadwiga",
+   "last_name": "Kokoszka",
+   "address": "ul. Truskawkowa 52/5, Polkowice",
+   "birth_date": "1992-02-07",
+   "role": "student",
+   "id_card": "220137"
+ },
+ {
+   "email": "pamela_dratwa@email.com",
+   "first_name": "Pamela",
+   "last_name": "Dratwa",
+   "address": "ul. Szydłowska 25/2, Prochowice",
+   "birth_date": "1994-01-06",
+   "role": "student",
+   "id_card": "220138"
+ },
+ {
+   "email": "joanna_kaczkowski@email.com",
+   "first_name": "Joanna",
+   "last_name": "Kaczkowski",
+   "address": "ul. Generała Wiktora Thomme 26/3, Lwówek Śląski",
+   "birth_date": "1993-04-03",
+   "role": "student",
+   "id_card": "220139"
+ },
+ {
+   "email": "hanna_iwaszkiewicz@email.com",
+   "first_name": "Hanna",
+   "last_name": "Iwaszkiewicz",
+   "address": "ul. Słowicza 48/8, Wrocław",
+   "birth_date": "1995-02-15",
+   "role": "student",
+   "id_card": "220140"
+ },
+ {
+   "email": "jozue_sakowicz@email.com",
+   "first_name": "Jozue",
+   "last_name": "Sakowicz",
+   "address": "ul. Kwiatowa 47/20, Wrocław",
+   "birth_date": "1993-12-21",
+   "role": "student",
+   "id_card": "220141"
+ },
+ {
+   "email": "wiliam_krasicki@email.com",
+   "first_name": "Wiliam",
+   "last_name": "Krasicki",
+   "address": "ul. Generała Wiktora Thomme 29/17, Wrocław",
+   "birth_date": "1992-07-26",
+   "role": "student",
+   "id_card": "220142"
+ },
+ {
+   "email": "dominika_richter@email.com",
+   "first_name": "Dominika",
+   "last_name": "Richter",
+   "address": "ul. Gruszkowa 56/15, Wrocław",
+   "birth_date": "1993-05-06",
+   "role": "student",
+   "id_card": "220143"
+ },
+ {
+   "email": "anna_pawelec@email.com",
+   "first_name": "Anna",
+   "last_name": "Pawelec",
+   "address": "ul. Rutkowskiego 44/19, Wrocław",
+   "birth_date": "1990-07-04",
+   "role": "student",
+   "id_card": "220144"
+ },
+ {
+   "email": "bożena_kulikowski@email.com",
+   "first_name": "Bożena",
+   "last_name": "Kulikowski",
+   "address": "ul. Kubusia Puchatka 34/3, Prochowice",
+   "birth_date": "1993-12-28",
+   "role": "student",
+   "id_card": "220145"
+ },
+ {
+   "email": "wiliam_wojtowicz@email.com",
+   "first_name": "Wiliam",
+   "last_name": "Wojtowicz",
+   "address": "ul. Szydłowska 52/10, Wrocław",
+   "birth_date": "1994-01-19",
+   "role": "student",
+   "id_card": "220146"
+ },
+ {
+   "email": "maria_stokowski@email.com",
+   "first_name": "Maria",
+   "last_name": "Stokowski",
+   "address": "ul. Generała Tadeusza Kutrzeby 12/18, Brzeg Dolny",
+   "birth_date": "1993-02-28",
+   "role": "student",
+   "id_card": "220147"
+ },
+ {
+   "email": "arkadiusz_drężek@email.com",
+   "first_name": "Arkadiusz",
+   "last_name": "Drężek",
+   "address": "ul. Kwiatowa 11/17, Trzebnica",
+   "birth_date": "1991-02-01",
+   "role": "student",
+   "id_card": "220148"
+ },
+ {
+   "email": "dominika_łyczko@email.com",
+   "first_name": "Dominika",
+   "last_name": "Łyczko",
+   "address": "ul. Wrocławska 43/5, Bystrzyca Kłodzka",
+   "birth_date": "1991-11-18",
+   "role": "student",
+   "id_card": "220149"
+ },
+ {
+   "email": "kamila_golański@email.com",
+   "first_name": "Kamila",
+   "last_name": "Golański",
+   "address": "ul. Wrocławska 51/7, Świdnica",
+   "birth_date": "1992-07-07",
+   "role": "student",
+   "id_card": "220150"
+ },
+ {
+   "email": "dorota_dolatowski@email.com",
+   "first_name": "Dorota",
+   "last_name": "Dolatowski",
+   "address": "ul. Porzeczkowa 17/15, Wrocław",
+   "birth_date": "1994-08-20",
+   "role": "student",
+   "id_card": "220151"
+ },
+ {
+   "email": "marzena_kotarba@email.com",
+   "first_name": "Marzena",
+   "last_name": "Kotarba",
+   "address": "ul. Generała Wiktora Thomme 48/3, Wrocław",
+   "birth_date": "1992-01-23",
+   "role": "student",
+   "id_card": "220152"
+ },
+ {
+   "email": "jan_kiraga@email.com",
+   "first_name": "Jan",
+   "last_name": "Kiraga",
+   "address": "ul. Porzeczkowa 32/12, Wrocław",
+   "birth_date": "1991-03-12",
+   "role": "student",
+   "id_card": "220153"
+ },
+ {
+   "email": "anna_bogusławski@email.com",
+   "first_name": "Anna",
+   "last_name": "Bogusławski",
+   "address": "ul. Wrocławska 4/17, Wrocław",
+   "birth_date": "1995-08-08",
+   "role": "student",
+   "id_card": "220154"
+ },
+ {
+   "email": "paweł_klimczuk@email.com",
+   "first_name": "Paweł",
+   "last_name": "Klimczuk",
+   "address": "ul. Kwiatowa 10/14, Wrocław",
+   "birth_date": "1995-05-03",
+   "role": "student",
+   "id_card": "220155"
+ },
+ {
+   "email": "marcjanna_zaniewski@email.com",
+   "first_name": "Marcjanna",
+   "last_name": "Zaniewski",
+   "address": "ul. Generała Wiktora Thomme 59/9, Bystrzyca Kłodzka",
+   "birth_date": "1992-10-07",
+   "role": "student",
+   "id_card": "220156"
+ },
+ {
+   "email": "stanisław_gdaniec@email.com",
+   "first_name": "Stanisław",
+   "last_name": "Gdaniec",
+   "address": "ul. Porzeczkowa 44/10, Wrocław",
+   "birth_date": "1995-06-23",
+   "role": "student",
+   "id_card": "220157"
+ },
+ {
+   "email": "aleksander_ciok@email.com",
+   "first_name": "Aleksander",
+   "last_name": "Ciok",
+   "address": "ul. Truskawkowa 18/5, Wrocław",
+   "birth_date": "1991-10-02",
+   "role": "student",
+   "id_card": "220158"
+ },
+ {
+   "email": "dominika_kania@email.com",
+   "first_name": "Dominika",
+   "last_name": "Kania",
+   "address": "ul. Szydłowska 18/20, Wrocław",
+   "birth_date": "1990-03-21",
+   "role": "student",
+   "id_card": "220159"
+ },
+ {
+   "email": "krzysztof_wichrowski@email.com",
+   "first_name": "Krzysztof",
+   "last_name": "Wichrowski",
+   "address": "ul. Tylna 4/15, Polkowice",
+   "birth_date": "1990-11-10",
+   "role": "student",
+   "id_card": "220160"
+ },
+ {
+   "email": "arkadiusz_ślęzak@email.com",
+   "first_name": "Arkadiusz",
+   "last_name": "Ślęzak",
+   "address": "ul. Czereśniowa 59/5, Kąty Wrocławskie",
+   "birth_date": "1991-10-25",
+   "role": "student",
+   "id_card": "220161"
+ },
+ {
+   "email": "stanisław_szymczuk@email.com",
+   "first_name": "Stanisław",
+   "last_name": "Szymczuk",
+   "address": "ul. Generała Tadeusza Kutrzeby 30/14, Strzegom",
+   "birth_date": "1991-04-12",
+   "role": "student",
+   "id_card": "220162"
+ },
+ {
+   "email": "julia_jeleń@email.com",
+   "first_name": "Julia",
+   "last_name": "Jeleń",
+   "address": "ul. Słowicza 35/17, Stronie Śląskie",
+   "birth_date": "1990-07-12",
+   "role": "student",
+   "id_card": "220163"
+ },
+ {
+   "email": "gracjan_ignasiak@email.com",
+   "first_name": "Gracjan",
+   "last_name": "Ignasiak",
+   "address": "ul. Śliwkowa 36/17, Wrocław",
+   "birth_date": "1994-10-22",
+   "role": "student",
+   "id_card": "220164"
+ },
+ {
+   "email": "arleta_szypuła@email.com",
+   "first_name": "Arleta",
+   "last_name": "Szypuła",
+   "address": "ul. Kubusia Puchatka 11/6, Trzebnica",
+   "birth_date": "1993-03-19",
+   "role": "student",
+   "id_card": "220165"
+ },
+ {
+   "email": "krystyna_kida@email.com",
+   "first_name": "Krystyna",
+   "last_name": "Kida",
+   "address": "ul. Śliwkowa 34/1, Gryfów Śląski",
+   "birth_date": "1995-11-15",
+   "role": "student",
+   "id_card": "220166"
+ },
+ {
+   "email": "marcin_pajor@email.com",
+   "first_name": "Marcin",
+   "last_name": "Pajor",
+   "address": "ul. Generała Tadeusza Kutrzeby 48/2, Wrocław",
+   "birth_date": "1992-10-28",
+   "role": "student",
+   "id_card": "220167"
+ },
+ {
+   "email": "irena_rymarczyk@email.com",
+   "first_name": "Irena",
+   "last_name": "Rymarczyk",
+   "address": "ul. Generała Tadeusza Kutrzeby 49/1, Wałbrzych",
+   "birth_date": "1994-11-18",
+   "role": "student",
+   "id_card": "220168"
+ },
+ {
+   "email": "wioleta_napierała@email.com",
+   "first_name": "Wioleta",
+   "last_name": "Napierała",
+   "address": "ul. Czereśniowa 14/16, Wrocław",
+   "birth_date": "1993-03-06",
+   "role": "student",
+   "id_card": "220169"
+ },
+ {
+   "email": "teresa_kamieński@email.com",
+   "first_name": "Teresa",
+   "last_name": "Kamieński",
+   "address": "ul. Śliwkowa 36/19, Wrocław",
+   "birth_date": "1991-11-27",
+   "role": "student",
+   "id_card": "220170"
+ },
+ {
+   "email": "pamela_święcicki@email.com",
+   "first_name": "Pamela",
+   "last_name": "Święcicki",
+   "address": "ul. Kwiatowa 43/18, Wrocław",
+   "birth_date": "1994-09-21",
+   "role": "student",
+   "id_card": "220171"
+ },
+ {
+   "email": "szymon_waś@email.com",
+   "first_name": "Szymon",
+   "last_name": "Waś",
+   "address": "ul. Truskawkowa 48/6, Wrocław",
+   "birth_date": "1994-06-01",
+   "role": "student",
+   "id_card": "220172"
+ },
+ {
+   "email": "jagoda_maciejowski@email.com",
+   "first_name": "Jagoda",
+   "last_name": "Maciejowski",
+   "address": "ul. Rutkowskiego 10/15, Trzebnica",
+   "birth_date": "1990-02-14",
+   "role": "student",
+   "id_card": "220173"
+ },
+ {
+   "email": "marcin_suszyński@email.com",
+   "first_name": "Marcin",
+   "last_name": "Suszyński",
+   "address": "ul. Letnia 14/7, Wrocław",
+   "birth_date": "1992-03-06",
+   "role": "student",
+   "id_card": "220174"
+ },
+ {
+   "email": "szymon_pęcak@email.com",
+   "first_name": "Szymon",
+   "last_name": "Pęcak",
+   "address": "ul. Truskawkowa 29/19, Wrocław",
+   "birth_date": "1993-04-28",
+   "role": "student",
+   "id_card": "220175"
+ },
+ {
+   "email": "antoni_osak@email.com",
+   "first_name": "Antoni",
+   "last_name": "Osak",
+   "address": "ul. Wrocławska 25/12, Strzegom",
+   "birth_date": "1990-09-11",
+   "role": "student",
+   "id_card": "220176"
+ },
+ {
+   "email": "aleksander_krzyżowski@email.com",
+   "first_name": "Aleksander",
+   "last_name": "Krzyżowski",
+   "address": "ul. Czereśniowa 56/6, Wrocław",
+   "birth_date": "1990-06-12",
+   "role": "student",
+   "id_card": "220177"
+ },
+ {
+   "email": "aneta_jaguś@email.com",
+   "first_name": "Aneta",
+   "last_name": "Jaguś",
+   "address": "ul. Wrocławska 18/15, Gryfów Śląski",
+   "birth_date": "1990-03-10",
+   "role": "student",
+   "id_card": "220178"
+ },
+ {
+   "email": "marcin_rabenda@email.com",
+   "first_name": "Marcin",
+   "last_name": "Rabenda",
+   "address": "ul. Tylna 55/6, Wrocław",
+   "birth_date": "1994-09-09",
+   "role": "student",
+   "id_card": "220179"
+ },
+ {
+   "email": "petronella_szostek@email.com",
+   "first_name": "Petronella",
+   "last_name": "Szostek",
+   "address": "ul. Śliwkowa 60/15, Wrocław",
+   "birth_date": "1991-09-05",
+   "role": "student",
+   "id_card": "220180"
+ },
+ {
+   "email": "joanna_bucki@email.com",
+   "first_name": "Joanna",
+   "last_name": "Bucki",
+   "address": "ul. Kwiatowa 11/15, Trzebnica",
+   "birth_date": "1992-07-19",
+   "role": "student",
+   "id_card": "220181"
+ },
+ {
+   "email": "krystyna_antonik@email.com",
+   "first_name": "Krystyna",
+   "last_name": "Antonik",
+   "address": "ul. Gronowa 12/4, Milicz",
+   "birth_date": "1993-07-23",
+   "role": "student",
+   "id_card": "220182"
+ },
+ {
+   "email": "józef_kusyk@email.com",
+   "first_name": "Józef",
+   "last_name": "Kusyk",
+   "address": "ul. Kubusia Puchatka 49/11, Wrocław",
+   "birth_date": "1991-04-23",
+   "role": "student",
+   "id_card": "220183"
+ },
+ {
+   "email": "lucyna_gadomski@email.com",
+   "first_name": "Lucyna",
+   "last_name": "Gadomski",
+   "address": "ul. Generała Wiktora Thomme 5/17, Wrocław",
+   "birth_date": "1990-09-15",
+   "role": "student",
+   "id_card": "220184"
+ },
+ {
+   "email": "piotr_paszkowski@email.com",
+   "first_name": "Piotr",
+   "last_name": "Paszkowski",
+   "address": "ul. Widok 1/20, Wrocław",
+   "birth_date": "1994-09-04",
+   "role": "student",
+   "id_card": "220185"
+ },
+ {
+   "email": "anna_czyżowski@email.com",
+   "first_name": "Anna",
+   "last_name": "Czyżowski",
+   "address": "ul. Truskawkowa 24/18, Wrocław",
+   "birth_date": "1995-04-24",
+   "role": "student",
+   "id_card": "220186"
+ },
+ {
+   "email": "magdalena_gil@email.com",
+   "first_name": "Magdalena",
+   "last_name": "Gil",
+   "address": "ul. Gronowa 6/15, Wrocław",
+   "birth_date": "1995-07-09",
+   "role": "student",
+   "id_card": "220187"
+ },
+ {
+   "email": "albin_natkaniec@email.com",
+   "first_name": "Albin",
+   "last_name": "Natkaniec",
+   "address": "ul. Letnia 10/1, Wrocław",
+   "birth_date": "1992-12-05",
+   "role": "student",
+   "id_card": "220188"
+ },
+ {
+   "email": "hanna_wąsowski@email.com",
+   "first_name": "Hanna",
+   "last_name": "Wąsowski",
+   "address": "ul. Porzeczkowa 53/14, Wrocław",
+   "birth_date": "1992-08-15",
+   "role": "student",
+   "id_card": "220189"
+ },
+ {
+   "email": "jagoda_szolc@email.com",
+   "first_name": "Jagoda",
+   "last_name": "Szolc",
+   "address": "ul. Rutkowskiego 51/6, Brzeg Dolny",
+   "birth_date": "1990-06-26",
+   "role": "student",
+   "id_card": "220190"
+ },
+ {
+   "email": "sylwia_siemieniuk@email.com",
+   "first_name": "Sylwia",
+   "last_name": "Siemieniuk",
+   "address": "ul. Wąska 49/12, Wrocław",
+   "birth_date": "1991-09-11",
+   "role": "student",
+   "id_card": "220191"
+ },
+ {
+   "email": "jadwiga_kalicki@email.com",
+   "first_name": "Jadwiga",
+   "last_name": "Kalicki",
+   "address": "ul. Truskawkowa 13/6, Wrocław",
+   "birth_date": "1992-01-01",
+   "role": "student",
+   "id_card": "220192"
+ },
+ {
+   "email": "arkadiusz_dyl@email.com",
+   "first_name": "Arkadiusz",
+   "last_name": "Dyl",
+   "address": "ul. Gronowa 52/17, Wrocław",
+   "birth_date": "1995-12-06",
+   "role": "student",
+   "id_card": "220193"
+ },
+ {
+   "email": "jadwiga_simiński@email.com",
+   "first_name": "Jadwiga",
+   "last_name": "Simiński",
+   "address": "ul. Gronowa 47/12, Lwówek Śląski",
+   "birth_date": "1995-12-19",
+   "role": "student",
+   "id_card": "220194"
+ },
+ {
+   "email": "maksymilian_rudowski@email.com",
+   "first_name": "Maksymilian",
+   "last_name": "Rudowski",
+   "address": "ul. Porzeczkowa 58/18, Lądek-Zdrój",
+   "birth_date": "1991-08-19",
+   "role": "student",
+   "id_card": "220195"
+ },
+ {
+   "email": "julia_świtoń@email.com",
+   "first_name": "Julia",
+   "last_name": "Świtoń",
+   "address": "ul. Śliwkowa 24/19, Wrocław",
+   "birth_date": "1992-12-10",
+   "role": "student",
+   "id_card": "220196"
+ },
+ {
+   "email": "nikola_sobociński@email.com",
+   "first_name": "Nikola",
+   "last_name": "Sobociński",
+   "address": "ul. Rudników 32/18, Wrocław",
+   "birth_date": "1994-03-17",
+   "role": "student",
+   "id_card": "220197"
+ },
+ {
+   "email": "bogumiła_kubiczek@email.com",
+   "first_name": "Bogumiła",
+   "last_name": "Kubiczek",
+   "address": "ul. Szydłowska 45/5, Kąty Wrocławskie",
+   "birth_date": "1992-04-21",
+   "role": "student",
+   "id_card": "220198"
+ },
+ {
+   "email": "petronella_bauer@email.com",
+   "first_name": "Petronella",
+   "last_name": "Bauer",
+   "address": "ul. Generała Wiktora Thomme 60/15, Wrocław",
+   "birth_date": "1993-09-18",
+   "role": "student",
+   "id_card": "220199"
+ },
+ {
+   "email": "maksymilian_szcześniak@email.com",
+   "first_name": "Maksymilian",
+   "last_name": "Szcześniak",
+   "address": "ul. Widok 44/5, Wrocław",
+   "birth_date": "1994-08-02",
+   "role": "student",
+   "id_card": "220200"
+ },
+ {
+   "email": "krzysztof_orzeł@email.com",
+   "first_name": "Krzysztof",
+   "last_name": "Orzeł",
+   "address": "ul. Rutkowskiego 23/3, Wrocław",
+   "birth_date": "1990-09-15",
+   "role": "student",
+   "id_card": "220201"
+ },
+ {
+   "email": "hanna_zoń@email.com",
+   "first_name": "Hanna",
+   "last_name": "Zoń",
+   "address": "ul. Śliwkowa 57/15, Wrocław",
+   "birth_date": "1991-09-28",
+   "role": "student",
+   "id_card": "220202"
+ },
+ {
+   "email": "bożena_łucki@email.com",
+   "first_name": "Bożena",
+   "last_name": "Łucki",
+   "address": "ul. Rutkowskiego 20/3, Brzeg Dolny",
+   "birth_date": "1993-05-12",
+   "role": "student",
+   "id_card": "220203"
+ },
+ {
+   "email": "martyna_zdybel@email.com",
+   "first_name": "Martyna",
+   "last_name": "Zdybel",
+   "address": "ul. Wrocławska 27/9, Milicz",
+   "birth_date": "1992-04-14",
+   "role": "student",
+   "id_card": "220204"
+ },
+ {
+   "email": "dominika_cichowski@email.com",
+   "first_name": "Dominika",
+   "last_name": "Cichowski",
+   "address": "ul. Kubusia Puchatka 36/14, Kąty Wrocławskie",
+   "birth_date": "1993-12-23",
+   "role": "student",
+   "id_card": "220205"
+ },
+ {
+   "email": "stanisław_kapusta@email.com",
+   "first_name": "Stanisław",
+   "last_name": "Kapusta",
+   "address": "ul. Kwiatowa 46/12, Stronie Śląskie",
+   "birth_date": "1993-01-27",
+   "role": "student",
+   "id_card": "220206"
+ },
+ {
+   "email": "aleksander_wojas@email.com",
+   "first_name": "Aleksander",
+   "last_name": "Wojas",
+   "address": "ul. Rutkowskiego 14/6, Wrocław",
+   "birth_date": "1994-07-04",
+   "role": "student",
+   "id_card": "220207"
+ },
+ {
+   "email": "gracjan_wawrzyniak@email.com",
+   "first_name": "Gracjan",
+   "last_name": "Wawrzyniak",
+   "address": "ul. Widok 36/9, Wrocław",
+   "birth_date": "1993-04-09",
+   "role": "student",
+   "id_card": "220208"
+ },
+ {
+   "email": "jacek_patyk@email.com",
+   "first_name": "Jacek",
+   "last_name": "Patyk",
+   "address": "ul. Rudników 40/1, Wrocław",
+   "birth_date": "1992-10-08",
+   "role": "student",
+   "id_card": "220209"
+ },
+ {
+   "email": "wojciech_kubiak@email.com",
+   "first_name": "Wojciech",
+   "last_name": "Kubiak",
+   "address": "ul. Słowicza 40/8, Polkowice",
+   "birth_date": "1993-08-10",
+   "role": "student",
+   "id_card": "220210"
+ },
+ {
+   "email": "albin_kucza@email.com",
+   "first_name": "Albin",
+   "last_name": "Kucza",
+   "address": "ul. Kubusia Puchatka 14/12, Wrocław",
+   "birth_date": "1995-11-09",
+   "role": "student",
+   "id_card": "220211"
+ },
+ {
+   "email": "marcjanna_szreder@email.com",
+   "first_name": "Marcjanna",
+   "last_name": "Szreder",
+   "address": "ul. Widok 29/13, Stronie Śląskie",
+   "birth_date": "1992-07-22",
+   "role": "student",
+   "id_card": "220212"
+ },
+ {
+   "email": "szymon_struzik@email.com",
+   "first_name": "Szymon",
+   "last_name": "Struzik",
+   "address": "ul. Generała Tadeusza Kutrzeby 4/8, Polkowice",
+   "birth_date": "1994-01-20",
+   "role": "student",
+   "id_card": "220213"
+ },
+ {
+   "email": "zofia_marciszewski@email.com",
+   "first_name": "Zofia",
+   "last_name": "Marciszewski",
+   "address": "ul. Letnia 4/3, Brzeg Dolny",
+   "birth_date": "1992-05-14",
+   "role": "student",
+   "id_card": "220214"
+ },
+ {
+   "email": "mirella_majerski@email.com",
+   "first_name": "Mirella",
+   "last_name": "Majerski",
+   "address": "ul. Porzeczkowa 10/3, Milicz",
+   "birth_date": "1993-03-21",
+   "role": "student",
+   "id_card": "220215"
+ },
+ {
+   "email": "krystyna_więcławski@email.com",
+   "first_name": "Krystyna",
+   "last_name": "Więcławski",
+   "address": "ul. Czereśniowa 11/7, Wrocław",
+   "birth_date": "1995-06-17",
+   "role": "student",
+   "id_card": "220216"
+ },
+ {
+   "email": "dorota_łukaszek@email.com",
+   "first_name": "Dorota",
+   "last_name": "Łukaszek",
+   "address": "ul. Kubusia Puchatka 38/8, Wrocław",
+   "birth_date": "1990-10-10",
+   "role": "student",
+   "id_card": "220217"
+ },
+ {
+   "email": "joanna_wołowski@email.com",
+   "first_name": "Joanna",
+   "last_name": "Wołowski",
+   "address": "ul. Śliwkowa 26/15, Wrocław",
+   "birth_date": "1991-10-27",
+   "role": "student",
+   "id_card": "220218"
+ },
+ {
+   "email": "pamela_pikulski@email.com",
+   "first_name": "Pamela",
+   "last_name": "Pikulski",
+   "address": "ul. Szydłowska 53/12, Prochowice",
+   "birth_date": "1991-08-21",
+   "role": "student",
+   "id_card": "220219"
+ },
+ {
+   "email": "krzysztof_korneluk@email.com",
+   "first_name": "Krzysztof",
+   "last_name": "Korneluk",
+   "address": "ul. Gruszkowa 8/12, Bystrzyca Kłodzka",
+   "birth_date": "1991-06-24",
+   "role": "student",
+   "id_card": "220220"
+ },
+ {
+   "email": "arkadiusz_pakulski@email.com",
+   "first_name": "Arkadiusz",
+   "last_name": "Pakulski",
+   "address": "ul. Rutkowskiego 2/1, Brzeg Dolny",
+   "birth_date": "1995-07-27",
+   "role": "student",
+   "id_card": "220221"
+ },
+ {
+   "email": "maksymilian_andrzejak@email.com",
+   "first_name": "Maksymilian",
+   "last_name": "Andrzejak",
+   "address": "ul. Letnia 27/13, Wrocław",
+   "birth_date": "1994-08-23",
+   "role": "student",
+   "id_card": "220222"
+ },
+ {
+   "email": "teresa_dudka@email.com",
+   "first_name": "Teresa",
+   "last_name": "Dudka",
+   "address": "ul. Wrocławska 21/9, Kąty Wrocławskie",
+   "birth_date": "1992-06-20",
+   "role": "student",
+   "id_card": "220223"
+ },
+ {
+   "email": "marika_bala@email.com",
+   "first_name": "Marika",
+   "last_name": "Bala",
+   "address": "ul. Gronowa 15/13, Bystrzyca Kłodzka",
+   "birth_date": "1991-11-03",
+   "role": "student",
+   "id_card": "220224"
+ },
+ {
+   "email": "wojciech_sobiech@email.com",
+   "first_name": "Wojciech",
+   "last_name": "Sobiech",
+   "address": "ul. Generała Tadeusza Kutrzeby 45/19, Wałbrzych",
+   "birth_date": "1992-12-09",
+   "role": "student",
+   "id_card": "220225"
+ },
+ {
+   "email": "lilianna_lazar@email.com",
+   "first_name": "Lilianna",
+   "last_name": "Lazar",
+   "address": "ul. Wrocławska 7/18, Wrocław",
+   "birth_date": "1993-06-23",
+   "role": "student",
+   "id_card": "220226"
+ },
+ {
+   "email": "teresa_sternik@email.com",
+   "first_name": "Teresa",
+   "last_name": "Sternik",
+   "address": "ul. Wrocławska 27/5, Wrocław",
+   "birth_date": "1995-01-14",
+   "role": "student",
+   "id_card": "220227"
+ },
+ {
+   "email": "wiliam_drelich@email.com",
+   "first_name": "Wiliam",
+   "last_name": "Drelich",
+   "address": "ul. Rutkowskiego 25/14, Gryfów Śląski",
+   "birth_date": "1990-03-18",
+   "role": "student",
+   "id_card": "220228"
+ },
+ {
+   "email": "krystyna_iskra@email.com",
+   "first_name": "Krystyna",
+   "last_name": "Iskra",
+   "address": "ul. Widok 42/14, Lwówek Śląski",
+   "birth_date": "1992-11-08",
+   "role": "student",
+   "id_card": "220229"
+ },
+ {
+   "email": "jacek_suder@email.com",
+   "first_name": "Jacek",
+   "last_name": "Suder",
+   "address": "ul. Śliwkowa 52/7, Polkowice",
+   "birth_date": "1992-06-06",
+   "role": "student",
+   "id_card": "220230"
+ },
+ {
+   "email": "wincenty_zamojski@email.com",
+   "first_name": "Wincenty",
+   "last_name": "Zamojski",
+   "address": "ul. Tylna 34/5, Stronie Śląskie",
+   "birth_date": "1992-05-17",
+   "role": "student",
+   "id_card": "220231"
+ },
+ {
+   "email": "lucyna_możdżeń@email.com",
+   "first_name": "Lucyna",
+   "last_name": "Możdżeń",
+   "address": "ul. Wrocławska 54/20, Bystrzyca Kłodzka",
+   "birth_date": "1992-06-25",
+   "role": "student",
+   "id_card": "220232"
+ },
+ {
+   "email": "lucyna_deka@email.com",
+   "first_name": "Lucyna",
+   "last_name": "Deka",
+   "address": "ul. Czereśniowa 52/6, Trzebnica",
+   "birth_date": "1992-04-23",
+   "role": "student",
+   "id_card": "220233"
+ },
+ {
+   "email": "antonina_piekarczyk@email.com",
+   "first_name": "Antonina",
+   "last_name": "Piekarczyk",
+   "address": "ul. Letnia 1/15, Lądek-Zdrój",
+   "birth_date": "1991-02-19",
+   "role": "student",
+   "id_card": "220234"
+ },
+ {
+   "email": "odetta_kamecki@email.com",
+   "first_name": "Odetta",
+   "last_name": "Kamecki",
+   "address": "ul. Generała Tadeusza Kutrzeby 30/2, Polkowice",
+   "birth_date": "1992-12-02",
+   "role": "student",
+   "id_card": "220235"
+ },
+ {
+   "email": "andrzej_chabowski@email.com",
+   "first_name": "Andrzej",
+   "last_name": "Chabowski",
+   "address": "ul. Generała Wiktora Thomme 10/7, Brzeg Dolny",
+   "birth_date": "1993-03-01",
+   "role": "student",
+   "id_card": "220236"
+ },
+ {
+   "email": "teresa_bargieł@email.com",
+   "first_name": "Teresa",
+   "last_name": "Bargieł",
+   "address": "ul. Szydłowska 13/6, Bystrzyca Kłodzka",
+   "birth_date": "1990-10-02",
+   "role": "student",
+   "id_card": "220237"
+ },
+ {
+   "email": "jacek_buczak@email.com",
+   "first_name": "Jacek",
+   "last_name": "Buczak",
+   "address": "ul. Tylna 1/7, Lubomierz",
+   "birth_date": "1990-08-08",
+   "role": "student",
+   "id_card": "220238"
+ },
+ {
+   "email": "petronella_szałkowski@email.com",
+   "first_name": "Petronella",
+   "last_name": "Szałkowski",
+   "address": "ul. Gruszkowa 30/10, Wrocław",
+   "birth_date": "1991-10-11",
+   "role": "student",
+   "id_card": "220239"
+ },
+ {
+   "email": "petronella_kobylański@email.com",
+   "first_name": "Petronella",
+   "last_name": "Kobylański",
+   "address": "ul. Generała Wiktora Thomme 22/19, Polkowice",
+   "birth_date": "1993-04-25",
+   "role": "student",
+   "id_card": "220240"
+ },
+ {
+   "email": "marika_matuszak@email.com",
+   "first_name": "Marika",
+   "last_name": "Matuszak",
+   "address": "ul. Tylna 35/12, Trzebnica",
+   "birth_date": "1995-03-23",
+   "role": "student",
+   "id_card": "220241"
+ },
+ {
+   "email": "bożena_talarczyk@email.com",
+   "first_name": "Bożena",
+   "last_name": "Talarczyk",
+   "address": "ul. Gronowa 17/13, Trzebnica",
+   "birth_date": "1994-03-09",
+   "role": "student",
+   "id_card": "220242"
+ },
+ {
+   "email": "anna_grochocki@email.com",
+   "first_name": "Anna",
+   "last_name": "Grochocki",
+   "address": "ul. Kwiatowa 16/7, Brzeg Dolny",
+   "birth_date": "1991-09-24",
+   "role": "student",
+   "id_card": "220243"
+ },
+ {
+   "email": "andrzej_kachel@email.com",
+   "first_name": "Andrzej",
+   "last_name": "Kachel",
+   "address": "ul. Wąska 9/3, Milicz",
+   "birth_date": "1990-12-08",
+   "role": "student",
+   "id_card": "220244"
+ },
+ {
+   "email": "albin_makuch@email.com",
+   "first_name": "Albin",
+   "last_name": "Makuch",
+   "address": "ul. Wrocławska 24/9, Wałbrzych",
+   "birth_date": "1995-06-19",
+   "role": "student",
+   "id_card": "220245"
+ },
+ {
+   "email": "stanisław_kądziela@email.com",
+   "first_name": "Stanisław",
+   "last_name": "Kądziela",
+   "address": "ul. Rudników 35/15, Gryfów Śląski",
+   "birth_date": "1993-05-08",
+   "role": "student",
+   "id_card": "220246"
+ },
+ {
+   "email": "jan_bakalarz@email.com",
+   "first_name": "Jan",
+   "last_name": "Bakalarz",
+   "address": "ul. Generała Tadeusza Kutrzeby 4/5, Brzeg Dolny",
+   "birth_date": "1992-02-16",
+   "role": "student",
+   "id_card": "220247"
+ },
+ {
+   "email": "maria_olewiński@email.com",
+   "first_name": "Maria",
+   "last_name": "Olewiński",
+   "address": "ul. Widok 56/3, Stronie Śląskie",
+   "birth_date": "1991-09-15",
+   "role": "student",
+   "id_card": "220248"
+ },
+ {
+   "email": "franciszek_stepaniuk@email.com",
+   "first_name": "Franciszek",
+   "last_name": "Stepaniuk",
+   "address": "ul. Generała Wiktora Thomme 39/13, Lwówek Śląski",
+   "birth_date": "1990-06-02",
+   "role": "student",
+   "id_card": "220249"
+ },
+ {
+   "email": "marcin_kobus@email.com",
+   "first_name": "Marcin",
+   "last_name": "Kobus",
+   "address": "ul. Szydłowska 11/11, Wrocław",
+   "birth_date": "1995-10-19",
+   "role": "student",
+   "id_card": "220250"
+ },
+ {
+   "email": "lilianna_woźnicki@email.com",
+   "first_name": "Lilianna",
+   "last_name": "Woźnicki",
+   "address": "ul. Generała Tadeusza Kutrzeby 14/8, Wrocław",
+   "birth_date": "1990-07-10",
+   "role": "student",
+   "id_card": "220251"
+ },
+ {
+   "email": "nikola_żyłka@email.com",
+   "first_name": "Nikola",
+   "last_name": "Żyłka",
+   "address": "ul. Śliwkowa 42/15, Wrocław",
+   "birth_date": "1995-08-27",
+   "role": "student",
+   "id_card": "220252"
+ },
+ {
+   "email": "gracjan_latocha@email.com",
+   "first_name": "Gracjan",
+   "last_name": "Latocha",
+   "address": "ul. Rudników 41/10, Gryfów Śląski",
+   "birth_date": "1992-10-01",
+   "role": "student",
+   "id_card": "220253"
+ },
+ {
+   "email": "sylwia_sajdak@email.com",
+   "first_name": "Sylwia",
+   "last_name": "Sajdak",
+   "address": "ul. Słowicza 22/7, Stronie Śląskie",
+   "birth_date": "1991-11-08",
+   "role": "student",
+   "id_card": "220254"
+ },
+ {
+   "email": "józef_smuga@email.com",
+   "first_name": "Józef",
+   "last_name": "Smuga",
+   "address": "ul. Gronowa 10/1, Wrocław",
+   "birth_date": "1992-02-23",
+   "role": "student",
+   "id_card": "220255"
+ },
+ {
+   "email": "nikola_szurgot@email.com",
+   "first_name": "Nikola",
+   "last_name": "Szurgot",
+   "address": "ul. Rudników 9/9, Wrocław",
+   "birth_date": "1995-01-20",
+   "role": "student",
+   "id_card": "220256"
+ },
+ {
+   "email": "lucyna_janda@email.com",
+   "first_name": "Lucyna",
+   "last_name": "Janda",
+   "address": "ul. Truskawkowa 34/1, Wrocław",
+   "birth_date": "1991-02-20",
+   "role": "student",
+   "id_card": "220257"
+ },
+ {
+   "email": "maksymilian_rykowski@email.com",
+   "first_name": "Maksymilian",
+   "last_name": "Rykowski",
+   "address": "ul. Gruszkowa 51/2, Wrocław",
+   "birth_date": "1990-06-16",
+   "role": "student",
+   "id_card": "220258"
+ },
+ {
+   "email": "helena_gwóźdź@email.com",
+   "first_name": "Helena",
+   "last_name": "Gwóźdź",
+   "address": "ul. Tylna 51/18, Wrocław",
+   "birth_date": "1991-04-21",
+   "role": "student",
+   "id_card": "220259"
+ },
+ {
+   "email": "paweł_zarzecki@email.com",
+   "first_name": "Paweł",
+   "last_name": "Zarzecki",
+   "address": "ul. Porzeczkowa 52/6, Stronie Śląskie",
+   "birth_date": "1991-10-22",
+   "role": "student",
+   "id_card": "220260"
+ },
+ {
+   "email": "katarzyna_targoński@email.com",
+   "first_name": "Katarzyna",
+   "last_name": "Targoński",
+   "address": "ul. Szydłowska 45/4, Milicz",
+   "birth_date": "1994-02-04",
+   "role": "student",
+   "id_card": "220261"
+ },
+ {
+   "email": "stanisław_kondracki@email.com",
+   "first_name": "Stanisław",
+   "last_name": "Kondracki",
+   "address": "ul. Kubusia Puchatka 20/9, Kąty Wrocławskie",
+   "birth_date": "1993-09-11",
+   "role": "student",
+   "id_card": "220262"
+ },
+ {
+   "email": "lucyna_koncewicz@email.com",
+   "first_name": "Lucyna",
+   "last_name": "Koncewicz",
+   "address": "ul. Rudników 16/3, Świdnica",
+   "birth_date": "1993-10-25",
+   "role": "student",
+   "id_card": "220263"
+ },
+ {
+   "email": "bernadetta_frączkowski@email.com",
+   "first_name": "Bernadetta",
+   "last_name": "Frączkowski",
+   "address": "ul. Porzeczkowa 56/14, Milicz",
+   "birth_date": "1990-07-20",
+   "role": "student",
+   "id_card": "220264"
+ },
+ {
+   "email": "lilianna_płóciennik@email.com",
+   "first_name": "Lilianna",
+   "last_name": "Płóciennik",
+   "address": "ul. Gronowa 14/14, Trzebnica",
+   "birth_date": "1993-12-15",
+   "role": "student",
+   "id_card": "220265"
+ },
+ {
+   "email": "adrianna_słowik@email.com",
+   "first_name": "Adrianna",
+   "last_name": "Słowik",
+   "address": "ul. Truskawkowa 36/14, Kąty Wrocławskie",
+   "birth_date": "1990-01-11",
+   "role": "student",
+   "id_card": "220266"
+ },
+ {
+   "email": "maksymilian_wojtecki@email.com",
+   "first_name": "Maksymilian",
+   "last_name": "Wojtecki",
+   "address": "ul. Szydłowska 57/6, Wrocław",
+   "birth_date": "1993-06-04",
+   "role": "student",
+   "id_card": "220267"
+ },
+ {
+   "email": "zofia_troszczyński@email.com",
+   "first_name": "Zofia",
+   "last_name": "Troszczyński",
+   "address": "ul. Kubusia Puchatka 24/15, Świdnica",
+   "birth_date": "1995-12-08",
+   "role": "student",
+   "id_card": "220268"
+ },
+ {
+   "email": "helena_rozbicki@email.com",
+   "first_name": "Helena",
+   "last_name": "Rozbicki",
+   "address": "ul. Gronowa 39/14, Wrocław",
+   "birth_date": "1994-05-18",
+   "role": "student",
+   "id_card": "220269"
+ },
+ {
+   "email": "andrzej_figarski@email.com",
+   "first_name": "Andrzej",
+   "last_name": "Figarski",
+   "address": "ul. Widok 25/14, Wrocław",
+   "birth_date": "1994-12-02",
+   "role": "student",
+   "id_card": "220270"
+ },
+ {
+   "email": "wioleta_baliński@email.com",
+   "first_name": "Wioleta",
+   "last_name": "Baliński",
+   "address": "ul. Kwiatowa 25/16, Trzebnica",
+   "birth_date": "1995-06-21",
+   "role": "student",
+   "id_card": "220271"
+ },
+ {
+   "email": "izabela_dawidowicz@email.com",
+   "first_name": "Izabela",
+   "last_name": "Dawidowicz",
+   "address": "ul. Tylna 38/20, Wrocław",
+   "birth_date": "1991-02-09",
+   "role": "student",
+   "id_card": "220272"
+ },
+ {
+   "email": "antonina_rakowski@email.com",
+   "first_name": "Antonina",
+   "last_name": "Rakowski",
+   "address": "ul. Generała Tadeusza Kutrzeby 15/7, Wrocław",
+   "birth_date": "1995-03-28",
+   "role": "student",
+   "id_card": "220273"
+ },
+ {
+   "email": "natan_pilarczyk@email.com",
+   "first_name": "Natan",
+   "last_name": "Pilarczyk",
+   "address": "ul. Rutkowskiego 41/2, Wrocław",
+   "birth_date": "1992-12-25",
+   "role": "student",
+   "id_card": "220274"
+ },
+ {
+   "email": "zbigniew_pomykała@email.com",
+   "first_name": "Zbigniew",
+   "last_name": "Pomykała",
+   "address": "ul. Wodzisławska 43/2, Bystrzyca Kłodzka",
+   "birth_date": "1994-04-01",
+   "role": "student",
+   "id_card": "220275"
+ },
+ {
+   "email": "leon_otto@email.com",
+   "first_name": "Leon",
+   "last_name": "Otto",
+   "address": "ul. Porzeczkowa 46/5, Wrocław",
+   "birth_date": "1993-12-20",
+   "role": "student",
+   "id_card": "220276"
+ },
+ {
+   "email": "antonina_czerniak@email.com",
+   "first_name": "Antonina",
+   "last_name": "Czerniak",
+   "address": "ul. Letnia 22/11, Milicz",
+   "birth_date": "1995-07-28",
+   "role": "student",
+   "id_card": "220277"
+ },
+ {
+   "email": "natan_wojdak@email.com",
+   "first_name": "Natan",
+   "last_name": "Wojdak",
+   "address": "ul. Rutkowskiego 38/12, Wrocław",
+   "birth_date": "1994-01-16",
+   "role": "student",
+   "id_card": "220278"
+ },
+ {
+   "email": "adrianna_frej@email.com",
+   "first_name": "Adrianna",
+   "last_name": "Frej",
+   "address": "ul. Kwiatowa 30/2, Trzebnica",
+   "birth_date": "1993-08-02",
+   "role": "student",
+   "id_card": "220279"
+ },
+ {
+   "email": "ariana_hinz@email.com",
+   "first_name": "Ariana",
+   "last_name": "Hinz",
+   "address": "ul. Porzeczkowa 57/12, Prochowice",
+   "birth_date": "1994-02-09",
+   "role": "student",
+   "id_card": "220280"
+ },
+ {
+   "email": "marcjanna_obara@email.com",
+   "first_name": "Marcjanna",
+   "last_name": "Obara",
+   "address": "ul. Rudników 21/3, Wrocław",
+   "birth_date": "1995-10-17",
+   "role": "student",
+   "id_card": "220281"
+ },
+ {
+   "email": "helena_kędzia@email.com",
+   "first_name": "Helena",
+   "last_name": "Kędzia",
+   "address": "ul. Kubusia Puchatka 11/18, Milicz",
+   "birth_date": "1991-05-18",
+   "role": "student",
+   "id_card": "220282"
+ },
+ {
+   "email": "zofia_sierzputowski@email.com",
+   "first_name": "Zofia",
+   "last_name": "Sierzputowski",
+   "address": "ul. Rudników 51/11, Wałbrzych",
+   "birth_date": "1995-06-16",
+   "role": "student",
+   "id_card": "220283"
+ },
+ {
+   "email": "odetta_ogrodowczyk@email.com",
+   "first_name": "Odetta",
+   "last_name": "Ogrodowczyk",
+   "address": "ul. Wodzisławska 17/1, Stronie Śląskie",
+   "birth_date": "1995-06-08",
+   "role": "student",
+   "id_card": "220284"
+ },
+ {
+   "email": "marcjanna_kłusek@email.com",
+   "first_name": "Marcjanna",
+   "last_name": "Kłusek",
+   "address": "ul. Śliwkowa 7/19, Wrocław",
+   "birth_date": "1992-08-21",
+   "role": "student",
+   "id_card": "220285"
+ },
+ {
+   "email": "szymon_dynowski@email.com",
+   "first_name": "Szymon",
+   "last_name": "Dynowski",
+   "address": "ul. Gronowa 43/17, Prochowice",
+   "birth_date": "1990-07-11",
+   "role": "student",
+   "id_card": "220286"
+ },
+ {
+   "email": "nikola_spałek@email.com",
+   "first_name": "Nikola",
+   "last_name": "Spałek",
+   "address": "ul. Kubusia Puchatka 42/6, Wrocław",
+   "birth_date": "1992-06-06",
+   "role": "student",
+   "id_card": "220287"
+ },
+ {
+   "email": "natan_lachowicz@email.com",
+   "first_name": "Natan",
+   "last_name": "Lachowicz",
+   "address": "ul. Rutkowskiego 4/20, Brzeg Dolny",
+   "birth_date": "1990-10-19",
+   "role": "student",
+   "id_card": "220288"
+ },
+ {
+   "email": "jacek_halicki@email.com",
+   "first_name": "Jacek",
+   "last_name": "Halicki",
+   "address": "ul. Słowicza 55/17, Kąty Wrocławskie",
+   "birth_date": "1990-08-18",
+   "role": "student",
+   "id_card": "220289"
+ },
+ {
+   "email": "marzena_łebek@email.com",
+   "first_name": "Marzena",
+   "last_name": "Łebek",
+   "address": "ul. Rutkowskiego 30/15, Milicz",
+   "birth_date": "1994-06-13",
+   "role": "student",
+   "id_card": "220290"
+ },
+ {
+   "email": "katarzyna_wilkowski@email.com",
+   "first_name": "Katarzyna",
+   "last_name": "Wilkowski",
+   "address": "ul. Generała Wiktora Thomme 24/5, Bystrzyca Kłodzka",
+   "birth_date": "1993-02-04",
+   "role": "student",
+   "id_card": "220291"
+ },
+ {
+   "email": "aneta_nawrocki@email.com",
+   "first_name": "Aneta",
+   "last_name": "Nawrocki",
+   "address": "ul. Truskawkowa 3/16, Wrocław",
+   "birth_date": "1991-01-21",
+   "role": "student",
+   "id_card": "220292"
+ },
+ {
+   "email": "hanna_sznajder@email.com",
+   "first_name": "Hanna",
+   "last_name": "Sznajder",
+   "address": "ul. Słowicza 57/2, Wrocław",
+   "birth_date": "1994-06-16",
+   "role": "student",
+   "id_card": "220293"
+ },
+ {
+   "email": "albin_olszówka@email.com",
+   "first_name": "Albin",
+   "last_name": "Olszówka",
+   "address": "ul. Rutkowskiego 21/19, Wrocław",
+   "birth_date": "1995-03-11",
+   "role": "student",
+   "id_card": "220294"
+ },
+ {
+   "email": "wioleta_świątczak@email.com",
+   "first_name": "Wioleta",
+   "last_name": "Świątczak",
+   "address": "ul. Szydłowska 50/10, Bystrzyca Kłodzka",
+   "birth_date": "1990-04-03",
+   "role": "student",
+   "id_card": "220295"
+ },
+ {
+   "email": "odetta_adach@email.com",
+   "first_name": "Odetta",
+   "last_name": "Adach",
+   "address": "ul. Gronowa 48/11, Polkowice",
+   "birth_date": "1995-09-24",
+   "role": "student",
+   "id_card": "220296"
+ },
+ {
+   "email": "lilianna_chomicki@email.com",
+   "first_name": "Lilianna",
+   "last_name": "Chomicki",
+   "address": "ul. Kubusia Puchatka 48/15, Stronie Śląskie",
+   "birth_date": "1992-12-25",
+   "role": "student",
+   "id_card": "220297"
+ },
+ {
+   "email": "pamela_markowicz@email.com",
+   "first_name": "Pamela",
+   "last_name": "Markowicz",
+   "address": "ul. Widok 36/17, Lwówek Śląski",
+   "birth_date": "1995-11-03",
+   "role": "student",
+   "id_card": "220298"
+ },
+ {
+   "email": "julian_jaźwiński@email.com",
+   "first_name": "Julian",
+   "last_name": "Jaźwiński",
+   "address": "ul. Rutkowskiego 36/14, Wrocław",
+   "birth_date": "1992-07-03",
+   "role": "student",
+   "id_card": "220299"
+ },
+ {
+   "email": "franciszek_brzoskowski@email.com",
+   "first_name": "Franciszek",
+   "last_name": "Brzoskowski",
+   "address": "ul. Porzeczkowa 7/8, Ząbkowice Śląskie",
+   "birth_date": "1994-03-26",
+   "role": "student",
+   "id_card": "220300"
+ },
+ {
+   "email": "antoni_iwaniuk@email.com",
+   "first_name": "Antoni",
+   "last_name": "Iwaniuk",
+   "address": "ul. Wodzisławska 14/15, Strzegom",
+   "birth_date": "1994-12-25",
+   "role": "student",
+   "id_card": "220301"
+ },
+ {
+   "email": "sylwia_opolski@email.com",
+   "first_name": "Sylwia",
+   "last_name": "Opolski",
+   "address": "ul. Kubusia Puchatka 59/20, Wrocław",
+   "birth_date": "1991-03-21",
+   "role": "student",
+   "id_card": "220302"
+ },
+ {
+   "email": "sławomir_jędrychowski@email.com",
+   "first_name": "Sławomir",
+   "last_name": "Jędrychowski",
+   "address": "ul. Rutkowskiego 34/19, Wrocław",
+   "birth_date": "1991-05-10",
+   "role": "student",
+   "id_card": "220303"
+ },
+ {
+   "email": "leon_misiura@email.com",
+   "first_name": "Leon",
+   "last_name": "Misiura",
+   "address": "ul. Tylna 23/3, Wrocław",
+   "birth_date": "1991-05-13",
+   "role": "student",
+   "id_card": "220304"
+ },
+ {
+   "email": "żaneta_cios@email.com",
+   "first_name": "Żaneta",
+   "last_name": "Cios",
+   "address": "ul. Tylna 37/3, Lwówek Śląski",
+   "birth_date": "1991-10-17",
+   "role": "student",
+   "id_card": "220305"
+ },
+ {
+   "email": "zbigniew_fabiański@email.com",
+   "first_name": "Zbigniew",
+   "last_name": "Fabiański",
+   "address": "ul. Czereśniowa 47/10, Wrocław",
+   "birth_date": "1992-10-13",
+   "role": "student",
+   "id_card": "220306"
+ },
+ {
+   "email": "antonina_sitek@email.com",
+   "first_name": "Antonina",
+   "last_name": "Sitek",
+   "address": "ul. Kubusia Puchatka 24/6, Wrocław",
+   "birth_date": "1991-04-10",
+   "role": "student",
+   "id_card": "220307"
+ },
+ {
+   "email": "lilianna_buczek@email.com",
+   "first_name": "Lilianna",
+   "last_name": "Buczek",
+   "address": "ul. Kubusia Puchatka 17/20, Wrocław",
+   "birth_date": "1992-10-14",
+   "role": "student",
+   "id_card": "220308"
+ },
+ {
+   "email": "teresa_goliński@email.com",
+   "first_name": "Teresa",
+   "last_name": "Goliński",
+   "address": "ul. Wąska 16/20, Bystrzyca Kłodzka",
+   "birth_date": "1990-08-11",
+   "role": "student",
+   "id_card": "220309"
+ },
+ {
+   "email": "aneta_śmietana@email.com",
+   "first_name": "Aneta",
+   "last_name": "Śmietana",
+   "address": "ul. Szydłowska 16/18, Bystrzyca Kłodzka",
+   "birth_date": "1992-04-21",
+   "role": "student",
+   "id_card": "220310"
+ },
+ {
+   "email": "bożena_trojanowski@email.com",
+   "first_name": "Bożena",
+   "last_name": "Trojanowski",
+   "address": "ul. Słowicza 57/18, Wałbrzych",
+   "birth_date": "1995-05-12",
+   "role": "student",
+   "id_card": "220311"
+ },
+ {
+   "email": "irena_kuleta@email.com",
+   "first_name": "Irena",
+   "last_name": "Kuleta",
+   "address": "ul. Tylna 9/13, Brzeg Dolny",
+   "birth_date": "1994-04-08",
+   "role": "student",
+   "id_card": "220312"
+ },
+ {
+   "email": "izabela_majchrzyk@email.com",
+   "first_name": "Izabela",
+   "last_name": "Majchrzyk",
+   "address": "ul. Słowicza 24/5, Stronie Śląskie",
+   "birth_date": "1995-10-16",
+   "role": "student",
+   "id_card": "220313"
+ },
+ {
+   "email": "antonina_sucharski@email.com",
+   "first_name": "Antonina",
+   "last_name": "Sucharski",
+   "address": "ul. Gruszkowa 60/14, Strzegom",
+   "birth_date": "1992-06-04",
+   "role": "student",
+   "id_card": "220314"
+ },
+ {
+   "email": "izabela_chmura@email.com",
+   "first_name": "Izabela",
+   "last_name": "Chmura",
+   "address": "ul. Generała Tadeusza Kutrzeby 34/11, Stronie Śląskie",
+   "birth_date": "1991-01-25",
+   "role": "student",
+   "id_card": "220315"
+ },
+ {
+   "email": "pamela_kwapiński@email.com",
+   "first_name": "Pamela",
+   "last_name": "Kwapiński",
+   "address": "ul. Letnia 11/17, Lądek-Zdrój",
+   "birth_date": "1993-11-17",
+   "role": "student",
+   "id_card": "220316"
+ },
+ {
+   "email": "maksymilian_garus@email.com",
+   "first_name": "Maksymilian",
+   "last_name": "Garus",
+   "address": "ul. Słowicza 10/18, Lwówek Śląski",
+   "birth_date": "1991-05-26",
+   "role": "student",
+   "id_card": "220317"
+ },
+ {
+   "email": "aneta_sobek@email.com",
+   "first_name": "Aneta",
+   "last_name": "Sobek",
+   "address": "ul. Rudników 10/6, Wrocław",
+   "birth_date": "1994-03-12",
+   "role": "student",
+   "id_card": "220318"
+ },
+ {
+   "email": "franciszek_dudek@email.com",
+   "first_name": "Franciszek",
+   "last_name": "Dudek",
+   "address": "ul. Czereśniowa 51/20, Milicz",
+   "birth_date": "1993-11-20",
+   "role": "student",
+   "id_card": "220319"
+ },
+ {
+   "email": "martyna_łagodziński@email.com",
+   "first_name": "Martyna",
+   "last_name": "Łagodziński",
+   "address": "ul. Wodzisławska 24/14, Wrocław",
+   "birth_date": "1995-05-21",
+   "role": "student",
+   "id_card": "220320"
+ },
+ {
+   "email": "wiliam_stefanowicz@email.com",
+   "first_name": "Wiliam",
+   "last_name": "Stefanowicz",
+   "address": "ul. Gronowa 21/18, Lądek-Zdrój",
+   "birth_date": "1991-08-24",
+   "role": "student",
+   "id_card": "220321"
+ },
+ {
+   "email": "piotr_galus@email.com",
+   "first_name": "Piotr",
+   "last_name": "Galus",
+   "address": "ul. Gruszkowa 34/11, Strzegom",
+   "birth_date": "1994-04-27",
+   "role": "student",
+   "id_card": "220322"
+ },
+ {
+   "email": "józef_świstak@email.com",
+   "first_name": "Józef",
+   "last_name": "Świstak",
+   "address": "ul. Wąska 54/3, Ząbkowice Śląskie",
+   "birth_date": "1991-11-26",
+   "role": "student",
+   "id_card": "220323"
+ },
+ {
+   "email": "paweł_niedziałkowski@email.com",
+   "first_name": "Paweł",
+   "last_name": "Niedziałkowski",
+   "address": "ul. Tylna 52/2, Wrocław",
+   "birth_date": "1991-10-14",
+   "role": "student",
+   "id_card": "220324"
+ },
+ {
+   "email": "bogumiła_bartecki@email.com",
+   "first_name": "Bogumiła",
+   "last_name": "Bartecki",
+   "address": "ul. Truskawkowa 31/9, Prochowice",
+   "birth_date": "1994-05-10",
+   "role": "student",
+   "id_card": "220325"
+ },
+ {
+   "email": "jacek_plewa@email.com",
+   "first_name": "Jacek",
+   "last_name": "Plewa",
+   "address": "ul. Czereśniowa 56/3, Lubomierz",
+   "birth_date": "1993-04-20",
+   "role": "student",
+   "id_card": "220326"
+ },
+ {
+   "email": "anna_antoniak@email.com",
+   "first_name": "Anna",
+   "last_name": "Antoniak",
+   "address": "ul. Tylna 58/19, Wrocław",
+   "birth_date": "1991-09-16",
+   "role": "student",
+   "id_card": "220327"
+ },
+ {
+   "email": "krystyna_prus@email.com",
+   "first_name": "Krystyna",
+   "last_name": "Prus",
+   "address": "ul. Rudników 5/20, Wrocław",
+   "birth_date": "1992-01-23",
+   "role": "student",
+   "id_card": "220328"
+ },
+ {
+   "email": "krystyna_gębicki@email.com",
+   "first_name": "Krystyna",
+   "last_name": "Gębicki",
+   "address": "ul. Rudników 48/4, Lubomierz",
+   "birth_date": "1993-05-15",
+   "role": "student",
+   "id_card": "220329"
+ },
+ {
+   "email": "wojciech_słomiński@email.com",
+   "first_name": "Wojciech",
+   "last_name": "Słomiński",
+   "address": "ul. Szydłowska 11/1, Wrocław",
+   "birth_date": "1992-04-19",
+   "role": "student",
+   "id_card": "220330"
+ },
+ {
+   "email": "jagna_pałubicki@email.com",
+   "first_name": "Jagna",
+   "last_name": "Pałubicki",
+   "address": "ul. Truskawkowa 26/9, Świdnica",
+   "birth_date": "1995-04-19",
+   "role": "student",
+   "id_card": "220331"
+ },
+ {
+   "email": "petronella_kanclerz@email.com",
+   "first_name": "Petronella",
+   "last_name": "Kanclerz",
+   "address": "ul. Śliwkowa 46/13, Brzeg Dolny",
+   "birth_date": "1992-11-24",
+   "role": "student",
+   "id_card": "220332"
+ },
+ {
+   "email": "adrianna_karczewski@email.com",
+   "first_name": "Adrianna",
+   "last_name": "Karczewski",
+   "address": "ul. Kwiatowa 32/20, Bystrzyca Kłodzka",
+   "birth_date": "1993-02-13",
+   "role": "student",
+   "id_card": "220333"
+ },
+ {
+   "email": "maria_siwik@email.com",
+   "first_name": "Maria",
+   "last_name": "Siwik",
+   "address": "ul. Rutkowskiego 29/17, Wrocław",
+   "birth_date": "1990-06-23",
+   "role": "student",
+   "id_card": "220334"
+ },
+ {
+   "email": "agnieszka_pomorski@email.com",
+   "first_name": "Agnieszka",
+   "last_name": "Pomorski",
+   "address": "ul. Wodzisławska 44/6, Wrocław",
+   "birth_date": "1994-11-01",
+   "role": "student",
+   "id_card": "220335"
+ },
+ {
+   "email": "maksymilian_kaszubowski@email.com",
+   "first_name": "Maksymilian",
+   "last_name": "Kaszubowski",
+   "address": "ul. Wodzisławska 8/10, Wrocław",
+   "birth_date": "1992-10-09",
+   "role": "student",
+   "id_card": "220336"
+ },
+ {
+   "email": "gracjan_zgoda@email.com",
+   "first_name": "Gracjan",
+   "last_name": "Zgoda",
+   "address": "ul. Gruszkowa 55/9, Kąty Wrocławskie",
+   "birth_date": "1991-10-04",
+   "role": "student",
+   "id_card": "220337"
+ },
+ {
+   "email": "antoni_strzałka@email.com",
+   "first_name": "Antoni",
+   "last_name": "Strzałka",
+   "address": "ul. Kubusia Puchatka 27/15, Gryfów Śląski",
+   "birth_date": "1991-02-27",
+   "role": "student",
+   "id_card": "220338"
+ },
+ {
+   "email": "maria_niedzwiecki@email.com",
+   "first_name": "Maria",
+   "last_name": "Niedzwiecki",
+   "address": "ul. Tylna 55/1, Wrocław",
+   "birth_date": "1991-05-24",
+   "role": "student",
+   "id_card": "220339"
+ },
+ {
+   "email": "jozue_kosmowski@email.com",
+   "first_name": "Jozue",
+   "last_name": "Kosmowski",
+   "address": "ul. Generała Tadeusza Kutrzeby 58/20, Wrocław",
+   "birth_date": "1991-02-02",
+   "role": "student",
+   "id_card": "220340"
+ },
+ {
+   "email": "bożena_bal@email.com",
+   "first_name": "Bożena",
+   "last_name": "Bal",
+   "address": "ul. Kubusia Puchatka 54/7, Wrocław",
+   "birth_date": "1995-07-26",
+   "role": "student",
+   "id_card": "220341"
+ },
+ {
+   "email": "jadwiga_szczech@email.com",
+   "first_name": "Jadwiga",
+   "last_name": "Szczech",
+   "address": "ul. Generała Wiktora Thomme 13/10, Wrocław",
+   "birth_date": "1991-07-17",
+   "role": "student",
+   "id_card": "220342"
+ },
+ {
+   "email": "krzysztof_jarzębowski@email.com",
+   "first_name": "Krzysztof",
+   "last_name": "Jarzębowski",
+   "address": "ul. Szydłowska 8/7, Wrocław",
+   "birth_date": "1992-01-18",
+   "role": "student",
+   "id_card": "220343"
+ },
+ {
+   "email": "zbigniew_jaskulski@email.com",
+   "first_name": "Zbigniew",
+   "last_name": "Jaskulski",
+   "address": "ul. Wodzisławska 34/18, Lwówek Śląski",
+   "birth_date": "1994-06-26",
+   "role": "student",
+   "id_card": "220344"
+ },
+ {
+   "email": "adrianna_litwin@email.com",
+   "first_name": "Adrianna",
+   "last_name": "Litwin",
+   "address": "ul. Tylna 39/18, Świdnica",
+   "birth_date": "1993-10-19",
+   "role": "student",
+   "id_card": "220345"
+ },
+ {
+   "email": "stanisław_bartosik@email.com",
+   "first_name": "Stanisław",
+   "last_name": "Bartosik",
+   "address": "ul. Letnia 60/13, Prochowice",
+   "birth_date": "1990-11-04",
+   "role": "student",
+   "id_card": "220346"
+ },
+ {
+   "email": "maciej_kot@email.com",
+   "first_name": "Maciej",
+   "last_name": "Kot",
+   "address": "ul. Rudników 2/7, Wrocław",
+   "birth_date": "1994-07-08",
+   "role": "student",
+   "id_card": "220347"
+ },
+ {
+   "email": "krystyna_matuszczak@email.com",
+   "first_name": "Krystyna",
+   "last_name": "Matuszczak",
+   "address": "ul. Wrocławska 59/17, Lwówek Śląski",
+   "birth_date": "1995-12-22",
+   "role": "student",
+   "id_card": "220348"
+ },
+ {
+   "email": "kamila_hibner@email.com",
+   "first_name": "Kamila",
+   "last_name": "Hibner",
+   "address": "ul. Porzeczkowa 18/2, Wałbrzych",
+   "birth_date": "1995-02-28",
+   "role": "student",
+   "id_card": "220349"
+ },
+ {
+   "email": "helena_prusak@email.com",
+   "first_name": "Helena",
+   "last_name": "Prusak",
+   "address": "ul. Rutkowskiego 49/13, Stronie Śląskie",
+   "birth_date": "1992-03-16",
+   "role": "student",
+   "id_card": "220350"
+ },
+ {
+   "email": "magdalena_gruca@email.com",
+   "first_name": "Magdalena",
+   "last_name": "Gruca",
+   "address": "ul. Śliwkowa 19/20, Wrocław",
+   "birth_date": "1991-08-08",
+   "role": "student",
+   "id_card": "220351"
+ },
+ {
+   "email": "jozue_wacławek@email.com",
+   "first_name": "Jozue",
+   "last_name": "Wacławek",
+   "address": "ul. Porzeczkowa 45/2, Strzegom",
+   "birth_date": "1990-11-17",
+   "role": "student",
+   "id_card": "220352"
+ },
+ {
+   "email": "anna_sudoł@email.com",
+   "first_name": "Anna",
+   "last_name": "Sudoł",
+   "address": "ul. Porzeczkowa 49/9, Gryfów Śląski",
+   "birth_date": "1995-07-04",
+   "role": "student",
+   "id_card": "220353"
+ },
+ {
+   "email": "jan_laskowski@email.com",
+   "first_name": "Jan",
+   "last_name": "Laskowski",
+   "address": "ul. Truskawkowa 36/6, Wrocław",
+   "birth_date": "1994-06-02",
+   "role": "student",
+   "id_card": "220354"
+ },
+ {
+   "email": "wiliam_duliński@email.com",
+   "first_name": "Wiliam",
+   "last_name": "Duliński",
+   "address": "ul. Słowicza 1/18, Milicz",
+   "birth_date": "1991-04-22",
+   "role": "student",
+   "id_card": "220355"
+ },
+ {
+   "email": "arkadiusz_świętochowski@email.com",
+   "first_name": "Arkadiusz",
+   "last_name": "Świętochowski",
+   "address": "ul. Porzeczkowa 34/3, Wrocław",
+   "birth_date": "1992-10-15",
+   "role": "student",
+   "id_card": "220356"
+ },
+ {
+   "email": "gracjan_sowiński@email.com",
+   "first_name": "Gracjan",
+   "last_name": "Sowiński",
+   "address": "ul. Wąska 27/10, Milicz",
+   "birth_date": "1995-10-12",
+   "role": "student",
+   "id_card": "220357"
+ },
+ {
+   "email": "marcin_błasiak@email.com",
+   "first_name": "Marcin",
+   "last_name": "Błasiak",
+   "address": "ul. Widok 2/10, Strzegom",
+   "birth_date": "1994-06-15",
+   "role": "student",
+   "id_card": "220358"
+ },
+ {
+   "email": "antonina_szymczak@email.com",
+   "first_name": "Antonina",
+   "last_name": "Szymczak",
+   "address": "ul. Generała Wiktora Thomme 34/2, Ząbkowice Śląskie",
+   "birth_date": "1992-07-15",
+   "role": "student",
+   "id_card": "220359"
+ },
+ {
+   "email": "bożena_wojtal@email.com",
+   "first_name": "Bożena",
+   "last_name": "Wojtal",
+   "address": "ul. Czereśniowa 19/7, Trzebnica",
+   "birth_date": "1992-02-23",
+   "role": "student",
+   "id_card": "220360"
+ },
+ {
+   "email": "dorota_sidorczuk@email.com",
+   "first_name": "Dorota",
+   "last_name": "Sidorczuk",
+   "address": "ul. Truskawkowa 38/15, Wrocław",
+   "birth_date": "1994-02-25",
+   "role": "student",
+   "id_card": "220361"
+ },
+ {
+   "email": "aneta_zwierzchowski@email.com",
+   "first_name": "Aneta",
+   "last_name": "Zwierzchowski",
+   "address": "ul. Słowicza 12/5, Wrocław",
+   "birth_date": "1992-07-21",
+   "role": "student",
+   "id_card": "220362"
+ },
+ {
+   "email": "jozue_muras@email.com",
+   "first_name": "Jozue",
+   "last_name": "Muras",
+   "address": "ul. Wąska 38/14, Bystrzyca Kłodzka",
+   "birth_date": "1992-03-19",
+   "role": "student",
+   "id_card": "220363"
+ },
+ {
+   "email": "franciszek_kucharek@email.com",
+   "first_name": "Franciszek",
+   "last_name": "Kucharek",
+   "address": "ul. Porzeczkowa 17/14, Świdnica",
+   "birth_date": "1994-04-08",
+   "role": "student",
+   "id_card": "220364"
+ },
+ {
+   "email": "petronella_anioł@email.com",
+   "first_name": "Petronella",
+   "last_name": "Anioł",
+   "address": "ul. Gronowa 3/2, Wrocław",
+   "birth_date": "1993-10-24",
+   "role": "student",
+   "id_card": "220365"
+ },
+ {
+   "email": "odetta_koziński@email.com",
+   "first_name": "Odetta",
+   "last_name": "Koziński",
+   "address": "ul. Kwiatowa 9/12, Lądek-Zdrój",
+   "birth_date": "1990-03-28",
+   "role": "student",
+   "id_card": "220366"
+ },
+ {
+   "email": "jozue_lorek@email.com",
+   "first_name": "Jozue",
+   "last_name": "Lorek",
+   "address": "ul. Słowicza 58/15, Wrocław",
+   "birth_date": "1992-10-17",
+   "role": "student",
+   "id_card": "220367"
+ },
+ {
+   "email": "jacek_ochmański@email.com",
+   "first_name": "Jacek",
+   "last_name": "Ochmański",
+   "address": "ul. Letnia 42/7, Wrocław",
+   "birth_date": "1995-09-06",
+   "role": "student",
+   "id_card": "220368"
+ },
+ {
+   "email": "pamela_nitecki@email.com",
+   "first_name": "Pamela",
+   "last_name": "Nitecki",
+   "address": "ul. Rudników 48/17, Wrocław",
+   "birth_date": "1995-07-14",
+   "role": "student",
+   "id_card": "220369"
+ },
+ {
+   "email": "arleta_wójcikowski@email.com",
+   "first_name": "Arleta",
+   "last_name": "Wójcikowski",
+   "address": "ul. Generała Tadeusza Kutrzeby 1/6, Gryfów Śląski",
+   "birth_date": "1991-01-03",
+   "role": "student",
+   "id_card": "220370"
+ },
+ {
+   "email": "teresa_oracz@email.com",
+   "first_name": "Teresa",
+   "last_name": "Oracz",
+   "address": "ul. Kwiatowa 37/13, Wrocław",
+   "birth_date": "1990-04-17",
+   "role": "student",
+   "id_card": "220371"
+ },
+ {
+   "email": "petronella_sztuka@email.com",
+   "first_name": "Petronella",
+   "last_name": "Sztuka",
+   "address": "ul. Widok 51/3, Prochowice",
+   "birth_date": "1991-11-04",
+   "role": "student",
+   "id_card": "220372"
+ },
+ {
+   "email": "jozue_dygas@email.com",
+   "first_name": "Jozue",
+   "last_name": "Dygas",
+   "address": "ul. Słowicza 2/14, Wrocław",
+   "birth_date": "1992-03-10",
+   "role": "student",
+   "id_card": "220373"
+ },
+ {
+   "email": "nikola_kieliszek@email.com",
+   "first_name": "Nikola",
+   "last_name": "Kieliszek",
+   "address": "ul. Wrocławska 48/19, Wrocław",
+   "birth_date": "1993-05-01",
+   "role": "student",
+   "id_card": "220374"
+ },
+ {
+   "email": "sławomir_koziołek@email.com",
+   "first_name": "Sławomir",
+   "last_name": "Koziołek",
+   "address": "ul. Wąska 46/13, Wrocław",
+   "birth_date": "1992-03-18",
+   "role": "student",
+   "id_card": "220375"
+ },
+ {
+   "email": "aleksander_nowaczek@email.com",
+   "first_name": "Aleksander",
+   "last_name": "Nowaczek",
+   "address": "ul. Śliwkowa 27/15, Bystrzyca Kłodzka",
+   "birth_date": "1995-10-10",
+   "role": "student",
+   "id_card": "220376"
+ },
+ {
+   "email": "lilianna_ożga@email.com",
+   "first_name": "Lilianna",
+   "last_name": "Ożga",
+   "address": "ul. Gruszkowa 57/4, Wrocław",
+   "birth_date": "1990-06-02",
+   "role": "student",
+   "id_card": "220377"
+ },
+ {
+   "email": "stanisław_galewski@email.com",
+   "first_name": "Stanisław",
+   "last_name": "Galewski",
+   "address": "ul. Wodzisławska 24/10, Wrocław",
+   "birth_date": "1990-08-22",
+   "role": "student",
+   "id_card": "220378"
+ },
+ {
+   "email": "joanna_kapela@email.com",
+   "first_name": "Joanna",
+   "last_name": "Kapela",
+   "address": "ul. Tylna 20/19, Wrocław",
+   "birth_date": "1993-11-02",
+   "role": "student",
+   "id_card": "220379"
+ },
+ {
+   "email": "kamila_głodek@email.com",
+   "first_name": "Kamila",
+   "last_name": "Głodek",
+   "address": "ul. Rutkowskiego 19/14, Wrocław",
+   "birth_date": "1990-06-07",
+   "role": "student",
+   "id_card": "220380"
+ },
+ {
+   "email": "aleksander_kotas@email.com",
+   "first_name": "Aleksander",
+   "last_name": "Kotas",
+   "address": "ul. Szydłowska 60/10, Wrocław",
+   "birth_date": "1992-02-04",
+   "role": "student",
+   "id_card": "220381"
+ },
+ {
+   "email": "bożena_szewc@email.com",
+   "first_name": "Bożena",
+   "last_name": "Szewc",
+   "address": "ul. Gruszkowa 25/7, Wrocław",
+   "birth_date": "1991-06-03",
+   "role": "student",
+   "id_card": "220382"
+ },
+ {
+   "email": "dorota_dróżdż@email.com",
+   "first_name": "Dorota",
+   "last_name": "Dróżdż",
+   "address": "ul. Słowicza 18/1, Bystrzyca Kłodzka",
+   "birth_date": "1990-01-13",
+   "role": "student",
+   "id_card": "220383"
+ },
+ {
+   "email": "zuzanna_stelmach@email.com",
+   "first_name": "Zuzanna",
+   "last_name": "Stelmach",
+   "address": "ul. Generała Wiktora Thomme 24/12, Strzegom",
+   "birth_date": "1993-08-17",
+   "role": "student",
+   "id_card": "220384"
+ },
+ {
+   "email": "krystyna_mrowiec@email.com",
+   "first_name": "Krystyna",
+   "last_name": "Mrowiec",
+   "address": "ul. Letnia 29/12, Lubomierz",
+   "birth_date": "1992-05-15",
+   "role": "student",
+   "id_card": "220385"
+ },
+ {
+   "email": "maria_fąfara@email.com",
+   "first_name": "Maria",
+   "last_name": "Fąfara",
+   "address": "ul. Widok 34/7, Wrocław",
+   "birth_date": "1995-02-25",
+   "role": "student",
+   "id_card": "220386"
+ },
+ {
+   "email": "odetta_wiśniewski@email.com",
+   "first_name": "Odetta",
+   "last_name": "Wiśniewski",
+   "address": "ul. Generała Tadeusza Kutrzeby 50/16, Kąty Wrocławskie",
+   "birth_date": "1990-04-27",
+   "role": "student",
+   "id_card": "220387"
+ },
+ {
+   "email": "krystyna_latawiec@email.com",
+   "first_name": "Krystyna",
+   "last_name": "Latawiec",
+   "address": "ul. Gronowa 49/8, Ząbkowice Śląskie",
+   "birth_date": "1995-05-14",
+   "role": "student",
+   "id_card": "220388"
+ },
+ {
+   "email": "teresa_brandys@email.com",
+   "first_name": "Teresa",
+   "last_name": "Brandys",
+   "address": "ul. Wąska 44/2, Trzebnica",
+   "birth_date": "1992-02-23",
+   "role": "student",
+   "id_card": "220389"
+ },
+ {
+   "email": "krzysztof_skierski@email.com",
+   "first_name": "Krzysztof",
+   "last_name": "Skierski",
+   "address": "ul. Gruszkowa 7/13, Wrocław",
+   "birth_date": "1991-08-01",
+   "role": "student",
+   "id_card": "220390"
+ },
+ {
+   "email": "adrianna_kondrat@email.com",
+   "first_name": "Adrianna",
+   "last_name": "Kondrat",
+   "address": "ul. Gruszkowa 13/15, Trzebnica",
+   "birth_date": "1993-09-22",
+   "role": "student",
+   "id_card": "220391"
+ },
+ {
+   "email": "franciszek_firlej@email.com",
+   "first_name": "Franciszek",
+   "last_name": "Firlej",
+   "address": "ul. Śliwkowa 43/9, Lądek-Zdrój",
+   "birth_date": "1993-02-17",
+   "role": "student",
+   "id_card": "220392"
+ },
+ {
+   "email": "bogumiła_reszka@email.com",
+   "first_name": "Bogumiła",
+   "last_name": "Reszka",
+   "address": "ul. Wąska 29/20, Wrocław",
+   "birth_date": "1992-10-03",
+   "role": "student",
+   "id_card": "220393"
+ },
+ {
+   "email": "paweł_kwiek@email.com",
+   "first_name": "Paweł",
+   "last_name": "Kwiek",
+   "address": "ul. Porzeczkowa 45/1, Wrocław",
+   "birth_date": "1990-02-26",
+   "role": "student",
+   "id_card": "220394"
+ },
+ {
+   "email": "jacek_stępiński@email.com",
+   "first_name": "Jacek",
+   "last_name": "Stępiński",
+   "address": "ul. Szydłowska 58/1, Wrocław",
+   "birth_date": "1994-09-23",
+   "role": "student",
+   "id_card": "220395"
+ },
+ {
+   "email": "martyna_bomba@email.com",
+   "first_name": "Martyna",
+   "last_name": "Bomba",
+   "address": "ul. Truskawkowa 28/12, Wrocław",
+   "birth_date": "1991-10-14",
+   "role": "student",
+   "id_card": "220396"
+ },
+ {
+   "email": "jadwiga_ogórek@email.com",
+   "first_name": "Jadwiga",
+   "last_name": "Ogórek",
+   "address": "ul. Kwiatowa 10/8, Wrocław",
+   "birth_date": "1990-04-04",
+   "role": "student",
+   "id_card": "220397"
+ },
+ {
+   "email": "lucyna_skonieczna@email.com",
+   "first_name": "Lucyna",
+   "last_name": "Skonieczna",
+   "address": "ul. Gronowa 20/18, Polkowice",
+   "birth_date": "1994-09-04",
+   "role": "student",
+   "id_card": "220398"
+ },
+ {
+   "email": "jan_szewczuk@email.com",
+   "first_name": "Jan",
+   "last_name": "Szewczuk",
+   "address": "ul. Letnia 53/6, Lądek-Zdrój",
+   "birth_date": "1993-10-06",
+   "role": "student",
+   "id_card": "220399"
+ },
+ {
+   "email": "andrzej_durlik@email.com",
+   "first_name": "Andrzej",
+   "last_name": "Durlik",
+   "address": "ul. Rudników 12/14, Wrocław",
+   "birth_date": "1991-04-22",
+   "role": "student",
+   "id_card": "220400"
+ },
+ {
+   "email": "bernadetta_nocoń@email.com",
+   "first_name": "Bernadetta",
+   "last_name": "Nocoń",
+   "address": "ul. Widok 39/17, Brzeg Dolny",
+   "birth_date": "1994-09-15",
+   "role": "student",
+   "id_card": "220401"
+ },
+ {
+   "email": "magdalena_stolarczyk@email.com",
+   "first_name": "Magdalena",
+   "last_name": "Stolarczyk",
+   "address": "ul. Szydłowska 25/9, Gryfów Śląski",
+   "birth_date": "1991-11-15",
+   "role": "student",
+   "id_card": "220402"
+ },
+ {
+   "email": "dorota_kasperkiewicz@email.com",
+   "first_name": "Dorota",
+   "last_name": "Kasperkiewicz",
+   "address": "ul. Śliwkowa 49/14, Wrocław",
+   "birth_date": "1993-06-16",
+   "role": "student",
+   "id_card": "220403"
+ },
+ {
+   "email": "sylwia_bratek@email.com",
+   "first_name": "Sylwia",
+   "last_name": "Bratek",
+   "address": "ul. Rudników 17/16, Milicz",
+   "birth_date": "1993-01-21",
+   "role": "student",
+   "id_card": "220404"
+ },
+ {
+   "email": "izabela_kawecki@email.com",
+   "first_name": "Izabela",
+   "last_name": "Kawecki",
+   "address": "ul. Rudników 14/19, Wrocław",
+   "birth_date": "1990-07-21",
+   "role": "student",
+   "id_card": "220405"
+ },
+ {
+   "email": "martyna_zdeb@email.com",
+   "first_name": "Martyna",
+   "last_name": "Zdeb",
+   "address": "ul. Gruszkowa 5/3, Wrocław",
+   "birth_date": "1991-03-04",
+   "role": "student",
+   "id_card": "220406"
+ },
+ {
+   "email": "lucyna_ciupiński@email.com",
+   "first_name": "Lucyna",
+   "last_name": "Ciupiński",
+   "address": "ul. Porzeczkowa 43/9, Ząbkowice Śląskie",
+   "birth_date": "1993-08-08",
+   "role": "student",
+   "id_card": "220407"
+ },
+ {
+   "email": "józef_ociepa@email.com",
+   "first_name": "Józef",
+   "last_name": "Ociepa",
+   "address": "ul. Rudników 28/20, Wrocław",
+   "birth_date": "1995-07-16",
+   "role": "student",
+   "id_card": "220408"
+ },
+ {
+   "email": "bogumiła_kozak@email.com",
+   "first_name": "Bogumiła",
+   "last_name": "Kozak",
+   "address": "ul. Gronowa 28/15, Lądek-Zdrój",
+   "birth_date": "1992-10-22",
+   "role": "student",
+   "id_card": "220409"
+ },
+ {
+   "email": "lucyna_przybyszewski@email.com",
+   "first_name": "Lucyna",
+   "last_name": "Przybyszewski",
+   "address": "ul. Letnia 27/8, Wrocław",
+   "birth_date": "1995-08-01",
+   "role": "student",
+   "id_card": "220410"
+ },
+ {
+   "email": "adrianna_paczyński@email.com",
+   "first_name": "Adrianna",
+   "last_name": "Paczyński",
+   "address": "ul. Porzeczkowa 4/4, Wrocław",
+   "birth_date": "1994-01-25",
+   "role": "student",
+   "id_card": "220411"
+ },
+ {
+   "email": "stanisław_gazda@email.com",
+   "first_name": "Stanisław",
+   "last_name": "Gazda",
+   "address": "ul. Generała Tadeusza Kutrzeby 46/18, Wrocław",
+   "birth_date": "1994-07-16",
+   "role": "student",
+   "id_card": "220412"
+ },
+ {
+   "email": "wincenty_oliwa@email.com",
+   "first_name": "Wincenty",
+   "last_name": "Oliwa",
+   "address": "ul. Czereśniowa 22/11, Wrocław",
+   "birth_date": "1993-10-23",
+   "role": "student",
+   "id_card": "220413"
+ },
+ {
+   "email": "marcjanna_kula@email.com",
+   "first_name": "Marcjanna",
+   "last_name": "Kula",
+   "address": "ul. Czereśniowa 43/12, Wrocław",
+   "birth_date": "1992-10-19",
+   "role": "student",
+   "id_card": "220414"
+ },
+ {
+   "email": "wincenty_skupiński@email.com",
+   "first_name": "Wincenty",
+   "last_name": "Skupiński",
+   "address": "ul. Tylna 29/11, Wałbrzych",
+   "birth_date": "1995-01-14",
+   "role": "student",
+   "id_card": "220415"
+ },
+ {
+   "email": "wioleta_soja@email.com",
+   "first_name": "Wioleta",
+   "last_name": "Soja",
+   "address": "ul. Rudników 53/3, Wrocław",
+   "birth_date": "1993-03-14",
+   "role": "student",
+   "id_card": "220416"
+ },
+ {
+   "email": "szymon_kudyba@email.com",
+   "first_name": "Szymon",
+   "last_name": "Kudyba",
+   "address": "ul. Śliwkowa 39/13, Wrocław",
+   "birth_date": "1995-03-19",
+   "role": "student",
+   "id_card": "220417"
+ },
+ {
+   "email": "marcjanna_potępa@email.com",
+   "first_name": "Marcjanna",
+   "last_name": "Potępa",
+   "address": "ul. Kubusia Puchatka 20/4, Gryfów Śląski",
+   "birth_date": "1995-10-25",
+   "role": "student",
+   "id_card": "220418"
+ },
+ {
+   "email": "agnieszka_nowotarski@email.com",
+   "first_name": "Agnieszka",
+   "last_name": "Nowotarski",
+   "address": "ul. Gronowa 45/4, Wrocław",
+   "birth_date": "1994-03-16",
+   "role": "student",
+   "id_card": "220419"
+ },
+ {
+   "email": "wojciech_żmudziński@email.com",
+   "first_name": "Wojciech",
+   "last_name": "Żmudziński",
+   "address": "ul. Czereśniowa 57/9, Prochowice",
+   "birth_date": "1995-12-04",
+   "role": "student",
+   "id_card": "220420"
+ },
+ {
+   "email": "dominika_korczyk@email.com",
+   "first_name": "Dominika",
+   "last_name": "Korczyk",
+   "address": "ul. Widok 44/4, Wrocław",
+   "birth_date": "1994-06-21",
+   "role": "student",
+   "id_card": "220421"
+ },
+ {
+   "email": "bożena_dulewicz@email.com",
+   "first_name": "Bożena",
+   "last_name": "Dulewicz",
+   "address": "ul. Kwiatowa 53/5, Wrocław",
+   "birth_date": "1992-06-03",
+   "role": "student",
+   "id_card": "220422"
+ },
+ {
+   "email": "bernadetta_matulewicz@email.com",
+   "first_name": "Bernadetta",
+   "last_name": "Matulewicz",
+   "address": "ul. Szydłowska 54/17, Trzebnica",
+   "birth_date": "1994-04-11",
+   "role": "student",
+   "id_card": "220423"
+ },
+ {
+   "email": "martyna_borowski@email.com",
+   "first_name": "Martyna",
+   "last_name": "Borowski",
+   "address": "ul. Gronowa 7/5, Wrocław",
+   "birth_date": "1993-02-18",
+   "role": "student",
+   "id_card": "220424"
+ },
+ {
+   "email": "aleksander_świeboda@email.com",
+   "first_name": "Aleksander",
+   "last_name": "Świeboda",
+   "address": "ul. Letnia 3/19, Ząbkowice Śląskie",
+   "birth_date": "1992-01-09",
+   "role": "student",
+   "id_card": "220425"
+ },
+ {
+   "email": "joanna_bieńko@email.com",
+   "first_name": "Joanna",
+   "last_name": "Bieńko",
+   "address": "ul. Słowicza 6/20, Wrocław",
+   "birth_date": "1994-09-23",
+   "role": "student",
+   "id_card": "220426"
+ },
+ {
+   "email": "kamila_mokrzycki@email.com",
+   "first_name": "Kamila",
+   "last_name": "Mokrzycki",
+   "address": "ul. Truskawkowa 27/9, Wrocław",
+   "birth_date": "1995-02-28",
+   "role": "student",
+   "id_card": "220427"
+ },
+ {
+   "email": "petronella_polit@email.com",
+   "first_name": "Petronella",
+   "last_name": "Polit",
+   "address": "ul. Wąska 31/2, Lubomierz",
+   "birth_date": "1992-12-09",
+   "role": "student",
+   "id_card": "220428"
+ },
+ {
+   "email": "arleta_gorczyca@email.com",
+   "first_name": "Arleta",
+   "last_name": "Gorczyca",
+   "address": "ul. Kubusia Puchatka 23/17, Wrocław",
+   "birth_date": "1993-12-27",
+   "role": "student",
+   "id_card": "220429"
+ },
+ {
+   "email": "hanna_grześ@email.com",
+   "first_name": "Hanna",
+   "last_name": "Grześ",
+   "address": "ul. Widok 38/9, Świdnica",
+   "birth_date": "1991-08-04",
+   "role": "student",
+   "id_card": "220430"
+ },
+ {
+   "email": "lucyna_demczuk@email.com",
+   "first_name": "Lucyna",
+   "last_name": "Demczuk",
+   "address": "ul. Gruszkowa 13/1, Wrocław",
+   "birth_date": "1991-03-22",
+   "role": "student",
+   "id_card": "220431"
+ },
+ {
+   "email": "jacek_zawisza@email.com",
+   "first_name": "Jacek",
+   "last_name": "Zawisza",
+   "address": "ul. Gruszkowa 18/8, Milicz",
+   "birth_date": "1992-09-11",
+   "role": "student",
+   "id_card": "220432"
+ },
+ {
+   "email": "paweł_młynek@email.com",
+   "first_name": "Paweł",
+   "last_name": "Młynek",
+   "address": "ul. Śliwkowa 19/17, Wrocław",
+   "birth_date": "1993-04-26",
+   "role": "student",
+   "id_card": "220433"
+ },
+ {
+   "email": "nikola_stach@email.com",
+   "first_name": "Nikola",
+   "last_name": "Stach",
+   "address": "ul. Rutkowskiego 15/7, Wrocław",
+   "birth_date": "1994-06-20",
+   "role": "student",
+   "id_card": "220434"
+ },
+ {
+   "email": "kamila_sawicz@email.com",
+   "first_name": "Kamila",
+   "last_name": "Sawicz",
+   "address": "ul. Generała Wiktora Thomme 15/1, Milicz",
+   "birth_date": "1993-11-15",
+   "role": "student",
+   "id_card": "220435"
+ },
+ {
+   "email": "jan_ślusarski@email.com",
+   "first_name": "Jan",
+   "last_name": "Ślusarski",
+   "address": "ul. Generała Wiktora Thomme 58/3, Wrocław",
+   "birth_date": "1993-04-06",
+   "role": "student",
+   "id_card": "220436"
+ },
+ {
+   "email": "adrianna_czok@email.com",
+   "first_name": "Adrianna",
+   "last_name": "Czok",
+   "address": "ul. Generała Tadeusza Kutrzeby 49/16, Lądek-Zdrój",
+   "birth_date": "1994-01-07",
+   "role": "student",
+   "id_card": "220437"
+ },
+ {
+   "email": "irena_kaczor@email.com",
+   "first_name": "Irena",
+   "last_name": "Kaczor",
+   "address": "ul. Śliwkowa 6/15, Wrocław",
+   "birth_date": "1993-05-17",
+   "role": "student",
+   "id_card": "220438"
+ },
+ {
+   "email": "odetta_wójtowicz@email.com",
+   "first_name": "Odetta",
+   "last_name": "Wójtowicz",
+   "address": "ul. Wąska 22/10, Wrocław",
+   "birth_date": "1991-05-24",
+   "role": "student",
+   "id_card": "220439"
+ },
+ {
+   "email": "aneta_kruczkowski@email.com",
+   "first_name": "Aneta",
+   "last_name": "Kruczkowski",
+   "address": "ul. Śliwkowa 25/11, Wrocław",
+   "birth_date": "1990-09-07",
+   "role": "student",
+   "id_card": "220440"
+ },
+ {
+   "email": "jacek_kozakiewicz@email.com",
+   "first_name": "Jacek",
+   "last_name": "Kozakiewicz",
+   "address": "ul. Tylna 2/17, Wrocław",
+   "birth_date": "1992-12-12",
+   "role": "student",
+   "id_card": "220441"
+ },
+ {
+   "email": "martyna_jarecki@email.com",
+   "first_name": "Martyna",
+   "last_name": "Jarecki",
+   "address": "ul. Tylna 58/8, Świdnica",
+   "birth_date": "1991-10-21",
+   "role": "student",
+   "id_card": "220442"
+ },
+ {
+   "email": "mirella_faliński@email.com",
+   "first_name": "Mirella",
+   "last_name": "Faliński",
+   "address": "ul. Rudników 40/12, Brzeg Dolny",
+   "birth_date": "1991-06-07",
+   "role": "student",
+   "id_card": "220443"
+ },
+ {
+   "email": "ariana_zwierz@email.com",
+   "first_name": "Ariana",
+   "last_name": "Zwierz",
+   "address": "ul. Rutkowskiego 9/20, Stronie Śląskie",
+   "birth_date": "1991-09-10",
+   "role": "student",
+   "id_card": "220444"
+ },
+ {
+   "email": "izabela_oleś@email.com",
+   "first_name": "Izabela",
+   "last_name": "Oleś",
+   "address": "ul. Czereśniowa 55/12, Trzebnica",
+   "birth_date": "1992-06-06",
+   "role": "student",
+   "id_card": "220445"
+ },
+ {
+   "email": "kamila_budka@email.com",
+   "first_name": "Kamila",
+   "last_name": "Budka",
+   "address": "ul. Słowicza 11/19, Prochowice",
+   "birth_date": "1991-09-27",
+   "role": "student",
+   "id_card": "220446"
+ },
+ {
+   "email": "nikola_gruba@email.com",
+   "first_name": "Nikola",
+   "last_name": "Gruba",
+   "address": "ul. Wrocławska 7/1, Wrocław",
+   "birth_date": "1993-11-15",
+   "role": "student",
+   "id_card": "220447"
+ },
+ {
+   "email": "jadwiga_pawlus@email.com",
+   "first_name": "Jadwiga",
+   "last_name": "Pawlus",
+   "address": "ul. Rudników 49/10, Stronie Śląskie",
+   "birth_date": "1993-11-14",
+   "role": "student",
+   "id_card": "220448"
+ },
+ {
+   "email": "andrzej_gawryś@email.com",
+   "first_name": "Andrzej",
+   "last_name": "Gawryś",
+   "address": "ul. Generała Tadeusza Kutrzeby 7/19, Wrocław",
+   "birth_date": "1993-07-06",
+   "role": "student",
+   "id_card": "220449"
+ },
+ {
+   "email": "andrzej_białkowski@email.com",
+   "first_name": "Andrzej",
+   "last_name": "Białkowski",
+   "address": "ul. Szydłowska 37/13, Polkowice",
+   "birth_date": "1991-11-26",
+   "role": "student",
+   "id_card": "220450"
+ },
+ {
+   "email": "lilianna_dobija@email.com",
+   "first_name": "Lilianna",
+   "last_name": "Dobija",
+   "address": "ul. Porzeczkowa 29/3, Wrocław",
+   "birth_date": "1994-05-10",
+   "role": "student",
+   "id_card": "220451"
+ },
+ {
+   "email": "maciej_jedynak@email.com",
+   "first_name": "Maciej",
+   "last_name": "Jedynak",
+   "address": "ul. Gruszkowa 32/4, Strzegom",
+   "birth_date": "1990-01-17",
+   "role": "student",
+   "id_card": "220452"
+ },
+ {
+   "email": "józef_młodzianowski@email.com",
+   "first_name": "Józef",
+   "last_name": "Młodzianowski",
+   "address": "ul. Wrocławska 51/12, Lubomierz",
+   "birth_date": "1994-08-09",
+   "role": "student",
+   "id_card": "220453"
+ },
+ {
+   "email": "bernadetta_sitarz@email.com",
+   "first_name": "Bernadetta",
+   "last_name": "Sitarz",
+   "address": "ul. Porzeczkowa 10/9, Wrocław",
+   "birth_date": "1992-10-06",
+   "role": "student",
+   "id_card": "220454"
+ },
+ {
+   "email": "wincenty_pogorzelski@email.com",
+   "first_name": "Wincenty",
+   "last_name": "Pogorzelski",
+   "address": "ul. Letnia 3/7, Wrocław",
+   "birth_date": "1994-06-21",
+   "role": "student",
+   "id_card": "220455"
+ },
+ {
+   "email": "zbigniew_branicki@email.com",
+   "first_name": "Zbigniew",
+   "last_name": "Branicki",
+   "address": "ul. Porzeczkowa 10/13, Wrocław",
+   "birth_date": "1994-02-10",
+   "role": "student",
+   "id_card": "220456"
+ },
+ {
+   "email": "wioleta_kaczmarczyk@email.com",
+   "first_name": "Wioleta",
+   "last_name": "Kaczmarczyk",
+   "address": "ul. Śliwkowa 42/17, Lwówek Śląski",
+   "birth_date": "1991-12-20",
+   "role": "student",
+   "id_card": "220457"
+ },
+ {
+   "email": "marcjanna_kura@email.com",
+   "first_name": "Marcjanna",
+   "last_name": "Kura",
+   "address": "ul. Widok 52/9, Stronie Śląskie",
+   "birth_date": "1992-10-26",
+   "role": "student",
+   "id_card": "220458"
+ },
+ {
+   "email": "wioleta_andrzejewski@email.com",
+   "first_name": "Wioleta",
+   "last_name": "Andrzejewski",
+   "address": "ul. Generała Tadeusza Kutrzeby 14/7, Gryfów Śląski",
+   "birth_date": "1995-10-18",
+   "role": "student",
+   "id_card": "220459"
+ },
+ {
+   "email": "aneta_żukowski@email.com",
+   "first_name": "Aneta",
+   "last_name": "Żukowski",
+   "address": "ul. Słowicza 57/5, Lądek-Zdrój",
+   "birth_date": "1994-03-11",
+   "role": "student",
+   "id_card": "220460"
+ },
+ {
+   "email": "pamela_piskorek@email.com",
+   "first_name": "Pamela",
+   "last_name": "Piskorek",
+   "address": "ul. Gruszkowa 46/19, Wrocław",
+   "birth_date": "1992-10-23",
+   "role": "student",
+   "id_card": "220461"
+ },
+ {
+   "email": "dominika_bitner@email.com",
+   "first_name": "Dominika",
+   "last_name": "Bitner",
+   "address": "ul. Letnia 7/6, Bystrzyca Kłodzka",
+   "birth_date": "1992-01-05",
+   "role": "student",
+   "id_card": "220462"
+ },
+ {
+   "email": "izabela_myśliński@email.com",
+   "first_name": "Izabela",
+   "last_name": "Myśliński",
+   "address": "ul. Gronowa 36/14, Milicz",
+   "birth_date": "1995-09-28",
+   "role": "student",
+   "id_card": "220463"
+ },
+ {
+   "email": "helena_sieniawski@email.com",
+   "first_name": "Helena",
+   "last_name": "Sieniawski",
+   "address": "ul. Kubusia Puchatka 41/4, Wrocław",
+   "birth_date": "1992-09-26",
+   "role": "student",
+   "id_card": "220464"
+ },
+ {
+   "email": "stanisław_czapski@email.com",
+   "first_name": "Stanisław",
+   "last_name": "Czapski",
+   "address": "ul. Wrocławska 52/6, Strzegom",
+   "birth_date": "1991-03-14",
+   "role": "student",
+   "id_card": "220465"
+ },
+ {
+   "email": "aleksander_lendzion@email.com",
+   "first_name": "Aleksander",
+   "last_name": "Lendzion",
+   "address": "ul. Truskawkowa 16/18, Wrocław",
+   "birth_date": "1990-06-16",
+   "role": "student",
+   "id_card": "220466"
+ },
+ {
+   "email": "zbigniew_gonera@email.com",
+   "first_name": "Zbigniew",
+   "last_name": "Gonera",
+   "address": "ul. Tylna 43/12, Strzegom",
+   "birth_date": "1991-01-08",
+   "role": "student",
+   "id_card": "220467"
+ },
+ {
+   "email": "katarzyna_grala@email.com",
+   "first_name": "Katarzyna",
+   "last_name": "Grala",
+   "address": "ul. Gronowa 60/17, Wrocław",
+   "birth_date": "1991-07-16",
+   "role": "student",
+   "id_card": "220468"
+ },
+ {
+   "email": "julian_kraszewski@email.com",
+   "first_name": "Julian",
+   "last_name": "Kraszewski",
+   "address": "ul. Kubusia Puchatka 15/3, Wrocław",
+   "birth_date": "1993-09-06",
+   "role": "student",
+   "id_card": "220469"
+ },
+ {
+   "email": "irena_głowacz@email.com",
+   "first_name": "Irena",
+   "last_name": "Głowacz",
+   "address": "ul. Gronowa 35/6, Ząbkowice Śląskie",
+   "birth_date": "1991-04-26",
+   "role": "student",
+   "id_card": "220470"
+ },
+ {
+   "email": "marzena_kulawiak@email.com",
+   "first_name": "Marzena",
+   "last_name": "Kulawiak",
+   "address": "ul. Rutkowskiego 14/17, Wrocław",
+   "birth_date": "1994-12-19",
+   "role": "student",
+   "id_card": "220471"
+ },
+ {
+   "email": "dorota_adamowski@email.com",
+   "first_name": "Dorota",
+   "last_name": "Adamowski",
+   "address": "ul. Widok 52/8, Bystrzyca Kłodzka",
+   "birth_date": "1995-11-24",
+   "role": "student",
+   "id_card": "220472"
+ },
+ {
+   "email": "helena_grochal@email.com",
+   "first_name": "Helena",
+   "last_name": "Grochal",
+   "address": "ul. Słowicza 50/3, Gryfów Śląski",
+   "birth_date": "1990-05-09",
+   "role": "student",
+   "id_card": "220473"
+ },
+ {
+   "email": "zofia_radomski@email.com",
+   "first_name": "Zofia",
+   "last_name": "Radomski",
+   "address": "ul. Porzeczkowa 9/7, Wrocław",
+   "birth_date": "1990-11-17",
+   "role": "student",
+   "id_card": "220474"
+ },
+ {
+   "email": "franciszek_wicik@email.com",
+   "first_name": "Franciszek",
+   "last_name": "Wicik",
+   "address": "ul. Tylna 48/16, Wrocław",
+   "birth_date": "1992-07-20",
+   "role": "student",
+   "id_card": "220475"
+ },
+ {
+   "email": "pamela_sierant@email.com",
+   "first_name": "Pamela",
+   "last_name": "Sierant",
+   "address": "ul. Tylna 56/20, Kąty Wrocławskie",
+   "birth_date": "1990-01-09",
+   "role": "student",
+   "id_card": "220476"
+ },
+ {
+   "email": "aneta_tokarczyk@email.com",
+   "first_name": "Aneta",
+   "last_name": "Tokarczyk",
+   "address": "ul. Gronowa 44/15, Milicz",
+   "birth_date": "1991-03-07",
+   "role": "student",
+   "id_card": "220477"
+ },
+ {
+   "email": "katarzyna_dominiak@email.com",
+   "first_name": "Katarzyna",
+   "last_name": "Dominiak",
+   "address": "ul. Generała Tadeusza Kutrzeby 56/1, Milicz",
+   "birth_date": "1990-08-14",
+   "role": "student",
+   "id_card": "220478"
+ },
+ {
+   "email": "dorota_abram@email.com",
+   "first_name": "Dorota",
+   "last_name": "Abram",
+   "address": "ul. Kubusia Puchatka 28/5, Wrocław",
+   "birth_date": "1994-05-03",
+   "role": "student",
+   "id_card": "220479"
+ },
+ {
+   "email": "odetta_brych@email.com",
+   "first_name": "Odetta",
+   "last_name": "Brych",
+   "address": "ul. Porzeczkowa 9/4, Milicz",
+   "birth_date": "1991-12-17",
+   "role": "student",
+   "id_card": "220480"
+ },
+ {
+   "email": "andrzej_kropidłowski@email.com",
+   "first_name": "Andrzej",
+   "last_name": "Kropidłowski",
+   "address": "ul. Widok 34/7, Stronie Śląskie",
+   "birth_date": "1992-11-17",
+   "role": "student",
+   "id_card": "220481"
+ },
+ {
+   "email": "teresa_jagoda@email.com",
+   "first_name": "Teresa",
+   "last_name": "Jagoda",
+   "address": "ul. Czereśniowa 55/9, Wrocław",
+   "birth_date": "1993-10-23",
+   "role": "student",
+   "id_card": "220482"
+ },
+ {
+   "email": "magdalena_brzeziński@email.com",
+   "first_name": "Magdalena",
+   "last_name": "Brzeziński",
+   "address": "ul. Generała Tadeusza Kutrzeby 29/14, Wrocław",
+   "birth_date": "1993-07-11",
+   "role": "student",
+   "id_card": "220483"
+ },
+ {
+   "email": "szymon_łempicki@email.com",
+   "first_name": "Szymon",
+   "last_name": "Łempicki",
+   "address": "ul. Rutkowskiego 3/19, Kąty Wrocławskie",
+   "birth_date": "1993-10-22",
+   "role": "student",
+   "id_card": "220484"
+ },
+ {
+   "email": "maksymilian_jurak@email.com",
+   "first_name": "Maksymilian",
+   "last_name": "Jurak",
+   "address": "ul. Kwiatowa 27/1, Stronie Śląskie",
+   "birth_date": "1992-05-01",
+   "role": "student",
+   "id_card": "220485"
+ },
+ {
+   "email": "magdalena_szewczak@email.com",
+   "first_name": "Magdalena",
+   "last_name": "Szewczak",
+   "address": "ul. Wodzisławska 17/10, Wrocław",
+   "birth_date": "1995-12-16",
+   "role": "student",
+   "id_card": "220486"
+ },
+ {
+   "email": "jan_cudak@email.com",
+   "first_name": "Jan",
+   "last_name": "Cudak",
+   "address": "ul. Rutkowskiego 43/12, Stronie Śląskie",
+   "birth_date": "1995-05-24",
+   "role": "student",
+   "id_card": "220487"
+ },
+ {
+   "email": "jadwiga_wieteski@email.com",
+   "first_name": "Jadwiga",
+   "last_name": "Wieteski",
+   "address": "ul. Gronowa 42/10, Wrocław",
+   "birth_date": "1994-11-26",
+   "role": "student",
+   "id_card": "220488"
+ },
+ {
+   "email": "józef_klocek@email.com",
+   "first_name": "Józef",
+   "last_name": "Klocek",
+   "address": "ul. Szydłowska 44/12, Wrocław",
+   "birth_date": "1993-01-12",
+   "role": "student",
+   "id_card": "220489"
+ },
+ {
+   "email": "mirella_kotwica@email.com",
+   "first_name": "Mirella",
+   "last_name": "Kotwica",
+   "address": "ul. Kubusia Puchatka 18/4, Bystrzyca Kłodzka",
+   "birth_date": "1992-03-04",
+   "role": "student",
+   "id_card": "220490"
+ },
+ {
+   "email": "antonina_gapiński@email.com",
+   "first_name": "Antonina",
+   "last_name": "Gapiński",
+   "address": "ul. Czereśniowa 47/5, Wrocław",
+   "birth_date": "1992-12-14",
+   "role": "student",
+   "id_card": "220491"
+ },
+ {
+   "email": "magdalena_bochen@email.com",
+   "first_name": "Magdalena",
+   "last_name": "Bochen",
+   "address": "ul. Wąska 38/7, Wrocław",
+   "birth_date": "1993-09-05",
+   "role": "student",
+   "id_card": "220492"
+ },
+ {
+   "email": "sławomir_bałazy@email.com",
+   "first_name": "Sławomir",
+   "last_name": "Bałazy",
+   "address": "ul. Śliwkowa 44/5, Milicz",
+   "birth_date": "1991-04-18",
+   "role": "student",
+   "id_card": "220493"
+ },
+ {
+   "email": "zofia_gajdziński@email.com",
+   "first_name": "Zofia",
+   "last_name": "Gajdziński",
+   "address": "ul. Gruszkowa 56/4, Wałbrzych",
+   "birth_date": "1990-09-01",
+   "role": "student",
+   "id_card": "220494"
+ },
+ {
+   "email": "arleta_wirkus@email.com",
+   "first_name": "Arleta",
+   "last_name": "Wirkus",
+   "address": "ul. Letnia 39/1, Wrocław",
+   "birth_date": "1992-12-10",
+   "role": "student",
+   "id_card": "220495"
+ },
+ {
+   "email": "szymon_woszczyk@email.com",
+   "first_name": "Szymon",
+   "last_name": "Woszczyk",
+   "address": "ul. Rudników 48/5, Wrocław",
+   "birth_date": "1991-07-16",
+   "role": "student",
+   "id_card": "220496"
+ },
+ {
+   "email": "sylwia_talar@email.com",
+   "first_name": "Sylwia",
+   "last_name": "Talar",
+   "address": "ul. Generała Wiktora Thomme 49/9, Wrocław",
+   "birth_date": "1995-08-14",
+   "role": "student",
+   "id_card": "220497"
+ },
+ {
+   "email": "aneta_polewski@email.com",
+   "first_name": "Aneta",
+   "last_name": "Polewski",
+   "address": "ul. Wodzisławska 7/19, Prochowice",
+   "birth_date": "1992-02-20",
+   "role": "student",
+   "id_card": "220498"
+ },
+ {
+   "email": "jagna_mielniczuk@email.com",
+   "first_name": "Jagna",
+   "last_name": "Mielniczuk",
+   "address": "ul. Gronowa 10/16, Wrocław",
+   "birth_date": "1994-04-08",
+   "role": "student",
+   "id_card": "220499"
+ },
+ {
+   "email": "anna_babiński@email.com",
+   "first_name": "Anna",
+   "last_name": "Babiński",
+   "address": "ul. Wodzisławska 18/14, Wrocław",
+   "birth_date": "1995-08-27",
+   "role": "student",
+   "id_card": "220500"
+ },
+ {
+   "email": "paweł_spychalski@email.com",
+   "first_name": "Paweł",
+   "last_name": "Spychalski",
+   "address": "ul. Letnia 36/18, Wrocław",
+   "birth_date": "1994-09-14",
+   "role": "student",
+   "id_card": "220501"
+ },
+ {
+   "email": "wincenty_siekierski@email.com",
+   "first_name": "Wincenty",
+   "last_name": "Siekierski",
+   "address": "ul. Gruszkowa 45/5, Brzeg Dolny",
+   "birth_date": "1991-02-16",
+   "role": "student",
+   "id_card": "220502"
+ },
+ {
+   "email": "julia_kośla@email.com",
+   "first_name": "Julia",
+   "last_name": "Kośla",
+   "address": "ul. Truskawkowa 47/4, Ząbkowice Śląskie",
+   "birth_date": "1992-03-01",
+   "role": "student",
+   "id_card": "220503"
+ },
+ {
+   "email": "hanna_białek@email.com",
+   "first_name": "Hanna",
+   "last_name": "Białek",
+   "address": "ul. Porzeczkowa 22/20, Brzeg Dolny",
+   "birth_date": "1995-05-17",
+   "role": "student",
+   "id_card": "220504"
+ },
+ {
+   "email": "mirella_cieślewicz@email.com",
+   "first_name": "Mirella",
+   "last_name": "Cieślewicz",
+   "address": "ul. Widok 27/8, Lubomierz",
+   "birth_date": "1990-02-17",
+   "role": "student",
+   "id_card": "220505"
+ },
+ {
+   "email": "wincenty_chlebowski@email.com",
+   "first_name": "Wincenty",
+   "last_name": "Chlebowski",
+   "address": "ul. Słowicza 32/20, Wrocław",
+   "birth_date": "1993-06-23",
+   "role": "student",
+   "id_card": "220506"
+ },
+ {
+   "email": "wiliam_wyrzykowski@email.com",
+   "first_name": "Wiliam",
+   "last_name": "Wyrzykowski",
+   "address": "ul. Kubusia Puchatka 16/2, Bystrzyca Kłodzka",
+   "birth_date": "1995-09-07",
+   "role": "student",
+   "id_card": "220507"
+ },
+ {
+   "email": "andrzej_pawlina@email.com",
+   "first_name": "Andrzej",
+   "last_name": "Pawlina",
+   "address": "ul. Generała Tadeusza Kutrzeby 60/1, Bystrzyca Kłodzka",
+   "birth_date": "1992-01-23",
+   "role": "student",
+   "id_card": "220508"
+ },
+ {
+   "email": "zbigniew_kosiorek@email.com",
+   "first_name": "Zbigniew",
+   "last_name": "Kosiorek",
+   "address": "ul. Widok 46/14, Wrocław",
+   "birth_date": "1994-10-22",
+   "role": "student",
+   "id_card": "220509"
+ },
+ {
+   "email": "paweł_prusiński@email.com",
+   "first_name": "Paweł",
+   "last_name": "Prusiński",
+   "address": "ul. Rutkowskiego 49/11, Wrocław",
+   "birth_date": "1993-03-17",
+   "role": "student",
+   "id_card": "220510"
+ },
+ {
+   "email": "szymon_bucholc@email.com",
+   "first_name": "Szymon",
+   "last_name": "Bucholc",
+   "address": "ul. Wrocławska 34/4, Trzebnica",
+   "birth_date": "1993-11-20",
+   "role": "student",
+   "id_card": "220511"
+ },
+ {
+   "email": "kamila_błaszkiewicz@email.com",
+   "first_name": "Kamila",
+   "last_name": "Błaszkiewicz",
+   "address": "ul. Śliwkowa 23/13, Lwówek Śląski",
+   "birth_date": "1995-07-28",
+   "role": "student",
+   "id_card": "220512"
+ },
+ {
+   "email": "jozue_kajzer@email.com",
+   "first_name": "Jozue",
+   "last_name": "Kajzer",
+   "address": "ul. Kubusia Puchatka 25/16, Prochowice",
+   "birth_date": "1993-02-11",
+   "role": "student",
+   "id_card": "220513"
+ },
+ {
+   "email": "maria_ochocki@email.com",
+   "first_name": "Maria",
+   "last_name": "Ochocki",
+   "address": "ul. Słowicza 58/5, Wrocław",
+   "birth_date": "1995-02-02",
+   "role": "student",
+   "id_card": "220514"
+ },
+ {
+   "email": "albin_bednarski@email.com",
+   "first_name": "Albin",
+   "last_name": "Bednarski",
+   "address": "ul. Letnia 25/15, Wrocław",
+   "birth_date": "1992-01-11",
+   "role": "student",
+   "id_card": "220515"
+ },
+ {
+   "email": "hanna_schulz@email.com",
+   "first_name": "Hanna",
+   "last_name": "Schulz",
+   "address": "ul. Generała Tadeusza Kutrzeby 2/19, Trzebnica",
+   "birth_date": "1992-01-27",
+   "role": "student",
+   "id_card": "220516"
+ },
+ {
+   "email": "jozue_cisowski@email.com",
+   "first_name": "Jozue",
+   "last_name": "Cisowski",
+   "address": "ul. Słowicza 60/9, Polkowice",
+   "birth_date": "1992-08-20",
+   "role": "student",
+   "id_card": "220517"
+ },
+ {
+   "email": "lilianna_ciosek@email.com",
+   "first_name": "Lilianna",
+   "last_name": "Ciosek",
+   "address": "ul. Rutkowskiego 23/4, Strzegom",
+   "birth_date": "1992-07-12",
+   "role": "student",
+   "id_card": "220518"
+ },
+ {
+   "email": "marcin_malesa@email.com",
+   "first_name": "Marcin",
+   "last_name": "Malesa",
+   "address": "ul. Generała Wiktora Thomme 6/14, Polkowice",
+   "birth_date": "1991-12-26",
+   "role": "student",
+   "id_card": "220519"
+ },
+ {
+   "email": "bożena_kościelna@email.com",
+   "first_name": "Bożena",
+   "last_name": "Kościelna",
+   "address": "ul. Słowicza 29/9, Kąty Wrocławskie",
+   "birth_date": "1995-11-25",
+   "role": "student",
+   "id_card": "220520"
+ },
+ {
+   "email": "julia_skura@email.com",
+   "first_name": "Julia",
+   "last_name": "Skura",
+   "address": "ul. Kubusia Puchatka 60/1, Lubomierz",
+   "birth_date": "1995-06-06",
+   "role": "student",
+   "id_card": "220521"
+ },
+ {
+   "email": "katarzyna_klimczak@email.com",
+   "first_name": "Katarzyna",
+   "last_name": "Klimczak",
+   "address": "ul. Gruszkowa 2/5, Milicz",
+   "birth_date": "1993-11-01",
+   "role": "student",
+   "id_card": "220522"
+ },
+ {
+   "email": "izabela_kawczyński@email.com",
+   "first_name": "Izabela",
+   "last_name": "Kawczyński",
+   "address": "ul. Wodzisławska 12/2, Lubomierz",
+   "birth_date": "1995-02-17",
+   "role": "student",
+   "id_card": "220523"
+ },
+ {
+   "email": "krzysztof_maliszewski@email.com",
+   "first_name": "Krzysztof",
+   "last_name": "Maliszewski",
+   "address": "ul. Wrocławska 10/10, Trzebnica",
+   "birth_date": "1990-08-21",
+   "role": "student",
+   "id_card": "220524"
+ },
+ {
+   "email": "adrianna_borysewicz@email.com",
+   "first_name": "Adrianna",
+   "last_name": "Borysewicz",
+   "address": "ul. Rutkowskiego 59/19, Wrocław",
+   "birth_date": "1991-10-13",
+   "role": "student",
+   "id_card": "220525"
+ },
+ {
+   "email": "arkadiusz_opala@email.com",
+   "first_name": "Arkadiusz",
+   "last_name": "Opala",
+   "address": "ul. Porzeczkowa 3/19, Strzegom",
+   "birth_date": "1992-04-03",
+   "role": "student",
+   "id_card": "220526"
+ },
+ {
+   "email": "marika_trębacz@email.com",
+   "first_name": "Marika",
+   "last_name": "Trębacz",
+   "address": "ul. Wąska 15/15, Trzebnica",
+   "birth_date": "1995-03-13",
+   "role": "student",
+   "id_card": "220527"
+ },
+ {
+   "email": "maria_sadurski@email.com",
+   "first_name": "Maria",
+   "last_name": "Sadurski",
+   "address": "ul. Gronowa 54/14, Wrocław",
+   "birth_date": "1994-09-01",
+   "role": "student",
+   "id_card": "220528"
+ },
+ {
+   "email": "lilianna_bałdyga@email.com",
+   "first_name": "Lilianna",
+   "last_name": "Bałdyga",
+   "address": "ul. Porzeczkowa 28/19, Wrocław",
+   "birth_date": "1993-01-11",
+   "role": "student",
+   "id_card": "220529"
+ },
+ {
+   "email": "arleta_malanowski@email.com",
+   "first_name": "Arleta",
+   "last_name": "Malanowski",
+   "address": "ul. Wrocławska 13/19, Kąty Wrocławskie",
+   "birth_date": "1994-07-25",
+   "role": "student",
+   "id_card": "220530"
+ },
+ {
+   "email": "leon_makulski@email.com",
+   "first_name": "Leon",
+   "last_name": "Makulski",
+   "address": "ul. Czereśniowa 46/14, Brzeg Dolny",
+   "birth_date": "1993-05-09",
+   "role": "student",
+   "id_card": "220531"
+ },
+ {
+   "email": "arleta_orzoł@email.com",
+   "first_name": "Arleta",
+   "last_name": "Orzoł",
+   "address": "ul. Generała Tadeusza Kutrzeby 19/19, Kąty Wrocławskie",
+   "birth_date": "1995-08-19",
+   "role": "student",
+   "id_card": "220532"
+ },
+ {
+   "email": "helena_skarbek@email.com",
+   "first_name": "Helena",
+   "last_name": "Skarbek",
+   "address": "ul. Generała Tadeusza Kutrzeby 19/15, Bystrzyca Kłodzka",
+   "birth_date": "1994-04-01",
+   "role": "student",
+   "id_card": "220533"
+ },
+ {
+   "email": "franciszek_cieluch@email.com",
+   "first_name": "Franciszek",
+   "last_name": "Cieluch",
+   "address": "ul. Rutkowskiego 26/9, Strzegom",
+   "birth_date": "1993-07-20",
+   "role": "student",
+   "id_card": "220534"
+ },
+ {
+   "email": "antoni_formella@email.com",
+   "first_name": "Antoni",
+   "last_name": "Formella",
+   "address": "ul. Słowicza 36/10, Brzeg Dolny",
+   "birth_date": "1990-04-12",
+   "role": "student",
+   "id_card": "220535"
+ },
+ {
+   "email": "hanna_kalus@email.com",
+   "first_name": "Hanna",
+   "last_name": "Kalus",
+   "address": "ul. Rutkowskiego 38/11, Wrocław",
+   "birth_date": "1990-06-07",
+   "role": "student",
+   "id_card": "220536"
+ },
+ {
+   "email": "lucyna_prokopowicz@email.com",
+   "first_name": "Lucyna",
+   "last_name": "Prokopowicz",
+   "address": "ul. Generała Wiktora Thomme 56/9, Wrocław",
+   "birth_date": "1990-12-19",
+   "role": "student",
+   "id_card": "220537"
+ },
+ {
+   "email": "ariana_włodek@email.com",
+   "first_name": "Ariana",
+   "last_name": "Włodek",
+   "address": "ul. Gronowa 16/5, Wrocław",
+   "birth_date": "1995-09-16",
+   "role": "student",
+   "id_card": "220538"
+ },
+ {
+   "email": "bożena_kalisz@email.com",
+   "first_name": "Bożena",
+   "last_name": "Kalisz",
+   "address": "ul. Rutkowskiego 55/2, Wrocław",
+   "birth_date": "1995-12-18",
+   "role": "student",
+   "id_card": "220539"
+ },
+ {
+   "email": "jagoda_wika@email.com",
+   "first_name": "Jagoda",
+   "last_name": "Wika",
+   "address": "ul. Truskawkowa 31/3, Strzegom",
+   "birth_date": "1992-10-10",
+   "role": "student",
+   "id_card": "220540"
+ },
+ {
+   "email": "wioleta_sumara@email.com",
+   "first_name": "Wioleta",
+   "last_name": "Sumara",
+   "address": "ul. Generała Tadeusza Kutrzeby 30/1, Wrocław",
+   "birth_date": "1992-04-24",
+   "role": "student",
+   "id_card": "220541"
+ },
+ {
+   "email": "zuzanna_buczkowski@email.com",
+   "first_name": "Zuzanna",
+   "last_name": "Buczkowski",
+   "address": "ul. Truskawkowa 55/6, Milicz",
+   "birth_date": "1991-09-28",
+   "role": "student",
+   "id_card": "220542"
+ },
+ {
+   "email": "leon_wąchała@email.com",
+   "first_name": "Leon",
+   "last_name": "Wąchała",
+   "address": "ul. Wąska 1/13, Wrocław",
+   "birth_date": "1992-11-02",
+   "role": "student",
+   "id_card": "220543"
+ },
+ {
+   "email": "aleksander_cackowski@email.com",
+   "first_name": "Aleksander",
+   "last_name": "Cackowski",
+   "address": "ul. Generała Tadeusza Kutrzeby 17/7, Wałbrzych",
+   "birth_date": "1993-07-01",
+   "role": "student",
+   "id_card": "220544"
+ },
+ {
+   "email": "marzena_kotowicz@email.com",
+   "first_name": "Marzena",
+   "last_name": "Kotowicz",
+   "address": "ul. Czereśniowa 45/8, Wrocław",
+   "birth_date": "1995-03-05",
+   "role": "student",
+   "id_card": "220545"
+ },
+ {
+   "email": "maciej_polanowski@email.com",
+   "first_name": "Maciej",
+   "last_name": "Polanowski",
+   "address": "ul. Letnia 13/15, Wrocław",
+   "birth_date": "1994-03-27",
+   "role": "student",
+   "id_card": "220546"
+ },
+ {
+   "email": "joanna_grudziński@email.com",
+   "first_name": "Joanna",
+   "last_name": "Grudziński",
+   "address": "ul. Gruszkowa 7/7, Wrocław",
+   "birth_date": "1993-12-27",
+   "role": "student",
+   "id_card": "220547"
+ },
+ {
+   "email": "anna_brodziak@email.com",
+   "first_name": "Anna",
+   "last_name": "Brodziak",
+   "address": "ul. Kubusia Puchatka 18/19, Wrocław",
+   "birth_date": "1995-03-28",
+   "role": "student",
+   "id_card": "220548"
+ },
+ {
+   "email": "lucyna_bartosiewicz@email.com",
+   "first_name": "Lucyna",
+   "last_name": "Bartosiewicz",
+   "address": "ul. Rutkowskiego 29/12, Wrocław",
+   "birth_date": "1995-01-26",
+   "role": "student",
+   "id_card": "220549"
+ },
+ {
+   "email": "wiliam_marks@email.com",
+   "first_name": "Wiliam",
+   "last_name": "Marks",
+   "address": "ul. Rutkowskiego 18/8, Wrocław",
+   "birth_date": "1994-01-28",
+   "role": "student",
+   "id_card": "220550"
+ },
+ {
+   "email": "żaneta_kabała@email.com",
+   "first_name": "Żaneta",
+   "last_name": "Kabała",
+   "address": "ul. Czereśniowa 16/7, Prochowice",
+   "birth_date": "1991-05-27",
+   "role": "student",
+   "id_card": "220551"
+ },
+ {
+   "email": "wojciech_głowa@email.com",
+   "first_name": "Wojciech",
+   "last_name": "Głowa",
+   "address": "ul. Porzeczkowa 6/17, Wrocław",
+   "birth_date": "1993-04-15",
+   "role": "student",
+   "id_card": "220552"
+ },
+ {
+   "email": "maria_bigus@email.com",
+   "first_name": "Maria",
+   "last_name": "Bigus",
+   "address": "ul. Kubusia Puchatka 39/16, Wrocław",
+   "birth_date": "1990-09-19",
+   "role": "student",
+   "id_card": "220553"
+ },
+ {
+   "email": "bogumiła_mierzejewski@email.com",
+   "first_name": "Bogumiła",
+   "last_name": "Mierzejewski",
+   "address": "ul. Kubusia Puchatka 52/11, Lwówek Śląski",
+   "birth_date": "1992-04-28",
+   "role": "student",
+   "id_card": "220554"
+ },
+ {
+   "email": "stanisław_pawelczyk@email.com",
+   "first_name": "Stanisław",
+   "last_name": "Pawelczyk",
+   "address": "ul. Czereśniowa 55/10, Świdnica",
+   "birth_date": "1990-05-07",
+   "role": "student",
+   "id_card": "220555"
+ },
+ {
+   "email": "kamila_stępkowski@email.com",
+   "first_name": "Kamila",
+   "last_name": "Stępkowski",
+   "address": "ul. Kwiatowa 25/17, Wrocław",
+   "birth_date": "1995-03-08",
+   "role": "student",
+   "id_card": "220556"
+ },
+ {
+   "email": "marcin_mrozek@email.com",
+   "first_name": "Marcin",
+   "last_name": "Mrozek",
+   "address": "ul. Truskawkowa 40/14, Kąty Wrocławskie",
+   "birth_date": "1990-09-14",
+   "role": "student",
+   "id_card": "220557"
+ },
+ {
+   "email": "bogumiła_brodzik@email.com",
+   "first_name": "Bogumiła",
+   "last_name": "Brodzik",
+   "address": "ul. Generała Tadeusza Kutrzeby 19/12, Trzebnica",
+   "birth_date": "1995-06-28",
+   "role": "student",
+   "id_card": "220558"
+ },
+ {
+   "email": "jadwiga_pietrzak@email.com",
+   "first_name": "Jadwiga",
+   "last_name": "Pietrzak",
+   "address": "ul. Czereśniowa 3/7, Świdnica",
+   "birth_date": "1992-10-23",
+   "role": "student",
+   "id_card": "220559"
+ },
+ {
+   "email": "magdalena_zębala@email.com",
+   "first_name": "Magdalena",
+   "last_name": "Zębala",
+   "address": "ul. Śliwkowa 15/16, Wrocław",
+   "birth_date": "1990-06-28",
+   "role": "student",
+   "id_card": "220560"
+ },
+ {
+   "email": "lucyna_grobelna@email.com",
+   "first_name": "Lucyna",
+   "last_name": "Grobelna",
+   "address": "ul. Letnia 33/17, Trzebnica",
+   "birth_date": "1992-04-20",
+   "role": "student",
+   "id_card": "220561"
+ },
+ {
+   "email": "szymon_świdziński@email.com",
+   "first_name": "Szymon",
+   "last_name": "Świdziński",
+   "address": "ul. Rudników 2/13, Polkowice",
+   "birth_date": "1995-10-10",
+   "role": "student",
+   "id_card": "220562"
+ },
+ {
+   "email": "marika_martyna@email.com",
+   "first_name": "Marika",
+   "last_name": "Martyna",
+   "address": "ul. Szydłowska 28/20, Lwówek Śląski",
+   "birth_date": "1990-05-14",
+   "role": "student",
+   "id_card": "220563"
+ },
+ {
+   "email": "stanisław_kulak@email.com",
+   "first_name": "Stanisław",
+   "last_name": "Kulak",
+   "address": "ul. Rudników 51/10, Bystrzyca Kłodzka",
+   "birth_date": "1991-04-28",
+   "role": "student",
+   "id_card": "220564"
+ },
+ {
+   "email": "jan_łukomski@email.com",
+   "first_name": "Jan",
+   "last_name": "Łukomski",
+   "address": "ul. Wodzisławska 21/7, Wrocław",
+   "birth_date": "1991-03-23",
+   "role": "student",
+   "id_card": "220565"
+ },
+ {
+   "email": "sławomir_gawor@email.com",
+   "first_name": "Sławomir",
+   "last_name": "Gawor",
+   "address": "ul. Wrocławska 25/19, Wrocław",
+   "birth_date": "1990-07-17",
+   "role": "student",
+   "id_card": "220566"
+ },
+ {
+   "email": "marzena_duraj@email.com",
+   "first_name": "Marzena",
+   "last_name": "Duraj",
+   "address": "ul. Gruszkowa 45/18, Stronie Śląskie",
+   "birth_date": "1993-04-23",
+   "role": "student",
+   "id_card": "220567"
+ },
+ {
+   "email": "jan_kalinowski@email.com",
+   "first_name": "Jan",
+   "last_name": "Kalinowski",
+   "address": "ul. Rutkowskiego 11/19, Wrocław",
+   "birth_date": "1990-05-15",
+   "role": "student",
+   "id_card": "220568"
+ },
+ {
+   "email": "hanna_gut@email.com",
+   "first_name": "Hanna",
+   "last_name": "Gut",
+   "address": "ul. Generała Wiktora Thomme 17/16, Wrocław",
+   "birth_date": "1995-07-05",
+   "role": "student",
+   "id_card": "220569"
+ },
+ {
+   "email": "magdalena_kostecki@email.com",
+   "first_name": "Magdalena",
+   "last_name": "Kostecki",
+   "address": "ul. Słowicza 37/13, Wrocław",
+   "birth_date": "1990-07-04",
+   "role": "student",
+   "id_card": "220570"
+ },
+ {
+   "email": "marzena_tomiak@email.com",
+   "first_name": "Marzena",
+   "last_name": "Tomiak",
+   "address": "ul. Truskawkowa 58/17, Polkowice",
+   "birth_date": "1995-06-11",
+   "role": "student",
+   "id_card": "220571"
+ },
+ {
+   "email": "marika_kozera@email.com",
+   "first_name": "Marika",
+   "last_name": "Kozera",
+   "address": "ul. Generała Tadeusza Kutrzeby 16/13, Prochowice",
+   "birth_date": "1995-09-14",
+   "role": "student",
+   "id_card": "220572"
+ },
+ {
+   "email": "bożena_aksamit@email.com",
+   "first_name": "Bożena",
+   "last_name": "Aksamit",
+   "address": "ul. Rudników 43/15, Bystrzyca Kłodzka",
+   "birth_date": "1993-01-12",
+   "role": "student",
+   "id_card": "220573"
+ },
+ {
+   "email": "helena_świerc@email.com",
+   "first_name": "Helena",
+   "last_name": "Świerc",
+   "address": "ul. Gronowa 12/20, Wrocław",
+   "birth_date": "1992-04-06",
+   "role": "student",
+   "id_card": "220574"
+ },
+ {
+   "email": "odetta_legutko@email.com",
+   "first_name": "Odetta",
+   "last_name": "Legutko",
+   "address": "ul. Generała Tadeusza Kutrzeby 17/16, Świdnica",
+   "birth_date": "1995-12-28",
+   "role": "student",
+   "id_card": "220575"
+ },
+ {
+   "email": "arleta_pełka@email.com",
+   "first_name": "Arleta",
+   "last_name": "Pełka",
+   "address": "ul. Wąska 44/10, Stronie Śląskie",
+   "birth_date": "1992-02-04",
+   "role": "student",
+   "id_card": "220576"
+ },
+ {
+   "email": "julia_włodkowski@email.com",
+   "first_name": "Julia",
+   "last_name": "Włodkowski",
+   "address": "ul. Wrocławska 39/7, Prochowice",
+   "birth_date": "1994-07-12",
+   "role": "student",
+   "id_card": "220577"
+ },
+ {
+   "email": "jagoda_łaszkiewicz@email.com",
+   "first_name": "Jagoda",
+   "last_name": "Łaszkiewicz",
+   "address": "ul. Rutkowskiego 42/20, Wrocław",
+   "birth_date": "1991-11-18",
+   "role": "student",
+   "id_card": "220578"
+ },
+ {
+   "email": "marika_pruś@email.com",
+   "first_name": "Marika",
+   "last_name": "Pruś",
+   "address": "ul. Wrocławska 32/17, Wrocław",
+   "birth_date": "1995-03-07",
+   "role": "student",
+   "id_card": "220579"
+ },
+ {
+   "email": "marcjanna_kordek@email.com",
+   "first_name": "Marcjanna",
+   "last_name": "Kordek",
+   "address": "ul. Rutkowskiego 26/7, Kąty Wrocławskie",
+   "birth_date": "1994-06-06",
+   "role": "student",
+   "id_card": "220580"
+ },
+ {
+   "email": "zbigniew_derkacz@email.com",
+   "first_name": "Zbigniew",
+   "last_name": "Derkacz",
+   "address": "ul. Wąska 4/14, Wrocław",
+   "birth_date": "1994-06-06",
+   "role": "student",
+   "id_card": "220581"
+ },
+ {
+   "email": "zuzanna_blicharz@email.com",
+   "first_name": "Zuzanna",
+   "last_name": "Blicharz",
+   "address": "ul. Letnia 27/19, Bystrzyca Kłodzka",
+   "birth_date": "1990-03-01",
+   "role": "student",
+   "id_card": "220582"
+ },
+ {
+   "email": "marcjanna_kaźmierczak@email.com",
+   "first_name": "Marcjanna",
+   "last_name": "Kaźmierczak",
+   "address": "ul. Generała Wiktora Thomme 8/15, Wrocław",
+   "birth_date": "1995-12-01",
+   "role": "student",
+   "id_card": "220583"
+ },
+ {
+   "email": "martyna_basta@email.com",
+   "first_name": "Martyna",
+   "last_name": "Basta",
+   "address": "ul. Tylna 12/6, Wrocław",
+   "birth_date": "1991-05-26",
+   "role": "student",
+   "id_card": "220584"
+ },
+ {
+   "email": "paweł_łowicki@email.com",
+   "first_name": "Paweł",
+   "last_name": "Łowicki",
+   "address": "ul. Wodzisławska 13/19, Lądek-Zdrój",
+   "birth_date": "1990-08-16",
+   "role": "student",
+   "id_card": "220585"
+ },
+ {
+   "email": "wincenty_marynowski@email.com",
+   "first_name": "Wincenty",
+   "last_name": "Marynowski",
+   "address": "ul. Widok 60/8, Polkowice",
+   "birth_date": "1991-09-27",
+   "role": "student",
+   "id_card": "220586"
+ },
+ {
+   "email": "wioleta_gwiżdż@email.com",
+   "first_name": "Wioleta",
+   "last_name": "Gwiżdż",
+   "address": "ul. Letnia 34/10, Lwówek Śląski",
+   "birth_date": "1990-03-20",
+   "role": "student",
+   "id_card": "220587"
+ },
+ {
+   "email": "marcin_prusik@email.com",
+   "first_name": "Marcin",
+   "last_name": "Prusik",
+   "address": "ul. Generała Tadeusza Kutrzeby 23/13, Stronie Śląskie",
+   "birth_date": "1991-08-09",
+   "role": "student",
+   "id_card": "220588"
+ },
+ {
+   "email": "zofia_kuchta@email.com",
+   "first_name": "Zofia",
+   "last_name": "Kuchta",
+   "address": "ul. Słowicza 58/13, Lubomierz",
+   "birth_date": "1992-08-13",
+   "role": "student",
+   "id_card": "220589"
+ },
+ {
+   "email": "leon_kuźniak@email.com",
+   "first_name": "Leon",
+   "last_name": "Kuźniak",
+   "address": "ul. Truskawkowa 46/9, Wrocław",
+   "birth_date": "1994-06-01",
+   "role": "student",
+   "id_card": "220590"
+ },
+ {
+   "email": "bogumiła_dyduch@email.com",
+   "first_name": "Bogumiła",
+   "last_name": "Dyduch",
+   "address": "ul. Wodzisławska 23/13, Ząbkowice Śląskie",
+   "birth_date": "1994-04-10",
+   "role": "student",
+   "id_card": "220591"
+ },
+ {
+   "email": "jagoda_trojak@email.com",
+   "first_name": "Jagoda",
+   "last_name": "Trojak",
+   "address": "ul. Tylna 36/19, Wrocław",
+   "birth_date": "1992-03-21",
+   "role": "student",
+   "id_card": "220592"
+ },
+ {
+   "email": "wincenty_komar@email.com",
+   "first_name": "Wincenty",
+   "last_name": "Komar",
+   "address": "ul. Wąska 3/20, Bystrzyca Kłodzka",
+   "birth_date": "1990-09-07",
+   "role": "student",
+   "id_card": "220593"
+ },
+ {
+   "email": "arleta_ryszka@email.com",
+   "first_name": "Arleta",
+   "last_name": "Ryszka",
+   "address": "ul. Gronowa 27/4, Wrocław",
+   "birth_date": "1992-04-02",
+   "role": "student",
+   "id_card": "220594"
+ },
+ {
+   "email": "lucyna_szczepanowski@email.com",
+   "first_name": "Lucyna",
+   "last_name": "Szczepanowski",
+   "address": "ul. Szydłowska 36/18, Kąty Wrocławskie",
+   "birth_date": "1994-08-14",
+   "role": "student",
+   "id_card": "220595"
+ },
+ {
+   "email": "żaneta_markowski@email.com",
+   "first_name": "Żaneta",
+   "last_name": "Markowski",
+   "address": "ul. Śliwkowa 15/11, Lubomierz",
+   "birth_date": "1993-05-22",
+   "role": "student",
+   "id_card": "220596"
+ },
+ {
+   "email": "żaneta_prusaczyk@email.com",
+   "first_name": "Żaneta",
+   "last_name": "Prusaczyk",
+   "address": "ul. Porzeczkowa 19/16, Lwówek Śląski",
+   "birth_date": "1994-12-19",
+   "role": "student",
+   "id_card": "220597"
+ },
+ {
+   "email": "kamila_mierzwa@email.com",
+   "first_name": "Kamila",
+   "last_name": "Mierzwa",
+   "address": "ul. Śliwkowa 4/14, Gryfów Śląski",
+   "birth_date": "1990-10-04",
+   "role": "student",
+   "id_card": "220598"
+ },
+ {
+   "email": "zbigniew_wereszczyński@email.com",
+   "first_name": "Zbigniew",
+   "last_name": "Wereszczyński",
+   "address": "ul. Kwiatowa 20/16, Strzegom",
+   "birth_date": "1991-01-10",
+   "role": "student",
+   "id_card": "220599"
+ }
+]

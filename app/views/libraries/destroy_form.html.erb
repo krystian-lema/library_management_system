@@ -1,0 +1,19 @@
+<div class="col-md-4 col-md-offset-4">
+	<div class="panel panel-info">
+		<div class="panel-heading">Usuwanie biblioteki</div>
+		<div class="panel-body">
+		<p>Wybierz bibliotekę, do której chcesz przenieść książki</p>
+
+			<%= form_for :library, url: '/libraries/destroy', :html => {:class => 'form-group', :method => :delete} do |f| %>
+				<%= f.hidden_field :id, :value => params[:library_id] %>
+				<p>
+				<%= f.label "Biblioteka" %> <br>
+				<%= f.select :new_id, options_for_select(Library.all.map{|s|[s.name, s.id]}) %>
+				</p>
+
+				<%= f.submit 'Usuń bibliotekę', data: { confirm: 'Jesteś pewien?' }, :class => 'btn btn-danger' %>
+
+			<% end %>
+		</div>
+	</div>
+</div>

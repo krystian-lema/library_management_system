@@ -1,0 +1,35 @@
+
+ 
+    <tr>
+      <td><%= book.title %></td>
+      <td><%= book.author %></td>
+      <td><%= book.edition %></td>
+      <td><%= book.publication_date %></td>
+      <td><%= book.ISBN %></td>
+      <td><%= book.signature %></td>
+      <td><%= book.library.name %></td>
+      <td><% if book.borrowed %>
+      Wypożyczona </br>
+      <%= book.end_borrow_date %>
+      <% else %>
+       
+       <%= form_for book, url: student_add_borrow_path, method: :post do |f| %>
+       <% if current_user.role == "administrator" || current_user.role == "librarian" %>
+          Dostępna
+       <% end %>
+          <%= f.hidden_field(:book_id, :value => book.id) %>
+        <% if current_user.role == "student" %>
+        <%= f.submit "Wypożycz", :class => 'btn btn-default' %> <br>
+        <% end %>
+
+        <% end %>
+
+      <% end %>
+      <% if current_user.role == "administrator" || current_user.role == "librarian" %>
+      <td>
+        
+        <%= link_to 'Szczególy', library_book_path(book.library, book.id), :class => 'btn btn-default' %>
+        <%= link_to 'Usuń', library_book_path(book.library, book.id)  + "/delete", :class => 'btn btn-danger', data: {confirm: "Czy na pewno chcesz usunąć tą książkę? "} %>
+      </td>
+      <% end %>
+    </tr>

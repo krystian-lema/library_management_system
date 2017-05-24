@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  author: MyString
+  edition: MyString
+  publication_date: 2017-04-15
+  ISBN: MyString
+  signature: MyString
+  library: one
+  # borrow: one
+  # borrow_archive: one
+
+two:
+  title: MyString
+  author: MyString
+  edition: MyString
+  publication_date: 2017-04-15
+  ISBN: MyString
+  signature: MyString
+  library: two
+  # borrow: two
+  # borrow_archive: two

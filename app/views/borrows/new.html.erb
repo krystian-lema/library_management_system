@@ -1,0 +1,18 @@
+<!-- app/views/users/new.html.erb -->
+
+<h1>New book</h1>
+
+<%= form_for @borrow, url: '/borrows' do |f| %>
+
+	
+
+	<p>
+		<%= f.label :book_id %> <br>
+		<%= f.text_field(:book_id) %>
+	</p>
+
+	
+
+	<%= f.submit "Create Borrow" %> <br>
+
+<% end %>

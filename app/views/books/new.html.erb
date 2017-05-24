@@ -1,0 +1,61 @@
+<!-- app/views/users/new.html.erb -->
+<div class="container">
+	<% if @book.errors.any? %>
+				<ul class="alert alert-danger alert-dismissable fade in">
+				<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+			<% @book.errors.full_messages.each do |msg| %>
+				<%= msg %><br>
+			<% end %>
+				</ul>
+			<% end %>
+
+	<div class="col-md-4 col-md-offset-4">
+		<div class="panel panel-info">
+			<div class="panel-heading">Nowa książka</div>
+			<div class="panel-body">
+
+				<%= form_for @book, url: '/books', :html => {:class => 'form-group'} do |f| %>
+
+				<p>
+					<%= f.label "Tytuł" %> <br>
+					<%= f.text_field(:title, class: "form-control") %>
+				</p>
+
+				<p>
+					<%= f.label "Autor" %> <br>
+					<%= f.text_field(:author, class: "form-control") %>
+				</p>
+
+				<p>
+					<%= f.label "Edycja" %> <br>
+					<%= f.text_field(:edition, class: "form-control") %>
+				</p>
+
+				<p>
+					<%= f.label "Data publikacji" %> <br>
+					<%= f.text_field(:publication_date, class: "form-control") %>
+				</p>
+
+				<p>
+					<%= f.label "ISBN" %> <br>
+					<%= f.text_field(:ISBN, class: "form-control") %>
+				</p>
+
+				<p>
+					<%= f.label "Sygnatura" %> <br>
+					<%= f.text_field(:signature, class: "form-control") %>
+				</p>
+
+				<p>
+					<%= f.label "Biblioteka" %> <br>
+					<%= f.select(:library_id, options_for_select(Library.all.map{|s|[s.name, s.id]}), {}, {:class => 'form-control'}) %>
+				</p>
+
+				<%= f.submit "Dodaj książkę", :class => "btn btn-primary" %> <br>
+
+			<% end %>
+
+			</div>
+		</div>
+	</div>
+</div>

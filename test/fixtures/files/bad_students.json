@@ -1,0 +1,18 @@
+{ "users": 
+	[ 
+		{	"email": "test@email.com",
+			"first_name": "Testowy",
+			"last_name": "User",
+			"address": "Nijaka 22, Wrocław",
+			"birth_date": "1995-01-01",
+			"role": "student"
+		},
+		{	"email": "test@email.com",
+			"first_name": "Testowy",
+			"last_name": "User2",
+			"address": "Nijaka 22, Wrocław",
+			"birth_date": "1995-01-01",
+			"role": "student"
+		}
+	]
+}

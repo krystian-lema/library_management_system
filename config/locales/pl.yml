@@ -1,0 +1,53 @@
+pl:
+  errors:
+    format: "%{message}"
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            email:
+              blank: "Adres e-mail jest wymagany."
+            password:
+              blank: "Hasło jest wymagane."
+              confirmation: "Potwierdzenie hasła jest wymagane."
+            password_confirmation:
+              blank: "Potwierdzenie hasła nie może być puste."
+              confirmation: "Hasła różnią się od siebie."
+            username:
+              blank: "Login jest wymagany."
+              uniqueness: "Taki użytkownik już istnieje."
+            first_name:
+              blank: "Imię jest wymagane."
+            last_name:
+              blank: "Nazwisko jest wymagane."
+            address:
+              blank: "Adres jest wymagany."
+            birth_date: 
+              blank: "Data urodzenia jest wymagana."
+            id_card_number:
+              blank: "Numer indeksu jest wymagany."
+        library:
+          attributes:
+            name:
+              blank: "Nazwa jest wymagana."
+            address:
+              blank: "Adres jest wymagany."
+            description:
+              blank: "Opis jest wymagany."
+        book:
+          attributes:
+            title:
+              blank: "Nazwa jest wymagana."
+            author:
+              blank: "Autor jest wymagany."
+            edition:
+              blank: "Edycja jest wymagana."
+            publication_date:
+              blank: "Data publikacji jest wymagana."
+            ISBN:
+              blank: "ISBN jest wymagany."
+            signature:
+              blank: "Sygnatura jest wymagana."
+            library_id:
+              blank: "Książkę należy przypisać do biblioteki."

@@ -1,0 +1,202 @@
+[
+ {
+   "email": "joanna_dec@email.com",
+   "first_name": "Joanna",
+   "last_name": "Dec",
+   "address": "ul. Rutkowskiego 52/18, Lądek-Zdrój",
+   "birth_date": "1983-08-24",
+   "role": "librarian"
+ },
+ {
+   "email": "antoni_piętak@email.com",
+   "first_name": "Antoni",
+   "last_name": "Piętak",
+   "address": "ul. Generała Tadeusza Kutrzeby 31/6, Lwówek Śląski",
+   "birth_date": "1975-05-22",
+   "role": "librarian"
+ },
+ {
+   "email": "stanisław_wika@email.com",
+   "first_name": "Stanisław",
+   "last_name": "Wika",
+   "address": "ul. Gruszkowa 33/9, Trzebnica",
+   "birth_date": "1970-01-07",
+   "role": "librarian"
+ },
+ {
+   "email": "odetta_szafarczyk@email.com",
+   "first_name": "Odetta",
+   "last_name": "Szafarczyk",
+   "address": "ul. Gronowa 20/17, Gryfów Śląski",
+   "birth_date": "1973-11-23",
+   "role": "librarian"
+ },
+ {
+   "email": "jagna_kopciński@email.com",
+   "first_name": "Jagna",
+   "last_name": "Kopciński",
+   "address": "ul. Czereśniowa 41/11, Lubomierz",
+   "birth_date": "1978-07-10",
+   "role": "librarian"
+ },
+ {
+   "email": "marcjanna_milczarek@email.com",
+   "first_name": "Marcjanna",
+   "last_name": "Milczarek",
+   "address": "ul. Śliwkowa 1/4, Prochowice",
+   "birth_date": "1970-02-07",
+   "role": "librarian"
+ },
+ {
+   "email": "sławomir_szmit@email.com",
+   "first_name": "Sławomir",
+   "last_name": "Szmit",
+   "address": "ul. Wodzisławska 8/3, Wrocław",
+   "birth_date": "1974-03-14",
+   "role": "librarian"
+ },
+ {
+   "email": "wiliam_filipek@email.com",
+   "first_name": "Wiliam",
+   "last_name": "Filipek",
+   "address": "ul. Wrocławska 13/16, Wrocław",
+   "birth_date": "1983-08-11",
+   "role": "librarian"
+ },
+ {
+   "email": "julia_gutkowski@email.com",
+   "first_name": "Julia",
+   "last_name": "Gutkowski",
+   "address": "ul. Słowicza 30/13, Lądek-Zdrój",
+   "birth_date": "1982-01-18",
+   "role": "librarian"
+ },
+ {
+   "email": "dorota_niewiadomski@email.com",
+   "first_name": "Dorota",
+   "last_name": "Niewiadomski",
+   "address": "ul. Kwiatowa 7/1, Wrocław",
+   "birth_date": "1974-01-13",
+   "role": "librarian"
+ },
+ {
+   "email": "katarzyna_ginter@email.com",
+   "first_name": "Katarzyna",
+   "last_name": "Ginter",
+   "address": "ul. Wrocławska 56/8, Gryfów Śląski",
+   "birth_date": "1973-09-27",
+   "role": "librarian"
+ },
+ {
+   "email": "żaneta_wawer@email.com",
+   "first_name": "Żaneta",
+   "last_name": "Wawer",
+   "address": "ul. Gruszkowa 6/10, Wałbrzych",
+   "birth_date": "1971-10-10",
+   "role": "librarian"
+ },
+ {
+   "email": "krzysztof_siudak@email.com",
+   "first_name": "Krzysztof",
+   "last_name": "Siudak",
+   "address": "ul. Porzeczkowa 39/10, Wrocław",
+   "birth_date": "1973-12-19",
+   "role": "librarian"
+ },
+ {
+   "email": "marzena_kiszka@email.com",
+   "first_name": "Marzena",
+   "last_name": "Kiszka",
+   "address": "ul. Rudników 35/6, Wałbrzych",
+   "birth_date": "1976-04-21",
+   "role": "librarian"
+ },
+ {
+   "email": "agnieszka_barcikowski@email.com",
+   "first_name": "Agnieszka",
+   "last_name": "Barcikowski",
+   "address": "ul. Kwiatowa 51/11, Wrocław",
+   "birth_date": "1970-02-10",
+   "role": "librarian"
+ },
+ {
+   "email": "adrianna_kurasz@email.com",
+   "first_name": "Adrianna",
+   "last_name": "Kurasz",
+   "address": "ul. Śliwkowa 10/11, Wrocław",
+   "birth_date": "1972-04-01",
+   "role": "librarian"
+ },
+ {
+   "email": "katarzyna_szkutnik@email.com",
+   "first_name": "Katarzyna",
+   "last_name": "Szkutnik",
+   "address": "ul. Słowicza 21/17, Wrocław",
+   "birth_date": "1981-09-01",
+   "role": "librarian"
+ },
+ {
+   "email": "wiliam_przybylak@email.com",
+   "first_name": "Wiliam",
+   "last_name": "Przybylak",
+   "address": "ul. Generała Wiktora Thomme 24/18, Wrocław",
+   "birth_date": "1973-02-07",
+   "role": "librarian"
+ },
+ {
+   "email": "aneta_lelek@email.com",
+   "first_name": "Aneta",
+   "last_name": "Lelek",
+   "address": "ul. Szydłowska 13/10, Wrocław",
+   "birth_date": "1979-03-08",
+   "role": "librarian"
+ },
+ {
+   "email": "maria_wajs@email.com",
+   "first_name": "Maria",
+   "last_name": "Wajs",
+   "address": "ul. Generała Tadeusza Kutrzeby 25/8, Wrocław",
+   "birth_date": "1981-01-05",
+   "role": "librarian"
+ },
+ {
+   "email": "helena_celiński@email.com",
+   "first_name": "Helena",
+   "last_name": "Celiński",
+   "address": "ul. Słowicza 11/11, Lądek-Zdrój",
+   "birth_date": "1980-05-11",
+   "role": "librarian"
+ },
+ {
+   "email": "magdalena_tkocz@email.com",
+   "first_name": "Magdalena",
+   "last_name": "Tkocz",
+   "address": "ul. Generała Wiktora Thomme 10/5, Brzeg Dolny",
+   "birth_date": "1973-07-06",
+   "role": "librarian"
+ },
+ {
+   "email": "maria_dorsz@email.com",
+   "first_name": "Maria",
+   "last_name": "Dorsz",
+   "address": "ul. Widok 26/1, Ząbkowice Śląskie",
+   "birth_date": "1976-12-07",
+   "role": "librarian"
+ },
+ {
+   "email": "zuzanna_gurgul@email.com",
+   "first_name": "Zuzanna",
+   "last_name": "Gurgul",
+   "address": "ul. Rudników 1/20, Prochowice",
+   "birth_date": "1981-10-14",
+   "role": "librarian"
+ },
+ {
+   "email": "irena_krasuski@email.com",
+   "first_name": "Irena",
+   "last_name": "Krasuski",
+   "address": "ul. Wrocławska 9/7, Wrocław",
+   "birth_date": "1978-02-11",
+   "role": "librarian"
+ }
+]

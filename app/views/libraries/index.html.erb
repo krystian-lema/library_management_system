@@ -1,0 +1,42 @@
+<div class="row">
+  <div class="col-md-4">
+  <h1>Dostępne biblioteki</h1>
+  </div>
+  <div class="col-md-offset-4 col-md-4">
+    <%= form_tag(books_path, :method => "get", id: "search-form", :class => "form-group search-form") do %>
+    <div class="input-group">
+      <%= text_field_tag :search, params[:search], :class => "form-control", placeholder: "Wpisz tytuł szukanej książki" %>
+        <span class="input-group-btn">
+        <%= submit_tag "Szukaj", :class => 'btn btn-primary' %>
+        </span>
+      <% end %>
+    </div>
+  </div>
+</div>
+
+<table class="table">
+  <tr>
+    <th>Nazwa</th>
+    <th>Adres</th>
+    <th>Opis</th>
+    <th>Akcje</th>
+  </tr>
+ 
+  <% @libraries.each do |lib| %>
+    <tr>
+      <td><%= lib.name %></td>
+      <td><%= lib.address %></td>
+      <td><%= lib.description %></td>
+      <td>
+        <%= link_to 'Przeglądaj zasoby', lib, :class => 'btn btn-default' %>
+        <% if is_admin || is_librarian %>
+          <%= link_to 'Edytuj', edit_library_path(lib), :class => 'btn btn-default' %>
+          <%= link_to 'Usuń', '/libraries/'+ lib.id.to_s + '/destroy_form', :class => 'btn btn-danger' %>
+        <% end %>
+      </td>
+    </tr>
+  <% end %>
+</table>
+  <% if is_admin || is_librarian %>
+  <%= link_to 'Dodaj bibliotekę', new_library_path, :class => 'btn btn-default' %>
+<% end %>
