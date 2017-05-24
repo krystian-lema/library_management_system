@@ -9,7 +9,8 @@ class JsonUsersController < ApplicationController
 		# create array for import informations
 		import_info_hashes = Array.new
 
-		# add users
+    @users_added = 0
+    # add users
   	parsed_body['users'].each do |user|
   		import_info_hashes << import_user(user)
   	end
@@ -17,7 +18,7 @@ class JsonUsersController < ApplicationController
   	# render info
   	respond_to do |format|
 	    format.json { 
-	    	render json: {import_info_hashes: import_info_hashes}
+	    	render json: {import_info_hashes: import_info_hashes, users_added: @users_added}
 	    }
     end
 
@@ -54,6 +55,7 @@ class JsonUsersController < ApplicationController
     end
 
     if @user.save
+      @users_added += 1
       return {success: true, user: @user}
     else
 			return {success: false, error: "User cannot be created.", details: @user.errors.full_messages.first, user: user_data}      

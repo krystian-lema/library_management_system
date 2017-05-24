@@ -13,6 +13,7 @@ class JsonBooksController < ApplicationController
 		library = import_library(parsed_body['library'])
 		if library.save
 
+      @books_added = 0
 			# add books
   		parsed_body['books'].each do |book|
   			import_info_hashes << import_book(book, library.id)
@@ -20,7 +21,7 @@ class JsonBooksController < ApplicationController
 	  	# render info
 	  	respond_to do |format|
 		    format.json { 
-		    	render json: {import_info_hashes: import_info_hashes}
+		    	render json: {import_info_hashes: import_info_hashes, books_added: @books_added }
 		    }
 	  	end
 
@@ -53,6 +54,7 @@ class JsonBooksController < ApplicationController
                       status: true
   										)
   	if @book.save
+      @books_added += 1
       return {success: true, book: @book}
     else
 			return {success: false, error: "Book cannot be created.", details: @user.errors.full_messages.first, book: book_data}      
