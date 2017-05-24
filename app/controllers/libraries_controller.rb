@@ -27,9 +27,9 @@ class LibrariesController < ApplicationController
     #@library_books = Book.where(library_id: params[:id], status: true)
 
   if params[:search]
-    @library_books = Book.search(params[:search]).where(library_id: params[:id], :status => true).order("created_at DESC")
+    @library_books = Book.search(params[:search]).where(library_id: params[:id], :status => true).order("created_at DESC").paginate(:page => params[:page], :per_page => 50)
   else
-    @library_books = Book.where(library_id: params[:id], :status => true).all.order('created_at DESC')
+    @library_books = Book.where(library_id: params[:id], :status => true).all.order('created_at DESC').paginate(:page => params[:page], :per_page => 50)
   end
   end
 
@@ -64,11 +64,14 @@ class LibrariesController < ApplicationController
       @library = Library.find(library_destroy_params[:id])
       if @library.destroy
         flash[:success] = "Usunięto bibliotekę. Książki zostały przeniesione do wskazanej biblioteki."
+        redirect_to libraries_path
       else
         flash[:danger] = "Błąd podczas usuwania biblioteki. Ksiązki zostały przeniesione do wskazanej biblioteki"
+        redirect_to libraries_path
       end
     else
       flash[:danger] = "Błąd podczas przenoszenia książek. Biblioteka nie została usunięta."
+      redirect_to libraries_path
     end
 
   end

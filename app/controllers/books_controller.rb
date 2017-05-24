@@ -2,11 +2,11 @@ class BooksController < ApplicationController
   before_action :authorize
   before_action :check_manage_permission, only: [:new, :edit, :update, :delete_book]
 	def index
-		@books = Book.where(:status => true).all
+		@books = Book.where(:status => true).paginate(:page => params[:page], :per_page => 50)
     if params[:search]
-    @books = Book.search(params[:search]).order("created_at DESC")
+    @books = Book.search(params[:search]).order("created_at DESC").paginate(:page => params[:page], :per_page => 50)
   else
-    @books = Book.where(:status => true).all.order('created_at DESC')
+    @books = Book.where(:status => true).all.order('created_at DESC').paginate(:page => params[:page], :per_page => 50)
   end
 	end
 
@@ -40,12 +40,6 @@ class BooksController < ApplicationController
 	    render 'edit'
 	  end
   end
-	def show
-		@library = Library.find(params[:library_id])
-		@book = @library.book.find(params[:id])
-		@borrows = @book.borrows
-
-	end
 
   def delete_book
     @book = Book.find(params[:book_id])
@@ -54,7 +48,7 @@ class BooksController < ApplicationController
       redirect_to(:back)
     else
       flash[:danger] = "Nie udalo się usunąć książki. Skontaktuj się z administratorem."
-      rediret_to(:back)
+      redirect_to(:back)
     end
   end
 
