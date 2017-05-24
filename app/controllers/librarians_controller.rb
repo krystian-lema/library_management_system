@@ -5,7 +5,7 @@ class LibrariansController < ApplicationController
   end
 
   def borrows
-    @borrows = Borrow.all.where(:status => 0)
+    @borrows = Borrow.all.where(:status => 0).paginate(:page => params[:page], :per_page => 50)
   end
 
   def confirm_borrow
@@ -46,9 +46,9 @@ class LibrariansController < ApplicationController
   def view_all_students
   	
   if params[:search]
-    @users = User.search(params[:search]).where(:role => "student").order("created_at DESC")
+    @users = User.search(params[:search]).where(:role => "student").order("created_at DESC").paginate(:page => params[:page], :per_page => 50)
   else
-    @users = User.where(:role => "student").all.order('created_at DESC')
+    @users = User.where(:role => "student").all.order('created_at DESC').paginate(:page => params[:page], :per_page => 50)
   end
   	render 'librarians/users'
   end

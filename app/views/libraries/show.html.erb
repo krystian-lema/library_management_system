@@ -39,8 +39,9 @@
     <% @library_books.each do |book| %>
     <%= render book %>
     <% end %>
+    
     </table>
-
+<%= will_paginate @library_books %>
   <% else %>
     <h4 class="bg-info custom-info">Brak książek.</h4>
   <% end %>
