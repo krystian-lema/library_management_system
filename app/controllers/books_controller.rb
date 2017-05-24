@@ -4,10 +4,10 @@ class BooksController < ApplicationController
 	def index
 		@books = Book.where(:status => true).paginate(:page => params[:page], :per_page => 50)
     if params[:search]
-    @books = Book.search(params[:search]).order("created_at DESC").paginate(:page => params[:page], :per_page => 50)
-  else
-    @books = Book.where(:status => true).all.order('created_at DESC').paginate(:page => params[:page], :per_page => 50)
-  end
+      @books = Book.search(params[:search]).order("created_at DESC").paginate(:page => params[:page], :per_page => 50)
+    else
+      @books = Book.where(:status => true).all.order('created_at DESC').paginate(:page => params[:page], :per_page => 50)
+    end
 	end
 
 	def new

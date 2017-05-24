@@ -2,7 +2,7 @@ pl:
   will_paginate:
     next_label: "Następna strona"
     previous_label: "Poprzednia strona"
-    page_gap: "Przejdź do"
+    page_gap: "..."
   errors:
     format: "%{message}"
   activerecord:

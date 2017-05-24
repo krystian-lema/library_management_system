@@ -1,6 +1,20 @@
 <!-- app/views/admins/users.html.erb -->
 
-<h1>Użytkownicy:</h1>
+<div class="row">
+  <div class="col-md-4">
+  <h1>Użytkownicy</h1>
+  </div>
+  <div class="col-md-offset-4 col-md-4">
+    <%= form_tag(administrator_users_path, :method => "get", id: "search-form", :class => "form-group search-form") do %>
+    <div class="input-group">
+      <%= text_field_tag :search, params[:search], :class => "form-control", placeholder: "Wpisz nazwisko użytkownika" %>
+        <span class="input-group-btn">
+        <%= submit_tag "Szukaj", :class => 'btn btn-primary' %>
+        </span>
+      <% end %>
+    </div>
+  </div>
+</div>
 <div class="table-responsive"> 
   <table class="table table-striped">
 
