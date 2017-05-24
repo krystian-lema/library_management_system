@@ -6,7 +6,11 @@ class AdminsController < ApplicationController
 
   def view_all_users
   	#@users = User.all
-    @users = User.paginate(:page => params[:page], :per_page => 20)
+    if params[:search]
+      @users = User.search(params[:search]).order("created_at DESC").paginate(:page => params[:page], :per_page => 50)
+    else
+      @users = User.paginate(:page => params[:page], :per_page => 20)
+    end
   	render 'admins/users'
   end
 
