@@ -5,7 +5,8 @@ class AdminsController < ApplicationController
   end
 
   def view_all_users
-  	@users = User.all
+  	#@users = User.all
+    @users = User.paginate(:page => params[:page], :per_page => 20)
   	render 'admins/users'
   end
 

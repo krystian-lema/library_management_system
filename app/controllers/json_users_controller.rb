@@ -29,6 +29,11 @@ class JsonUsersController < ApplicationController
 		username = user_data['first_name'] + user_data['last_name']
     password = user_data['last_name'].downcase
 
+    if User.where(:username => username).present?
+      signs = (1111..9999).to_a
+      username += signs[rand(signs.length)].to_s
+    end
+
     @user = User.new(
                       username: username,
                       email: user_data['email'],
@@ -56,8 +61,17 @@ class JsonUsersController < ApplicationController
 
     if @user.save
       @users_added += 1
-      return {success: true, user: @user}
+      return {success: true}
     else
+      unless @user.nil?
+        unless @user.student.nil?
+          unless @user.student.id_card.nil?
+            @user.student.id_card.destroy
+          end
+          @user.student.destroy
+        end
+        @user.destroy
+      end
 			return {success: false, error: "User cannot be created.", details: @user.errors.full_messages.first, user: user_data}      
     end
 	end

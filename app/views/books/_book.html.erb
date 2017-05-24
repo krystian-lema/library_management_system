@@ -28,7 +28,6 @@
       <% if current_user.role == "administrator" || current_user.role == "librarian" %>
       <td>
         
-        <%= link_to 'Szczególy', library_book_path(book.library, book.id), :class => 'btn btn-default' %>
         <%= link_to 'Usuń', library_book_path(book.library, book.id)  + "/delete", :class => 'btn btn-danger', data: {confirm: "Czy na pewno chcesz usunąć tą książkę? "} %>
       </td>
       <% end %>
