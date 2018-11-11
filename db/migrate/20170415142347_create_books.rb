@@ -7,9 +7,6 @@ class CreateBooks < ActiveRecord::Migration[5.0]
       t.date :publication_date
       t.string :ISBN
       t.string :signature
-      t.references :library, foreign_key: true
-      t.references :borrow, foreign_key: true
-      t.references :borrow_archive, foreign_key: true
 
       t.timestamps
     end

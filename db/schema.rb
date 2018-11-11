@@ -10,7 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170502234950) do
+ActiveRecord::Schema.define(version: 20181111143145) do
+
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
 
   create_table "books", force: :cascade do |t|
     t.string   "title"
@@ -19,33 +22,37 @@ ActiveRecord::Schema.define(version: 20170502234950) do
     t.date     "publication_date"
     t.string   "ISBN"
     t.string   "signature"
-    t.integer  "library_id"
     t.datetime "created_at",       null: false
     t.datetime "updated_at",       null: false
     t.boolean  "status"
-    t.index ["library_id"], name: "index_books_on_library_id"
   end
 
   create_table "borrow_archives", force: :cascade do |t|
     t.integer  "book_id"
     t.date     "start_date"
     t.date     "end_date"
-    t.integer  "student_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["book_id"], name: "index_borrow_archives_on_book_id"
-    t.index ["student_id"], name: "index_borrow_archives_on_student_id"
+    t.integer  "student_id"
+    t.index ["book_id"], name: "index_borrow_archives_on_book_id", using: :btree
+    t.index ["student_id"], name: "index_borrow_archives_on_student_id", using: :btree
   end
 
   create_table "borrows", force: :cascade do |t|
     t.integer  "book_id"
     t.date     "start_date"
-    t.integer  "student_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",        null: false
+    t.datetime "updated_at",        null: false
     t.integer  "status"
-    t.index ["book_id"], name: "index_borrows_on_book_id"
-    t.index ["student_id"], name: "index_borrows_on_student_id"
+    t.integer  "library_id"
+    t.integer  "borrow_id"
+    t.integer  "borrow_archive_id"
+    t.integer  "student_id"
+    t.index ["book_id"], name: "index_borrows_on_book_id", using: :btree
+    t.index ["borrow_archive_id"], name: "index_borrows_on_borrow_archive_id", using: :btree
+    t.index ["borrow_id"], name: "index_borrows_on_borrow_id", using: :btree
+    t.index ["library_id"], name: "index_borrows_on_library_id", using: :btree
+    t.index ["student_id"], name: "index_borrows_on_student_id", using: :btree
   end
 
   create_table "id_cards", force: :cascade do |t|
@@ -53,7 +60,7 @@ ActiveRecord::Schema.define(version: 20170502234950) do
     t.integer  "student_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["student_id"], name: "index_id_cards_on_student_id"
+    t.index ["student_id"], name: "index_id_cards_on_student_id", using: :btree
   end
 
   create_table "libraries", force: :cascade do |t|
@@ -69,7 +76,7 @@ ActiveRecord::Schema.define(version: 20170502234950) do
     t.integer  "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["user_id"], name: "index_students_on_user_id"
+    t.index ["user_id"], name: "index_students_on_user_id", using: :btree
   end
 
   create_table "users", force: :cascade do |t|
@@ -85,4 +92,13 @@ ActiveRecord::Schema.define(version: 20170502234950) do
     t.datetime "updated_at",      null: false
   end
 
+  add_foreign_key "borrow_archives", "books"
+  add_foreign_key "borrow_archives", "students"
+  add_foreign_key "borrows", "books"
+  add_foreign_key "borrows", "borrow_archives"
+  add_foreign_key "borrows", "borrows"
+  add_foreign_key "borrows", "libraries"
+  add_foreign_key "borrows", "students"
+  add_foreign_key "id_cards", "students"
+  add_foreign_key "students", "users"
 end
