@@ -1,3 +1,4 @@
+
 # SQLite version 3.x
 #   gem install sqlite3
 #
@@ -5,13 +6,18 @@
 #   gem 'sqlite3'
 #
 default: &default
-  adapter: sqlite3
+  adapter: postgresql
   pool: 5
   timeout: 5000
 
 development:
   <<: *default
-  database: db/development.sqlite3
+  database: test_database
+  pool: 5
+  username: test_user
+  password: 123456
+  host: 0.0.0.0
+  port: 8020
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".

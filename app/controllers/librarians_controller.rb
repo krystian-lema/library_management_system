@@ -44,9 +44,9 @@ class LibrariansController < ApplicationController
   end
 
   def view_all_students
-  	
+
   if params[:search]
-    @users = User.search(params[:search]).where(:role => "student").order("created_at DESC").paginate(:page => params[:page], :per_page => 50)
+    @users = User.search(params[:search]).where(role: :student).order("created_at DESC").paginate(:page => params[:page], :per_page => 50)
   else
     @users = User.where(:role => "student").all.order('created_at DESC').paginate(:page => params[:page], :per_page => 50)
   end
@@ -61,5 +61,5 @@ private
       redirect_to root_path
     end
   end
-  
+
 end

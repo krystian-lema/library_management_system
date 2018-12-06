@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20181111143145) do
+ActiveRecord::Schema.define(version: 20181206151406) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -22,9 +22,15 @@ ActiveRecord::Schema.define(version: 20181111143145) do
     t.date     "publication_date"
     t.string   "ISBN"
     t.string   "signature"
-    t.datetime "created_at",       null: false
-    t.datetime "updated_at",       null: false
+    t.datetime "created_at",        null: false
+    t.datetime "updated_at",        null: false
     t.boolean  "status"
+    t.integer  "library_id"
+    t.integer  "borrow_id"
+    t.integer  "borrow_archive_id"
+    t.index ["borrow_archive_id"], name: "index_books_on_borrow_archive_id", using: :btree
+    t.index ["borrow_id"], name: "index_books_on_borrow_id", using: :btree
+    t.index ["library_id"], name: "index_books_on_library_id", using: :btree
   end
 
   create_table "borrow_archives", force: :cascade do |t|
@@ -92,6 +98,9 @@ ActiveRecord::Schema.define(version: 20181111143145) do
     t.datetime "updated_at",      null: false
   end
 
+  add_foreign_key "books", "borrow_archives"
+  add_foreign_key "books", "borrows"
+  add_foreign_key "books", "libraries"
   add_foreign_key "borrow_archives", "books"
   add_foreign_key "borrow_archives", "students"
   add_foreign_key "borrows", "books"
