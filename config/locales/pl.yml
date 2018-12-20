@@ -12,6 +12,7 @@ pl:
           attributes:
             email:
               blank: "Adres e-mail jest wymagany."
+              invalid: "Format adresu e-mail jest nieprawidłowy."
             password:
               blank: "Hasło jest wymagane."
               confirmation: "Potwierdzenie hasła jest wymagane."
@@ -27,7 +28,7 @@ pl:
               blank: "Nazwisko jest wymagane."
             address:
               blank: "Adres jest wymagany."
-            birth_date: 
+            birth_date:
               blank: "Data urodzenia jest wymagana."
             id_card_number:
               blank: "Numer indeksu jest wymagany."

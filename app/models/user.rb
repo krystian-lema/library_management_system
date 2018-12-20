@@ -7,6 +7,7 @@ class User < ApplicationRecord
 	# on create
 	validates :username, presence: true, uniqueness: true
 	validates :email, presence: true
+	validates :email, format: { with: URI::MailTo::EMAIL_REGEXP } 
 	validates :password, presence: true, on: :create
 
 	# on create and update
@@ -30,7 +31,7 @@ class User < ApplicationRecord
 	def create_student?
   	create_student == 'true' || create_student == true
 	end
-	attr_accessor :create_student	
+	attr_accessor :create_student
 
 	def get_role
 		return role
